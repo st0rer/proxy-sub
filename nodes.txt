@@ -1,6 +1,7 @@
-vless://8f2c9a71-4d3e-4b6a-9c11-7e5d2a4b8f60@edt-sub.antonstorer.workers.dev:443?encryption=none&security=tls&sni=edt-sub.antonstorer.workers.dev&fp=chrome&type=ws&host=edt-sub.antonstorer.workers.dev&path=%2F%3Fed%3D2560#cf-owned-443
-vless://8f2c9a71-4d3e-4b6a-9c11-7e5d2a4b8f60@162.159.38.49:2053?encryption=none&security=tls&sni=edt-sub.antonstorer.workers.dev&fp=chrome&type=ws&host=edt-sub.antonstorer.workers.dev&path=%2F%3Fed%3D2560#cf-owned-2053
-vless://8f2c9a71-4d3e-4b6a-9c11-7e5d2a4b8f60@104.26.2.159:2087?encryption=none&security=tls&sni=edt-sub.antonstorer.workers.dev&fp=chrome&type=ws&host=edt-sub.antonstorer.workers.dev&path=%2F%3Fed%3D2560#cf-owned-2087
+vless://8f2c9a71-4d3e-4b6a-9c11-7e5d2a4b8f60@8.47.69.7:443?encryption=none&security=tls&sni=edt-sub.antonstorer.workers.dev&fp=chrome&type=ws&host=edt-sub.antonstorer.workers.dev&path=%2F%3Fed%3D2560#cf-8-47-69-7
+vless://8f2c9a71-4d3e-4b6a-9c11-7e5d2a4b8f60@104.17.72.132:443?encryption=none&security=tls&sni=edt-sub.antonstorer.workers.dev&fp=chrome&type=ws&host=edt-sub.antonstorer.workers.dev&path=%2F%3Fed%3D2560#cf-104-17-72-132
+vless://8f2c9a71-4d3e-4b6a-9c11-7e5d2a4b8f60@8.6.112.7:443?encryption=none&security=tls&sni=edt-sub.antonstorer.workers.dev&fp=chrome&type=ws&host=edt-sub.antonstorer.workers.dev&path=%2F%3Fed%3D2560#cf-8-6-112-7
+vless://8f2c9a71-4d3e-4b6a-9c11-7e5d2a4b8f60@162.159.140.229:443?encryption=none&security=tls&sni=edt-sub.antonstorer.workers.dev&fp=chrome&type=ws&host=edt-sub.antonstorer.workers.dev&path=%2F%3Fed%3D2560#cf-162-159-140-229
 vless://4777d90d-265b-4927-a0d1-63f36ed1421c@193.160.208.240:443?encryption=none&mode=auto&path=%2Fassets%2Ftwru01%2F&security=tls&type=xhttp
 vless://38308ff1-5aa9-494f-a25a-0f2870d56b3e@200.169.179.233:443?mode=gun&security=tls&encryption=none&insecure=0&fp=chrome&type=grpc&serviceName=mobile.api.Event&allowInsecure=0&sni=vps3.nemnogogo.com
 vless://FastKey_118173@176.32.34.105:8080?mode=gun&security=none&encryption=none&type=grpc&serviceName=api
