@@ -121,35 +121,7 @@ proxies:
     cipher: 2022-blake3-chacha20-poly1305
     password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
     udp: true
-  - name: node-37-ss
-    type: ss
-    server: 77.221.132.206
-    port: "24759"
-    cipher: chacha20-ietf-poly1305
-    password: hCgbUnMaoAfSgvE8IKdnGu
-    udp: true
-  - name: node-38-ss
-    type: ss
-    server: 92.5.150.247
-    port: "59924"
-    cipher: 2022-blake3-chacha20-poly1305
-    password: igIYdO+UOVn50088y6pqhAzq3VFj/zrFQMKu28vkW0E=
-    udp: true
-  - name: node-39-ss
-    type: ss
-    server: 195.238.126.20
-    port: "9002"
-    cipher: aes-256-cfb
-    password: b8KkNDjEd5QqFyRm
-    udp: true
-  - name: node-40-ss
-    type: ss
-    server: 5.188.181.201
-    port: "9027"
-    cipher: aes-256-cfb
-    password: EXN3S3eQpjE7EJu8
-    udp: true
-  - name: node-41-vless
+  - name: node-37-vless
     type: vless
     server: 85.90.217.42
     port: "443"
@@ -160,7 +132,7 @@ proxies:
     servername: 85.90.217.42
     skip-cert-verify: true
     client-fingerprint: chrome
-  - name: node-42-vless
+  - name: node-38-vless
     type: vless
     server: ec7a81g.de19.h1clayd.click
     port: "443"
@@ -175,7 +147,7 @@ proxies:
     client-fingerprint: chrome
     grpc-opts:
       grpc-service-name: 43f41cd7fee0
-  - name: node-43-vless
+  - name: node-39-vless
     type: vless
     server: 193.163.203.170
     port: "443"
@@ -189,7 +161,7 @@ proxies:
       short-id: b28db60d77c50b4f
     servername: yandex.ru
     client-fingerprint: chrome
-  - name: node-44-vless
+  - name: node-40-vless
     type: vless
     server: 62981et.us11.h1clayd.click
     port: "443"
@@ -202,7 +174,7 @@ proxies:
       short-id: ce43937e79bc30f0
     servername: 62981et.us11.h1clayd.click
     client-fingerprint: firefox
-  - name: node-45-vless
+  - name: node-41-vless
     type: vless
     server: 164.37.111.78
     port: "8080"
@@ -216,7 +188,7 @@ proxies:
       short-id: eb11f7630faaaf60
     servername: tgju.org
     client-fingerprint: chrome
-  - name: node-46-vless
+  - name: node-42-vless
     type: vless
     server: fdh12.mobileemdad.top
     port: "8080"
@@ -230,7 +202,7 @@ proxies:
       short-id: eb11f7630faaaf60
     servername: tgju.org
     client-fingerprint: chrome
-  - name: node-47-vless
+  - name: node-43-vless
     type: vless
     server: fdh2.nonpath.ir
     port: "8080"
@@ -244,7 +216,7 @@ proxies:
       short-id: eb11f7630faaaf60
     servername: tgju.org
     client-fingerprint: chrome
-  - name: node-48-vless
+  - name: node-44-vless
     type: vless
     server: trn37.mobileemdad.top
     port: "443"
@@ -258,7 +230,7 @@ proxies:
       short-id: 377d
     servername: delivery.mp.microsoft.com
     client-fingerprint: chrome
-  - name: node-49-vless
+  - name: node-45-vless
     type: vless
     server: 151.101.3.6
     port: "443"
@@ -275,7 +247,7 @@ proxies:
       path: /Lunex
       host: Mastero.global.ssl.fastly.net
       mode: packet-up
-  - name: node-50-vless
+  - name: node-46-vless
     type: vless
     server: 201.24.121.243
     port: "443"
@@ -290,7 +262,7 @@ proxies:
       - h2
     grpc-opts:
       grpc-service-name: vlgrpc
-  - name: node-51-vless
+  - name: node-47-vless
     type: vless
     server: 200.169.179.233
     port: "443"
@@ -303,7 +275,7 @@ proxies:
     client-fingerprint: chrome
     grpc-opts:
       grpc-service-name: mobile.api.Event
-  - name: node-52-vless
+  - name: node-48-vless
     type: vless
     server: 201.24.116.192
     port: "443"
@@ -316,7 +288,7 @@ proxies:
     client-fingerprint: firefox
     grpc-opts:
       grpc-service-name: mobile.api.Event
-  - name: node-53-vless
+  - name: node-49-vless
     type: vless
     server: 201.51.12.98
     port: "443"
@@ -331,7 +303,7 @@ proxies:
       - h2
     grpc-opts:
       grpc-service-name: mobile.api.Event
-  - name: node-54-vless
+  - name: node-50-vless
     type: vless
     server: vps3.nemnogogo.com
     port: "443"
@@ -346,7 +318,7 @@ proxies:
       - h2
     grpc-opts:
       grpc-service-name: mobile.api.Event
-  - name: node-55-vless
+  - name: node-51-vless
     type: vless
     server: 7cabc1g.de-p2.h1clayd.click
     port: "443"
@@ -361,7 +333,7 @@ proxies:
     client-fingerprint: chrome
     grpc-opts:
       grpc-service-name: df0c8e02206d
-  - name: node-56-vless
+  - name: node-52-vless
     type: vless
     server: 193.160.208.240
     port: "443"
@@ -375,7 +347,7 @@ proxies:
     xhttp-opts:
       path: /assets/twru01/
       mode: auto
-  - name: node-57-vless
+  - name: node-53-vless
     type: vless
     server: 206.1.101.160
     port: "8451"
@@ -383,7 +355,7 @@ proxies:
     network: tcp
     tls: false
     udp: true
-  - name: node-58-vless
+  - name: node-54-vless
     type: vless
     server: 176.32.34.105
     port: "8080"
@@ -393,7 +365,7 @@ proxies:
     udp: true
     grpc-opts:
       grpc-service-name: api
-  - name: node-59-vless
+  - name: node-55-vless
     type: vless
     server: 185.22.155.97
     port: "8080"
@@ -403,7 +375,7 @@ proxies:
     udp: true
     grpc-opts:
       grpc-service-name: api
-  - name: node-60-vless
+  - name: node-56-vless
     type: vless
     server: 151.101.36.128
     port: "443"
@@ -439,10 +411,10 @@ proxy-groups:
       - node-34-ss
       - node-35-ss
       - node-36-ss
-      - node-37-ss
-      - node-38-ss
-      - node-39-ss
-      - node-40-ss
+      - node-37-vless
+      - node-38-vless
+      - node-39-vless
+      - node-40-vless
       - node-41-vless
       - node-42-vless
       - node-43-vless
@@ -459,10 +431,6 @@ proxy-groups:
       - node-54-vless
       - node-55-vless
       - node-56-vless
-      - node-57-vless
-      - node-58-vless
-      - node-59-vless
-      - node-60-vless
   - name: FALLBACK
     type: fallback
     url: 'https://www.gstatic.com/generate_204'
@@ -481,10 +449,10 @@ proxy-groups:
       - node-34-ss
       - node-35-ss
       - node-36-ss
-      - node-37-ss
-      - node-38-ss
-      - node-39-ss
-      - node-40-ss
+      - node-37-vless
+      - node-38-vless
+      - node-39-vless
+      - node-40-vless
       - node-41-vless
       - node-42-vless
       - node-43-vless
@@ -501,10 +469,6 @@ proxy-groups:
       - node-54-vless
       - node-55-vless
       - node-56-vless
-      - node-57-vless
-      - node-58-vless
-      - node-59-vless
-      - node-60-vless
 
 rules:
   - DOMAIN-SUFFIX,local,DIRECT
