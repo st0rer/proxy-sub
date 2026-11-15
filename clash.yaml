@@ -65,7 +65,203 @@ proxies:
       path: /?ed=2560
       headers:
         Host: edt-sub.antonstorer.workers.dev
-  - name: node-05-vless
+  - name: node-05-hysteria2
+    type: hysteria2
+    server: hy2-eee-1.aloranode.top
+    port: "443"
+    password: b36a14f8-fc3f-4142-968f-48031cf5f330
+    sni: hy2-eee-1.aloranode.top
+    skip-cert-verify: false
+    udp: true
+  - name: node-06-hy2
+    type: hysteria2
+    server: 13.36.234.11
+    port: "443"
+    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+    sni: 13.36.234.11
+    skip-cert-verify: true
+    udp: true
+  - name: node-07-hy2
+    type: hysteria2
+    server: hy2.123266.xyz
+    port: "33333"
+    password: bce6c821-200d-421f-bf3d-7159e5246ea0
+    sni: hy2.123266.xyz
+    skip-cert-verify: false
+    udp: true
+  - name: node-08-hy2
+    type: hysteria2
+    server: 155.248.209.237
+    port: "33333"
+    password: bce6c821-200d-421f-bf3d-7159e5246ea0
+    sni: 155.248.209.237
+    skip-cert-verify: true
+    udp: true
+  - name: node-09-hysteria2
+    type: hysteria2
+    server: hy2.123266.xyz
+    port: "33333"
+    password: bce6c821-200d-421f-bf3d-7159e5246ea0
+    sni: hy2.123266.xyz
+    skip-cert-verify: false
+    udp: true
+  - name: node-10-hy2
+    type: hysteria2
+    server: 152.70.237.123
+    port: "2053"
+    password: maintell
+    sni: 152.70.237.123
+    skip-cert-verify: true
+    udp: true
+  - name: node-11-hysteria2
+    type: hysteria2
+    server: 196.240.181.10
+    port: "25282"
+    password: b36a14f8-fc3f-4142-968f-48031cf5f330
+    sni: 314c8dt.us12.h1clayd.click
+    skip-cert-verify: true
+    udp: true
+  - name: node-12-hy2
+    type: hysteria2
+    server: 138.2.73.238
+    port: "50160"
+    password: f87376e17da040ed04c9665ce8972930
+    sni: 138.2.73.238
+    skip-cert-verify: true
+    udp: true
+  - name: node-13-hysteria2
+    type: hysteria2
+    server: 155.248.209.237
+    port: "33333"
+    password: bce6c821-200d-421f-bf3d-7159e5246ea0
+    sni: 155.248.209.237
+    skip-cert-verify: true
+    udp: true
+  - name: node-14-hy2
+    type: hysteria2
+    server: 152.69.231.175
+    port: "50160"
+    password: 1beb216e3f60aea9555dae60d219a5ca
+    sni: 152.69.231.175
+    skip-cert-verify: true
+    udp: true
+  - name: node-15-hy2
+    type: hysteria2
+    server: 152.67.200.82
+    port: "50160"
+    password: 3d7634af8cb2c6cb4bac1c0efad8b43d
+    sni: 152.67.200.82
+    skip-cert-verify: true
+    udp: true
+  - name: node-16-hy2
+    type: hysteria2
+    server: 132.226.226.189
+    port: "50160"
+    password: 1671a252e2a97dc2bda4e515475931da
+    sni: 132.226.226.189
+    skip-cert-verify: true
+    udp: true
+  - name: node-17-hy2
+    type: hysteria2
+    server: 138.3.208.26
+    port: "50160"
+    password: 184cdec28da5a09450803c8debcd2cc9
+    sni: 138.3.208.26
+    skip-cert-verify: true
+    udp: true
+  - name: node-18-hy2
+    type: hysteria2
+    server: 152-69-231-175.liao.kdns.fr
+    port: "50160"
+    password: 1beb216e3f60aea9555dae60d219a5ca
+    sni: 127.0.0.1
+    skip-cert-verify: true
+    udp: true
+  - name: node-19-hysteria2
+    type: hysteria2
+    server: 152.32.254.68
+    port: "5010"
+    password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
+    sni: nas.aizhzo.com
+    skip-cert-verify: false
+    udp: true
+    obfs: salamander
+    obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
+  - name: node-20-hysteria2
+    type: hysteria2
+    server: 138.2.89.249
+    port: "443"
+    password: d042d150716709bb778cc73889cddb02
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    obfs: salamander
+    obfs-password: 309502c4a8df10b46fb976d4a8c43f42
+  - name: node-21-hysteria2
+    type: hysteria2
+    server: 3.69.232.199
+    port: "443"
+    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+    sni: vpn-de-002.fastervpn.world
+    skip-cert-verify: true
+    udp: true
+  - name: node-22-hysteria2
+    type: hysteria2
+    server: tr3.h1cloud.net
+    port: "25515"
+    password: b36a14f8-fc3f-4142-968f-48031cf5f330
+    sni: 2c74e5t.tr3.h1clayd.click
+    skip-cert-verify: true
+    udp: true
+  - name: node-23-hy2
+    type: hysteria2
+    server: 18.153.65.67
+    port: "443"
+    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+    sni: 18.153.65.67
+    skip-cert-verify: true
+    udp: true
+  - name: node-24-hy2
+    type: hysteria2
+    server: 3.76.221.4
+    port: "443"
+    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+    sni: 3.76.221.4
+    skip-cert-verify: true
+    udp: true
+  - name: node-25-hy2
+    type: hysteria2
+    server: vpn-de-002.fastervpn.world
+    port: "443"
+    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+    sni: vpn-de-002.fastervpn.world
+    skip-cert-verify: true
+    udp: true
+  - name: node-26-hy2
+    type: hysteria2
+    server: 3.69.232.199
+    port: "443"
+    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+    sni: 3.69.232.199
+    skip-cert-verify: true
+    udp: true
+  - name: node-27-hy2
+    type: hysteria2
+    server: 18.193.79.104
+    port: "443"
+    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+    sni: 18.193.79.104
+    skip-cert-verify: true
+    udp: true
+  - name: node-28-hysteria2
+    type: hysteria2
+    server: vpn-de-002.fastervpn.world
+    port: "443"
+    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+    sni: 127.0.0.1
+    skip-cert-verify: true
+    udp: true
+  - name: node-29-vless
     type: vless
     server: 200.169.179.233
     port: "443"
@@ -78,7 +274,7 @@ proxies:
     client-fingerprint: chrome
     grpc-opts:
       grpc-service-name: mobile.api.Event
-  - name: node-06-vless
+  - name: node-30-vless
     type: vless
     server: 201.24.116.192
     port: "443"
@@ -91,7 +287,7 @@ proxies:
     client-fingerprint: firefox
     grpc-opts:
       grpc-service-name: mobile.api.Event
-  - name: node-07-vless
+  - name: node-31-vless
     type: vless
     server: vps3.nemnogogo.com
     port: "443"
@@ -106,7 +302,7 @@ proxies:
       - h2
     grpc-opts:
       grpc-service-name: mobile.api.Event
-  - name: node-08-vless
+  - name: node-32-vless
     type: vless
     server: 201.51.12.98
     port: "443"
@@ -121,7 +317,7 @@ proxies:
       - h2
     grpc-opts:
       grpc-service-name: mobile.api.Event
-  - name: node-09-vless
+  - name: node-33-vless
     type: vless
     server: 164.37.111.78
     port: "8080"
@@ -135,7 +331,7 @@ proxies:
       short-id: eb11f7630faaaf60
     servername: tgju.org
     client-fingerprint: chrome
-  - name: node-10-vless
+  - name: node-34-vless
     type: vless
     server: 193.160.208.240
     port: "443"
@@ -149,31 +345,7 @@ proxies:
     xhttp-opts:
       path: /assets/twru01/
       mode: auto
-  - name: node-11-hy2
-    type: hysteria2
-    server: 13.36.234.11
-    port: "443"
-    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-    sni: 13.36.234.11
-    skip-cert-verify: true
-    udp: true
-  - name: node-12-hy2
-    type: hysteria2
-    server: hy2-eee-1.aloranode.top
-    port: "443"
-    password: b36a14f8-fc3f-4142-968f-48031cf5f330
-    sni: hy2-eee-1.aloranode.top
-    skip-cert-verify: false
-    udp: true
-  - name: node-13-hysteria2
-    type: hysteria2
-    server: hy2-eee-1.aloranode.top
-    port: "443"
-    password: b36a14f8-fc3f-4142-968f-48031cf5f330
-    sni: hy2-eee-1.aloranode.top
-    skip-cert-verify: false
-    udp: true
-  - name: node-14-vless
+  - name: node-35-vless
     type: vless
     server: 201.24.121.243
     port: "443"
@@ -188,23 +360,7 @@ proxies:
       - h2
     grpc-opts:
       grpc-service-name: vlgrpc
-  - name: node-15-hy2
-    type: hysteria2
-    server: vpn-us-001.fastervpn.world
-    port: "443"
-    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-    sni: vpn-us-001.fastervpn.world
-    skip-cert-verify: true
-    udp: true
-  - name: node-16-hy2
-    type: hysteria2
-    server: 138.2.73.238
-    port: "50160"
-    password: f87376e17da040ed04c9665ce8972930
-    sni: 138.2.73.238
-    skip-cert-verify: true
-    udp: true
-  - name: node-17-vless
+  - name: node-36-vless
     type: vless
     server: 193.163.203.170
     port: "443"
@@ -218,31 +374,7 @@ proxies:
       short-id: b28db60d77c50b4f
     servername: yandex.ru
     client-fingerprint: chrome
-  - name: node-18-hysteria2
-    type: hysteria2
-    server: 155.248.209.237
-    port: "33333"
-    password: bce6c821-200d-421f-bf3d-7159e5246ea0
-    sni: 155.248.209.237
-    skip-cert-verify: true
-    udp: true
-  - name: node-19-hysteria2
-    type: hysteria2
-    server: hy2.123266.xyz
-    port: "33333"
-    password: bce6c821-200d-421f-bf3d-7159e5246ea0
-    sni: hy2.123266.xyz
-    skip-cert-verify: false
-    udp: true
-  - name: node-20-hy2
-    type: hysteria2
-    server: 155.248.209.237
-    port: "33333"
-    password: bce6c821-200d-421f-bf3d-7159e5246ea0
-    sni: 155.248.209.237
-    skip-cert-verify: true
-    udp: true
-  - name: node-21-vless
+  - name: node-37-vless
     type: vless
     server: trn37.mobileemdad.top
     port: "443"
@@ -256,47 +388,7 @@ proxies:
       short-id: 377d
     servername: delivery.mp.microsoft.com
     client-fingerprint: chrome
-  - name: node-22-hy2
-    type: hysteria2
-    server: hy2.123266.xyz
-    port: "33333"
-    password: bce6c821-200d-421f-bf3d-7159e5246ea0
-    sni: hy2.123266.xyz
-    skip-cert-verify: false
-    udp: true
-  - name: node-23-hy2
-    type: hysteria2
-    server: 152.70.237.123
-    port: "2053"
-    password: maintell
-    sni: 152.70.237.123
-    skip-cert-verify: true
-    udp: true
-  - name: node-24-hy2
-    type: hysteria2
-    server: 152.69.231.175
-    port: "50160"
-    password: 1beb216e3f60aea9555dae60d219a5ca
-    sni: 152.69.231.175
-    skip-cert-verify: true
-    udp: true
-  - name: node-25-hy2
-    type: hysteria2
-    server: 132.226.226.189
-    port: "50160"
-    password: 1671a252e2a97dc2bda4e515475931da
-    sni: 132.226.226.189
-    skip-cert-verify: true
-    udp: true
-  - name: node-26-hy2
-    type: hysteria2
-    server: 152.67.200.82
-    port: "50160"
-    password: 3d7634af8cb2c6cb4bac1c0efad8b43d
-    sni: 152.67.200.82
-    skip-cert-verify: true
-    udp: true
-  - name: node-27-vless
+  - name: node-38-vless
     type: vless
     server: 176.32.34.105
     port: "8080"
@@ -306,7 +398,7 @@ proxies:
     udp: true
     grpc-opts:
       grpc-service-name: api
-  - name: node-28-vless
+  - name: node-39-vless
     type: vless
     server: 85.90.217.42
     port: "443"
@@ -317,15 +409,7 @@ proxies:
     servername: 85.90.217.42
     skip-cert-verify: true
     client-fingerprint: chrome
-  - name: node-29-hy2
-    type: hysteria2
-    server: 138.3.208.26
-    port: "50160"
-    password: 184cdec28da5a09450803c8debcd2cc9
-    sni: 138.3.208.26
-    skip-cert-verify: true
-    udp: true
-  - name: node-30-vless
+  - name: node-40-vless
     type: vless
     server: fdh2.nonpath.ir
     port: "8080"
@@ -339,7 +423,7 @@ proxies:
       short-id: eb11f7630faaaf60
     servername: tgju.org
     client-fingerprint: chrome
-  - name: node-31-vless
+  - name: node-41-vless
     type: vless
     server: 62981et.us11.h1clayd.click
     port: "443"
@@ -352,7 +436,7 @@ proxies:
       short-id: ce43937e79bc30f0
     servername: 62981et.us11.h1clayd.click
     client-fingerprint: firefox
-  - name: node-32-vless
+  - name: node-42-vless
     type: vless
     server: 151.101.3.6
     port: "443"
@@ -369,7 +453,7 @@ proxies:
       path: /Lunex
       host: Mastero.global.ssl.fastly.net
       mode: packet-up
-  - name: node-33-vless
+  - name: node-43-vless
     type: vless
     server: 151.101.36.128
     port: "443"
@@ -384,7 +468,7 @@ proxies:
       path: /
       host: ovd7.global.ssl.fastly.net
       mode: auto
-  - name: node-34-vless
+  - name: node-44-vless
     type: vless
     server: ec7a81g.de19.h1clayd.click
     port: "443"
@@ -399,17 +483,7 @@ proxies:
     client-fingerprint: chrome
     grpc-opts:
       grpc-service-name: 43f41cd7fee0
-  - name: node-35-hysteria2
-    type: hysteria2
-    server: 152.32.254.68
-    port: "5010"
-    password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
-    sni: nas.aizhzo.com
-    skip-cert-verify: false
-    udp: true
-    obfs: salamander
-    obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
-  - name: node-36-vless
+  - name: node-45-vless
     type: vless
     server: 7cabc1g.de-p2.h1clayd.click
     port: "443"
@@ -424,7 +498,7 @@ proxies:
     client-fingerprint: chrome
     grpc-opts:
       grpc-service-name: df0c8e02206d
-  - name: node-37-vless
+  - name: node-46-vless
     type: vless
     server: fdh12.mobileemdad.top
     port: "8080"
@@ -438,7 +512,7 @@ proxies:
       short-id: eb11f7630faaaf60
     servername: tgju.org
     client-fingerprint: chrome
-  - name: node-38-vless
+  - name: node-47-vless
     type: vless
     server: 206.1.101.160
     port: "8451"
@@ -446,7 +520,7 @@ proxies:
     network: tcp
     tls: false
     udp: true
-  - name: node-39-vless
+  - name: node-48-vless
     type: vless
     server: 185.22.155.97
     port: "8080"
@@ -468,41 +542,50 @@ proxy-groups:
       - node-02-vless
       - node-03-vless
       - node-04-vless
-      - node-05-vless
-      - node-06-vless
-      - node-07-vless
-      - node-08-vless
-      - node-09-vless
-      - node-10-vless
-      - node-11-hy2
+      - node-05-hysteria2
+      - node-06-hy2
+      - node-07-hy2
+      - node-08-hy2
+      - node-09-hysteria2
+      - node-10-hy2
+      - node-11-hysteria2
       - node-12-hy2
       - node-13-hysteria2
-      - node-14-vless
+      - node-14-hy2
       - node-15-hy2
       - node-16-hy2
-      - node-17-vless
-      - node-18-hysteria2
+      - node-17-hy2
+      - node-18-hy2
       - node-19-hysteria2
-      - node-20-hy2
-      - node-21-vless
-      - node-22-hy2
+      - node-20-hysteria2
+      - node-21-hysteria2
+      - node-22-hysteria2
       - node-23-hy2
       - node-24-hy2
       - node-25-hy2
       - node-26-hy2
-      - node-27-vless
-      - node-28-vless
-      - node-29-hy2
+      - node-27-hy2
+      - node-28-hysteria2
+      - node-29-vless
       - node-30-vless
       - node-31-vless
       - node-32-vless
       - node-33-vless
       - node-34-vless
-      - node-35-hysteria2
+      - node-35-vless
       - node-36-vless
       - node-37-vless
       - node-38-vless
       - node-39-vless
+      - node-40-vless
+      - node-41-vless
+      - node-42-vless
+      - node-43-vless
+      - node-44-vless
+      - node-45-vless
+      - node-46-vless
+      - node-47-vless
+      - node-48-vless
 
 rules:
   - DOMAIN-SUFFIX,local,DIRECT
