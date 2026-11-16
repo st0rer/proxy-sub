@@ -7,79 +7,19 @@ ipv6: false
 proxies:
   - name: node-01-vless
     type: vless
-    server: 23.155.44.105
+    server: 195.206.235.34
     port: "443"
-    uuid: 128ce9ab-63bc-48dc-92ca-1b5426a9eb46
+    uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
     reality-opts:
-      public-key: HE1CGzI0QBqhMRUsHqq_9v4Mj3M5dkluFmfyMBH_7kM
-      short-id: 70f75668dc5914b3
-    servername: app.flyprotect.ca
-    client-fingerprint: firefox
+      public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
+      short-id: 8d0d0679f42ffd98
+    servername: 8a2e72t.nl11.h1clayd.click
+    client-fingerprint: chrome
   - name: node-02-vless
-    type: vless
-    server: 76.164.202.166
-    port: "443"
-    uuid: 0ed9418b-e687-4c2d-8869-7e368c44887e
-    network: grpc
-    tls: true
-    udp: true
-    reality-opts:
-      public-key: -ABl1aWUmg19BGoOGs8DwhPCTj4uUGgdyXZ1xaWh0W4
-      short-id: 376ec5abd2a1b80c
-    servername: de7-166.homelab-cdn.cloud
-    client-fingerprint: firefox
-    grpc-opts:
-      grpc-service-name: grpc
-  - name: node-03-vless
-    type: vless
-    server: 76.164.202.164
-    port: "443"
-    uuid: 0ed9418b-e687-4c2d-8869-7e368c44887e
-    network: grpc
-    tls: true
-    udp: true
-    reality-opts:
-      public-key: -ABl1aWUmg19BGoOGs8DwhPCTj4uUGgdyXZ1xaWh0W4
-      short-id: 376ec5abd2a1b80c
-    servername: de7-164.homelab-cdn.cloud
-    client-fingerprint: firefox
-    grpc-opts:
-      grpc-service-name: grpc
-  - name: node-04-vless
-    type: vless
-    server: 76.164.202.163
-    port: "443"
-    uuid: 0ed9418b-e687-4c2d-8869-7e368c44887e
-    network: grpc
-    tls: true
-    udp: true
-    reality-opts:
-      public-key: -ABl1aWUmg19BGoOGs8DwhPCTj4uUGgdyXZ1xaWh0W4
-      short-id: 376ec5abd2a1b80c
-    servername: de7-163.homelab-cdn.cloud
-    client-fingerprint: firefox
-    grpc-opts:
-      grpc-service-name: grpc
-  - name: node-05-vless
-    type: vless
-    server: 76.164.202.165
-    port: "443"
-    uuid: 0ed9418b-e687-4c2d-8869-7e368c44887e
-    network: grpc
-    tls: true
-    udp: true
-    reality-opts:
-      public-key: -ABl1aWUmg19BGoOGs8DwhPCTj4uUGgdyXZ1xaWh0W4
-      short-id: 376ec5abd2a1b80c
-    servername: de7-165.homelab-cdn.cloud
-    client-fingerprint: firefox
-    grpc-opts:
-      grpc-service-name: grpc
-  - name: node-06-vless
     type: vless
     server: 801a40g.de14.h1clayd.click
     port: "443"
@@ -94,43 +34,35 @@ proxies:
     client-fingerprint: firefox
     grpc-opts:
       grpc-service-name: 0136d39d9d85
-  - name: node-07-vless
+  - name: node-03-vless
     type: vless
-    server: 5.178.85.81
-    port: "443"
-    uuid: 0ed9418b-e687-4c2d-8869-7e368c44887e
-    network: raw
+    server: 195.110.15.19
+    port: "43000"
+    uuid: a75b8ca1-3bbe-43fc-87f6-e153bf192f83
+    network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: selec.homelab-cdn.cloud
-    skip-cert-verify: true
+    reality-opts:
+      public-key: KeFxVlEEuDN8alZBsrXiX9yrcY2-H7lcdzXWjtrIWy0
+      short-id: a9c3bda4
+    servername: 195.110.15.19
     client-fingerprint: firefox
-  - name: node-08-vless
+  - name: node-04-vless
     type: vless
-    server: 5.178.85.81
-    port: "8443"
-    uuid: 0ed9418b-e687-4c2d-8869-7e368c44887e
-    network: grpc
+    server: 45.150.108.180
+    port: "443"
+    uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3
+    network: tcp
     tls: true
     udp: true
+    flow: xtls-rprx-vision
     reality-opts:
-      public-key: DaIRouGSxxQDEv9WKRxD79b2Vt0fsw4yQOTeAmXUYCM
-      short-id: "08"
-    servername: gazeta-business.ru
+      public-key: Jw--SSPecJpt9-lke7H9Bdr8F73xxtvC_5ZrxiWRog0
+      short-id: dc1bf50b0e0a
+    servername: il1.gofizzin.com
     client-fingerprint: firefox
-    grpc-opts:
-      grpc-service-name: grpc
-  - name: node-09-anytls
-    type: anytls
-    server: anytls2.864106.xyz
-    port: "19000"
-    password: github.com/Alvin9999-newpac/fanqiang
-    sni: anytls2.864106.xyz
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    udp: true
-  - name: node-10-anytls
+  - name: node-05-anytls
     type: anytls
     server: sdf65h46wr.df6h451rh.xin
     port: "443"
@@ -152,12 +84,7 @@ proxy-groups:
       - node-02-vless
       - node-03-vless
       - node-04-vless
-      - node-05-vless
-      - node-06-vless
-      - node-07-vless
-      - node-08-vless
-      - node-09-anytls
-      - node-10-anytls
+      - node-05-anytls
   - name: FALLBACK
     type: fallback
     url: 'https://www.gstatic.com/generate_204'
@@ -168,12 +95,7 @@ proxy-groups:
       - node-02-vless
       - node-03-vless
       - node-04-vless
-      - node-05-vless
-      - node-06-vless
-      - node-07-vless
-      - node-08-vless
-      - node-09-anytls
-      - node-10-anytls
+      - node-05-anytls
 
 rules:
   - DOMAIN-SUFFIX,local,DIRECT
