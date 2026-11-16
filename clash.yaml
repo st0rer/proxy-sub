@@ -5,159 +5,7 @@ log-level: info
 ipv6: false
 
 proxies:
-  - name: node-01-hy2
-    type: hysteria2
-    server: 103.88.243.142
-    port: "11592"
-    password: 41edb44c8e
-    sni: 103.88.243.142
-    skip-cert-verify: true
-    udp: true
-  - name: node-02-hysteria2
-    type: hysteria2
-    server: 153.56.210.134
-    port: "57251"
-    password: ff0343ad-1c9f-4986-8c62-c01935b508ca
-    sni: www.bing.com
-    skip-cert-verify: true
-    udp: true
-    obfs: salamander
-    obfs-password: 0ee2089e-70df-4c30-bfea-1fb9be61d93e
-  - name: node-03-hysteria2
-    type: hysteria2
-    server: 153.56.210.134
-    port: "34121"
-    password: c8ed6cd1-6566-4f7a-819e-1c55b2b360c9
-    sni: www.bing.com
-    skip-cert-verify: true
-    udp: true
-    obfs: salamander
-    obfs-password: 9a33460c-b037-47aa-a606-d04211f4e0ec
-  - name: node-04-hysteria2
-    type: hysteria2
-    server: 9.247.54.188
-    port: "443"
-    password: 146d567c-6335-4e63-a8aa-7ec068642440
-    sni: nl1.obxodvpn.us
-    skip-cert-verify: false
-    udp: true
-  - name: node-05-hysteria2
-    type: hysteria2
-    server: 153.56.210.134
-    port: "38045"
-    password: a81a7b45-dd70-42ef-822f-ef467f944382
-    sni: www.bing.com
-    skip-cert-verify: true
-    udp: true
-    obfs: salamander
-    obfs-password: 642516f2-f9bd-41ce-9904-dee699c39cf9
-  - name: node-06-hy2
-    type: hysteria2
-    server: srv-17e124.21freedom.net
-    port: "11592"
-    password: 41edb44c8e
-    sni: 127.0.0.1
-    skip-cert-verify: true
-    udp: true
-  - name: node-07-hysteria2
-    type: hysteria2
-    server: 24.233.8.109
-    port: "443"
-    password: 8294f130408299df8cab08c80bf6f819
-    sni: www.bing.com
-    skip-cert-verify: true
-    udp: true
-    obfs: salamander
-    obfs-password: c8827ab99e316c5bd414e21afa915ddf
-  - name: node-08-hy2
-    type: hysteria2
-    server: 13.184.166.19
-    port: "443"
-    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-    sni: vpn-us-001.fastervpn.world
-    skip-cert-verify: true
-    udp: true
-  - name: node-09-hysteria2
-    type: hysteria2
-    server: 150-230-252-217.liao.kdns.fr
-    port: "50160"
-    password: 9cfc9458e48c028ec03ff86ebc71c744
-    sni: 127.0.0.1
-    skip-cert-verify: true
-    udp: true
-  - name: node-10-hy2
-    type: hysteria2
-    server: 152.70.237.123
-    port: "2053"
-    password: maintell
-    sni: 152.70.237.123
-    skip-cert-verify: true
-    udp: true
-  - name: node-11-hysteria2
-    type: hysteria2
-    server: 152.67.115.203
-    port: "443"
-    password: 633bc3be486b646190661ac2387c150a
-    sni: www.bing.com
-    skip-cert-verify: true
-    udp: true
-    obfs: salamander
-    obfs-password: 850a3fb1cd33a28f12d837578ae1a2e7
-  - name: node-12-hysteria2
-    type: hysteria2
-    server: 152.32.254.68
-    port: "5010"
-    password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
-    sni: nas.aizhzo.com
-    skip-cert-verify: false
-    udp: true
-    obfs: salamander
-    obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
-  - name: node-13-hy2
-    type: hysteria2
-    server: 138.2.73.238
-    port: "50160"
-    password: f87376e17da040ed04c9665ce8972930
-    sni: 138.2.73.238
-    skip-cert-verify: true
-    udp: true
-  - name: node-14-hy2
-    type: hysteria2
-    server: 152.67.200.82
-    port: "50160"
-    password: 3d7634af8cb2c6cb4bac1c0efad8b43d
-    sni: 152.67.200.82
-    skip-cert-verify: true
-    udp: true
-  - name: node-15-hysteria2
-    type: hysteria2
-    server: 18.194.242.173
-    port: "443"
-    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-    sni: 127.0.0.1
-    skip-cert-verify: true
-    udp: true
-  - name: node-16-hy2
-    type: hysteria2
-    server: 138.2.89.249
-    port: "443"
-    password: d042d150716709bb778cc73889cddb02
-    sni: www.bing.com
-    skip-cert-verify: true
-    udp: true
-    obfs: salamander
-    obfs-password: 309502c4a8df10b46fb976d4a8c43f42
-  - name: node-17-hysteria2
-    type: hysteria2
-    server: panel.autonetshop.ir
-    port: "43345"
-    password: d1gkicdgem3bsoaa
-    sni: panel.autonetshop.ir
-    skip-cert-verify: false
-    udp: true
-    obfs: salamander
-    obfs-password: km9oqmefh2km1i5n
-  - name: node-18-vless
+  - name: node-01-vless
     type: vless
     server: 8.47.69.7
     port: "443"
@@ -172,7 +20,7 @@ proxies:
       path: ?ed=2560
       headers:
         Host: edt-sub.antonstorer.workers.dev
-  - name: node-19-vless
+  - name: node-02-vless
     type: vless
     server: 104.17.72.132
     port: "443"
@@ -187,7 +35,7 @@ proxies:
       path: ?ed=2560
       headers:
         Host: edt-sub.antonstorer.workers.dev
-  - name: node-20-vless
+  - name: node-03-vless
     type: vless
     server: 8.6.112.7
     port: "443"
@@ -202,7 +50,7 @@ proxies:
       path: ?ed=2560
       headers:
         Host: edt-sub.antonstorer.workers.dev
-  - name: node-21-vless
+  - name: node-04-vless
     type: vless
     server: 162.159.140.229
     port: "443"
@@ -217,7 +65,239 @@ proxies:
       path: ?ed=2560
       headers:
         Host: edt-sub.antonstorer.workers.dev
-  - name: node-22-vless
+  - name: node-05-hy2
+    type: hysteria2
+    server: 103.88.243.142
+    port: "11592"
+    password: 41edb44c8e
+    sni: 103.88.243.142
+    skip-cert-verify: true
+    udp: true
+  - name: node-06-hysteria2
+    type: hysteria2
+    server: 153.56.210.134
+    port: "57251"
+    password: ff0343ad-1c9f-4986-8c62-c01935b508ca
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    obfs: salamander
+    obfs-password: 0ee2089e-70df-4c30-bfea-1fb9be61d93e
+  - name: node-07-hysteria2
+    type: hysteria2
+    server: 153.56.210.134
+    port: "34121"
+    password: c8ed6cd1-6566-4f7a-819e-1c55b2b360c9
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    obfs: salamander
+    obfs-password: 9a33460c-b037-47aa-a606-d04211f4e0ec
+  - name: node-08-hysteria2
+    type: hysteria2
+    server: 9.247.54.188
+    port: "443"
+    password: 146d567c-6335-4e63-a8aa-7ec068642440
+    sni: nl1.obxodvpn.us
+    skip-cert-verify: false
+    udp: true
+  - name: node-09-hysteria2
+    type: hysteria2
+    server: 153.56.210.134
+    port: "38045"
+    password: a81a7b45-dd70-42ef-822f-ef467f944382
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    obfs: salamander
+    obfs-password: 642516f2-f9bd-41ce-9904-dee699c39cf9
+  - name: node-10-hy2
+    type: hysteria2
+    server: srv-17e124.21freedom.net
+    port: "11592"
+    password: 41edb44c8e
+    sni: 127.0.0.1
+    skip-cert-verify: true
+    udp: true
+  - name: node-11-hy2
+    type: hysteria2
+    server: hy2-eee-1.aloranode.top
+    port: "443"
+    password: b36a14f8-fc3f-4142-968f-48031cf5f330
+    sni: hy2-eee-1.aloranode.top
+    skip-cert-verify: false
+    udp: true
+  - name: node-12-hysteria2
+    type: hysteria2
+    server: 24.233.8.109
+    port: "443"
+    password: 8294f130408299df8cab08c80bf6f819
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    obfs: salamander
+    obfs-password: c8827ab99e316c5bd414e21afa915ddf
+  - name: node-13-hysteria2
+    type: hysteria2
+    server: 206.189.229.48
+    port: "443"
+    password: YV1sd3tfCZngTtnvRmy7
+    sni: www.microsoft.com
+    skip-cert-verify: true
+    udp: true
+    obfs: salamander
+    obfs-password: ZuPf4OcXKvotJdDxlTus
+  - name: node-14-hysteria2
+    type: hysteria2
+    server: 196.240.181.10
+    port: "25282"
+    password: b36a14f8-fc3f-4142-968f-48031cf5f330
+    sni: 314c8dt.us12.h1clayd.click
+    skip-cert-verify: true
+    udp: true
+  - name: node-15-hy2
+    type: hysteria2
+    server: 13.184.166.19
+    port: "443"
+    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+    sni: vpn-us-001.fastervpn.world
+    skip-cert-verify: true
+    udp: true
+  - name: node-16-hysteria2
+    type: hysteria2
+    server: 43.239.249.178
+    port: "443"
+    password: 3OAaD9HeUplLnOOA0StMZG
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+  - name: node-17-hysteria2
+    type: hysteria2
+    server: 150-230-252-217.liao.kdns.fr
+    port: "50160"
+    password: 9cfc9458e48c028ec03ff86ebc71c744
+    sni: 127.0.0.1
+    skip-cert-verify: true
+    udp: true
+  - name: node-18-hy2
+    type: hysteria2
+    server: 152.70.237.123
+    port: "2053"
+    password: maintell
+    sni: 152.70.237.123
+    skip-cert-verify: true
+    udp: true
+  - name: node-19-hy2
+    type: hysteria2
+    server: 132.226.226.189
+    port: "50160"
+    password: 1671a252e2a97dc2bda4e515475931da
+    sni: 132.226.226.189
+    skip-cert-verify: true
+    udp: true
+  - name: node-20-hysteria2
+    type: hysteria2
+    server: 152.67.115.203
+    port: "443"
+    password: 633bc3be486b646190661ac2387c150a
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    obfs: salamander
+    obfs-password: 850a3fb1cd33a28f12d837578ae1a2e7
+  - name: node-21-hysteria2
+    type: hysteria2
+    server: 152.32.254.68
+    port: "5010"
+    password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
+    sni: nas.aizhzo.com
+    skip-cert-verify: false
+    udp: true
+    obfs: salamander
+    obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
+  - name: node-22-hy2
+    type: hysteria2
+    server: 138.3.208.26
+    port: "50160"
+    password: 184cdec28da5a09450803c8debcd2cc9
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+  - name: node-23-hy2
+    type: hysteria2
+    server: 138.2.73.238
+    port: "50160"
+    password: f87376e17da040ed04c9665ce8972930
+    sni: 138.2.73.238
+    skip-cert-verify: true
+    udp: true
+  - name: node-24-hy2
+    type: hysteria2
+    server: 152.67.200.82
+    port: "50160"
+    password: 3d7634af8cb2c6cb4bac1c0efad8b43d
+    sni: 152.67.200.82
+    skip-cert-verify: true
+    udp: true
+  - name: node-25-hysteria2
+    type: hysteria2
+    server: 18.194.242.173
+    port: "443"
+    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+    sni: 127.0.0.1
+    skip-cert-verify: true
+    udp: true
+  - name: node-26-hy2
+    type: hysteria2
+    server: 138.2.89.249
+    port: "443"
+    password: d042d150716709bb778cc73889cddb02
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    obfs: salamander
+    obfs-password: 309502c4a8df10b46fb976d4a8c43f42
+  - name: node-27-hysteria2
+    type: hysteria2
+    server: panel.autonetshop.ir
+    port: "43345"
+    password: d1gkicdgem3bsoaa
+    sni: panel.autonetshop.ir
+    skip-cert-verify: false
+    udp: true
+    obfs: salamander
+    obfs-password: km9oqmefh2km1i5n
+  - name: node-28-vless
+    type: vless
+    server: 191.217.205.138
+    port: "5443"
+    uuid: 0b22812b-4a79-42b1-93ec-5b157b0f2f7f
+    network: xhttp
+    tls: true
+    udp: true
+    reality-opts:
+      public-key: YWaSbf7NwwCZNuB3cQ_VCF20mUwWJBcfMysIZN4j6mI
+      short-id: 7a8c9b0e1d2f3456
+    servername: sw.krabvpn.pro
+    client-fingerprint: firefox
+    xhttp-opts:
+      path: /assets/f9c8d7e6a5b4c3d2e1f02468
+  - name: node-29-vless
+    type: vless
+    server: nl41.homelab-cdn.cloud
+    port: "8443"
+    uuid: 0ed9418b-e687-4c2d-8869-7e368c44887e
+    network: grpc
+    tls: true
+    udp: true
+    reality-opts:
+      public-key: NW2c4t6gXODenb0_Mo5Qf-1nrJr5xFQm30zf-IVfHjY
+      short-id: "08"
+    servername: nl41.homelab-cdn.cloud
+    client-fingerprint: firefox
+    grpc-opts:
+      grpc-service-name: grpc
+  - name: node-30-vless
     type: vless
     server: 171.22.133.5
     port: "8443"
@@ -233,7 +313,22 @@ proxies:
     xhttp-opts:
       path: /assets/6c0f3ad762cb7ff51b454076
       mode: auto
-  - name: node-23-vless
+  - name: node-31-vless
+    type: vless
+    server: 191.101.8.40
+    port: "8443"
+    uuid: 0ed9418b-e687-4c2d-8869-7e368c44887e
+    network: grpc
+    tls: true
+    udp: true
+    reality-opts:
+      public-key: NW2c4t6gXODenb0_Mo5Qf-1nrJr5xFQm30zf-IVfHjY
+      short-id: "08"
+    servername: nl40.homelab-cdn.cloud
+    client-fingerprint: firefox
+    grpc-opts:
+      grpc-service-name: grpc
+  - name: node-32-vless
     type: vless
     server: 171.22.133.5
     port: "6443"
@@ -249,35 +344,214 @@ proxies:
     xhttp-opts:
       path: /assets/e19f8e871ca55b3d77d42ae7
       mode: auto
-  - name: node-24-ss
+  - name: node-33-ss
     type: ss
     server: 18.175.238.57
     port: "443"
     cipher: 2022-blake3-chacha20-poly1305
     password: Cg2Dw4OhdBZhqbeO9ZTA3g/Gk/AvsrYZGhAJeGnQIx4=
     udp: true
-  - name: node-25-ss
+  - name: node-34-vless
+    type: vless
+    server: 89.106.88.42
+    port: "443"
+    uuid: 0ed9418b-e687-4c2d-8869-7e368c44887e
+    network: grpc
+    tls: true
+    udp: true
+    reality-opts:
+      public-key: 4XnNIGFrNW2uKqvNJly-X_J52O_SDOdWwejuGQU_IAs
+      short-id: 05c0787b9357f4a8
+    servername: ee42.own-homelab.cloud
+    client-fingerprint: firefox
+    grpc-opts:
+      grpc-service-name: grpc
+  - name: node-35-ss
+    type: ss
+    server: 18.134.252.228
+    port: "443"
+    cipher: 2022-blake3-chacha20-poly1305
+    password: Cg2Dw4OhdBZhqbeO9ZTA3g/Gk/AvsrYZGhAJeGnQIx4=
+    udp: true
+  - name: node-36-ss
     type: ss
     server: 3.71.19.239
     port: "443"
     cipher: 2022-blake3-chacha20-poly1305
     password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
     udp: true
-  - name: node-26-ss
+  - name: node-37-vless
+    type: vless
+    server: 89.106.88.106
+    port: "443"
+    uuid: 0ed9418b-e687-4c2d-8869-7e368c44887e
+    network: grpc
+    tls: true
+    udp: true
+    reality-opts:
+      public-key: 4XnNIGFrNW2uKqvNJly-X_J52O_SDOdWwejuGQU_IAs
+      short-id: 05c0787b9357f4a8
+    servername: ee106.own-homelab.cloud
+    client-fingerprint: firefox
+    grpc-opts:
+      grpc-service-name: grpc
+  - name: node-38-ss
+    type: ss
+    server: 206.1.103.22
+    port: "46382"
+    cipher: 2022-blake3-aes-256-gcm
+    password: "gFpTQ78gzoU2n9z856azv7cSdalPDP1XQUgR6KhQ6G4=:mxkMMHcfVloLsmx8ycuOTa6bM6EDiAibDlu5TEHDw8U="
+    udp: true
+  - name: node-39-vless
+    type: vless
+    server: 89.106.88.39
+    port: "443"
+    uuid: 0ed9418b-e687-4c2d-8869-7e368c44887e
+    network: grpc
+    tls: true
+    udp: true
+    reality-opts:
+      public-key: 4XnNIGFrNW2uKqvNJly-X_J52O_SDOdWwejuGQU_IAs
+      short-id: 05c0787b9357f4a8
+    servername: ee39.own-homelab.cloud
+    client-fingerprint: firefox
+    grpc-opts:
+      grpc-service-name: grpc
+  - name: node-40-vless
+    type: vless
+    server: 144.31.3.105
+    port: "8443"
+    uuid: 0ed9418b-e687-4c2d-8869-7e368c44887e
+    network: grpc
+    tls: true
+    udp: true
+    reality-opts:
+      public-key: 0f9tBNd1e0FjqakxfoGM_bGfYIAdE81XzXwPQgJkVDI
+      short-id: 1eb65c424decdb73
+    servername: pl105.homelab-cdn.cloud
+    client-fingerprint: firefox
+    grpc-opts:
+      grpc-service-name: grpc
+  - name: node-41-vless
+    type: vless
+    server: 89.106.88.11
+    port: "443"
+    uuid: 0ed9418b-e687-4c2d-8869-7e368c44887e
+    network: grpc
+    tls: true
+    udp: true
+    reality-opts:
+      public-key: 4XnNIGFrNW2uKqvNJly-X_J52O_SDOdWwejuGQU_IAs
+      short-id: 05c0787b9357f4a8
+    servername: ee11.own-homelab.cloud
+    client-fingerprint: firefox
+    grpc-opts:
+      grpc-service-name: grpc
+  - name: node-42-vless
+    type: vless
+    server: 89.106.88.25
+    port: "443"
+    uuid: 0ed9418b-e687-4c2d-8869-7e368c44887e
+    network: grpc
+    tls: true
+    udp: true
+    reality-opts:
+      public-key: 4XnNIGFrNW2uKqvNJly-X_J52O_SDOdWwejuGQU_IAs
+      short-id: 05c0787b9357f4a8
+    servername: ee25.own-homelab.cloud
+    client-fingerprint: ios
+    grpc-opts:
+      grpc-service-name: grpc
+  - name: node-43-vless
+    type: vless
+    server: 191.217.205.138
+    port: "443"
+    uuid: 0b22812b-4a79-42b1-93ec-5b157b0f2f7f
+    network: xhttp
+    tls: true
+    udp: true
+    reality-opts:
+      public-key: zd4L59ejBo94N8N9GQtZMox2eBBF9TQf2TLyIgpwlCg
+      short-id: fd7624659f1e7d66
+    servername: fin.krabvpn.pro
+    client-fingerprint: firefox
+    xhttp-opts:
+      path: /assets/246a109dceaa6b7832a98d17
+  - name: node-44-vless
+    type: vless
+    server: 89.106.88.15
+    port: "443"
+    uuid: 0ed9418b-e687-4c2d-8869-7e368c44887e
+    network: grpc
+    tls: true
+    udp: true
+    reality-opts:
+      public-key: 4XnNIGFrNW2uKqvNJly-X_J52O_SDOdWwejuGQU_IAs
+      short-id: 05c0787b9357f4a8
+    servername: ee15.own-homelab.cloud
+    client-fingerprint: firefox
+    grpc-opts:
+      grpc-service-name: grpc
+  - name: node-45-vless
+    type: vless
+    server: 89.106.88.12
+    port: "443"
+    uuid: 0ed9418b-e687-4c2d-8869-7e368c44887e
+    network: grpc
+    tls: true
+    udp: true
+    reality-opts:
+      public-key: 4XnNIGFrNW2uKqvNJly-X_J52O_SDOdWwejuGQU_IAs
+      short-id: 05c0787b9357f4a8
+    servername: ee12.own-homelab.cloud
+    client-fingerprint: firefox
+    grpc-opts:
+      grpc-service-name: grpc
+  - name: node-46-ss
     type: ss
     server: 47.245.174.67
     port: "443"
     cipher: 2022-blake3-chacha20-poly1305
     password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
     udp: true
-  - name: node-27-ss
+  - name: node-47-vless
+    type: vless
+    server: 89.106.88.23
+    port: "443"
+    uuid: 0ed9418b-e687-4c2d-8869-7e368c44887e
+    network: grpc
+    tls: true
+    udp: true
+    reality-opts:
+      public-key: 4XnNIGFrNW2uKqvNJly-X_J52O_SDOdWwejuGQU_IAs
+      short-id: 05c0787b9357f4a8
+    servername: ee23.own-homelab.cloud
+    client-fingerprint: firefox
+    grpc-opts:
+      grpc-service-name: grpc
+  - name: node-48-ss
     type: ss
     server: 47.245.173.25
     port: "443"
     cipher: 2022-blake3-chacha20-poly1305
     password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
     udp: true
-  - name: node-28-vless
+  - name: node-49-vless
+    type: vless
+    server: 89.106.88.30
+    port: "443"
+    uuid: 0ed9418b-e687-4c2d-8869-7e368c44887e
+    network: grpc
+    tls: true
+    udp: true
+    reality-opts:
+      public-key: 4XnNIGFrNW2uKqvNJly-X_J52O_SDOdWwejuGQU_IAs
+      short-id: 05c0787b9357f4a8
+    servername: ee30.own-homelab.cloud
+    client-fingerprint: firefox
+    grpc-opts:
+      grpc-service-name: grpc
+  - name: node-50-vless
     type: vless
     server: 76.164.202.165
     port: "443"
@@ -292,7 +566,7 @@ proxies:
     client-fingerprint: firefox
     grpc-opts:
       grpc-service-name: grpc
-  - name: node-29-vless
+  - name: node-51-vless
     type: vless
     server: 76.164.202.164
     port: "443"
@@ -307,7 +581,7 @@ proxies:
     client-fingerprint: firefox
     grpc-opts:
       grpc-service-name: grpc
-  - name: node-30-vless
+  - name: node-52-vless
     type: vless
     server: 76.164.202.166
     port: "443"
@@ -322,7 +596,42 @@ proxies:
     client-fingerprint: firefox
     grpc-opts:
       grpc-service-name: grpc
-  - name: node-31-vless
+  - name: node-53-ss
+    type: ss
+    server: 47.85.201.22
+    port: "443"
+    cipher: 2022-blake3-chacha20-poly1305
+    password: 3NBsnBLanPfG6i3S2GTHineswr6EeSJPb0PCeMQoGoA=
+    udp: true
+  - name: node-54-vless
+    type: vless
+    server: 89.106.88.126
+    port: "443"
+    uuid: 0ed9418b-e687-4c2d-8869-7e368c44887e
+    network: grpc
+    tls: true
+    udp: true
+    reality-opts:
+      public-key: 4XnNIGFrNW2uKqvNJly-X_J52O_SDOdWwejuGQU_IAs
+      short-id: 05c0787b9357f4a8
+    servername: ee126.own-homelab.cloud
+    client-fingerprint: edge
+    grpc-opts:
+      grpc-service-name: grpc
+  - name: node-55-vless
+    type: vless
+    server: 93.123.85.194
+    port: "443"
+    uuid: 07df3711-07a1-4649-9a61-3f16cb931d02
+    network: tcp
+    tls: true
+    udp: true
+    reality-opts:
+      public-key: hFee7zTreqlv_wccK_8zxN5v23hj9u-DshByvGf-KAA
+      short-id: 23732d14a527990d
+    servername: 345739t.de19.h1clayd.click
+    client-fingerprint: firefox
+  - name: node-56-vless
     type: vless
     server: 89.106.88.24
     port: "443"
@@ -337,7 +646,33 @@ proxies:
     client-fingerprint: firefox
     grpc-opts:
       grpc-service-name: grpc
-  - name: node-32-vless
+  - name: node-57-vless
+    type: vless
+    server: 345739t.de19.h1clayd.click
+    port: "443"
+    uuid: 07df3711-07a1-4649-9a61-3f16cb931d02
+    network: tcp
+    tls: true
+    udp: true
+    reality-opts:
+      public-key: hFee7zTreqlv_wccK_8zxN5v23hj9u-DshByvGf-KAA
+      short-id: 23732d14a527990d
+    servername: 345739t.de19.h1clayd.click
+    client-fingerprint: chrome
+  - name: node-58-vless
+    type: vless
+    server: 200.169.179.233
+    port: "443"
+    uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
+    network: grpc
+    tls: true
+    udp: true
+    servername: vps3.nemnogogo.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    grpc-opts:
+      grpc-service-name: mobile.api.Event
+  - name: node-59-vless
     type: vless
     server: 201.24.121.243
     port: "443"
@@ -352,7 +687,23 @@ proxies:
       - h2
     grpc-opts:
       grpc-service-name: vlgrpc
-  - name: node-33-vless
+  - name: node-60-vless
+    type: vless
+    server: 201.34.133.20
+    port: "443"
+    uuid: 4b50270b-5caf-4c34-b3da-17b4525604a6
+    network: grpc
+    tls: true
+    udp: true
+    servername: luminexorizon.ink
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    alpn:
+      - h2
+      - http/1.1
+    grpc-opts:
+      grpc-service-name: glush.de3.v1
+  - name: node-61-vless
     type: vless
     server: 193.163.203.170
     port: "443"
@@ -366,7 +717,14 @@ proxies:
       short-id: b28db60d77c50b4f
     servername: yandex.ru
     client-fingerprint: chrome
-  - name: node-34-vless
+  - name: node-62-ss
+    type: ss
+    server: 47.91.74.232
+    port: "443"
+    cipher: 2022-blake3-chacha20-poly1305
+    password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
+    udp: true
+  - name: node-63-vless
     type: vless
     server: 196.196.149.22
     port: "443"
@@ -381,7 +739,30 @@ proxies:
     client-fingerprint: firefox
     xhttp-opts:
       path: /
-  - name: node-35-vless
+  - name: node-64-vless
+    type: vless
+    server: 168.110.21.56
+    port: "18453"
+    uuid: 1751bebc-1bf1-420c-8b9d-97157aad179b
+    network: tcp
+    tls: false
+    udp: true
+  - name: node-65-vless
+    type: vless
+    server: 196.196.149.20
+    port: "443"
+    uuid: 4618cebd-e1e9-45c3-be98-d9d6e3ee8bef
+    network: grpc
+    tls: true
+    udp: true
+    reality-opts:
+      public-key: C_DlyXDDS4fWcAlxb-6O7LBKtq28fg2slCrH5tPaTQ4
+      short-id: 16cea10606a4e401
+    servername: a566d1g.de18.h1clayd.click
+    client-fingerprint: firefox
+    grpc-opts:
+      grpc-service-name: 98b9c56e8ebb
+  - name: node-66-vless
     type: vless
     server: 79.182.39.138
     port: "443"
@@ -396,7 +777,20 @@ proxies:
     client-fingerprint: chrome
     grpc-opts:
       grpc-service-name: 43f41cd7fee0
-  - name: node-36-vless
+  - name: node-67-vless
+    type: vless
+    server: 147.45.108.45
+    port: "443"
+    uuid: 1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: IuzAWh6UM62Txrnh_No9y5n6wmZecyR1ki8z5xor-0g
+    servername: absolute-disaster.org
+    client-fingerprint: chrome
+  - name: node-68-vless
     type: vless
     server: 201.51.11.65
     port: "443"
@@ -409,35 +803,6 @@ proxies:
       public-key: GiDgVRVYrTkv1mZJeFVWkr736Iey2kqLM6L0eUbffV8
     servername: absolute-disaster.org
     client-fingerprint: chrome
-  - name: node-37-vless
-    type: vless
-    server: music.3apes.online
-    port: "443"
-    uuid: 12776e55-6230-48b9-b069-1bb8a04b4237
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: q4_o7NvD6vQg4hYsyO29Q6PVufjTJHDUbQTqstre9EQ
-    servername: music.3apes.online
-    client-fingerprint: qq
-  - name: node-38-vmess
-    type: vmess
-    server: US032012.westmgreen.com
-    port: "443"
-    uuid: fbc990c5-c62e-4e31-a9a5-db3a4fe42741
-    alterId: "0"
-    cipher: auto
-    udp: true
-    tls: true
-    servername: US032012.westmgreen.com
-    skip-cert-verify: true
-    network: ws
-    ws-opts:
-      path: wes
-      headers:
-        Host: US032012.westmgreen.com
 
 proxy-groups:
   - name: AUTO
@@ -447,88 +812,148 @@ proxy-groups:
     tolerance: 80
     lazy: false
     proxies:
-      - node-01-hy2
-      - node-02-hysteria2
-      - node-03-hysteria2
-      - node-04-hysteria2
-      - node-05-hysteria2
-      - node-06-hy2
+      - node-01-vless
+      - node-02-vless
+      - node-03-vless
+      - node-04-vless
+      - node-05-hy2
+      - node-06-hysteria2
       - node-07-hysteria2
-      - node-08-hy2
+      - node-08-hysteria2
       - node-09-hysteria2
       - node-10-hy2
-      - node-11-hysteria2
+      - node-11-hy2
       - node-12-hysteria2
-      - node-13-hy2
-      - node-14-hy2
-      - node-15-hysteria2
-      - node-16-hy2
+      - node-13-hysteria2
+      - node-14-hysteria2
+      - node-15-hy2
+      - node-16-hysteria2
       - node-17-hysteria2
-      - node-18-vless
-      - node-19-vless
-      - node-20-vless
-      - node-21-vless
-      - node-22-vless
-      - node-23-vless
-      - node-24-ss
-      - node-25-ss
-      - node-26-ss
-      - node-27-ss
+      - node-18-hy2
+      - node-19-hy2
+      - node-20-hysteria2
+      - node-21-hysteria2
+      - node-22-hy2
+      - node-23-hy2
+      - node-24-hy2
+      - node-25-hysteria2
+      - node-26-hy2
+      - node-27-hysteria2
       - node-28-vless
       - node-29-vless
       - node-30-vless
       - node-31-vless
       - node-32-vless
-      - node-33-vless
+      - node-33-ss
       - node-34-vless
-      - node-35-vless
-      - node-36-vless
+      - node-35-ss
+      - node-36-ss
       - node-37-vless
-      - node-38-vmess
+      - node-38-ss
+      - node-39-vless
+      - node-40-vless
+      - node-41-vless
+      - node-42-vless
+      - node-43-vless
+      - node-44-vless
+      - node-45-vless
+      - node-46-ss
+      - node-47-vless
+      - node-48-ss
+      - node-49-vless
+      - node-50-vless
+      - node-51-vless
+      - node-52-vless
+      - node-53-ss
+      - node-54-vless
+      - node-55-vless
+      - node-56-vless
+      - node-57-vless
+      - node-58-vless
+      - node-59-vless
+      - node-60-vless
+      - node-61-vless
+      - node-62-ss
+      - node-63-vless
+      - node-64-vless
+      - node-65-vless
+      - node-66-vless
+      - node-67-vless
+      - node-68-vless
   - name: FALLBACK
     type: fallback
     url: 'https://www.gstatic.com/generate_204'
     interval: 120
     proxies:
       - AUTO
-      - node-01-hy2
-      - node-02-hysteria2
-      - node-03-hysteria2
-      - node-04-hysteria2
-      - node-05-hysteria2
-      - node-06-hy2
+      - node-01-vless
+      - node-02-vless
+      - node-03-vless
+      - node-04-vless
+      - node-05-hy2
+      - node-06-hysteria2
       - node-07-hysteria2
-      - node-08-hy2
+      - node-08-hysteria2
       - node-09-hysteria2
       - node-10-hy2
-      - node-11-hysteria2
+      - node-11-hy2
       - node-12-hysteria2
-      - node-13-hy2
-      - node-14-hy2
-      - node-15-hysteria2
-      - node-16-hy2
+      - node-13-hysteria2
+      - node-14-hysteria2
+      - node-15-hy2
+      - node-16-hysteria2
       - node-17-hysteria2
-      - node-18-vless
-      - node-19-vless
-      - node-20-vless
-      - node-21-vless
-      - node-22-vless
-      - node-23-vless
-      - node-24-ss
-      - node-25-ss
-      - node-26-ss
-      - node-27-ss
+      - node-18-hy2
+      - node-19-hy2
+      - node-20-hysteria2
+      - node-21-hysteria2
+      - node-22-hy2
+      - node-23-hy2
+      - node-24-hy2
+      - node-25-hysteria2
+      - node-26-hy2
+      - node-27-hysteria2
       - node-28-vless
       - node-29-vless
       - node-30-vless
       - node-31-vless
       - node-32-vless
-      - node-33-vless
+      - node-33-ss
       - node-34-vless
-      - node-35-vless
-      - node-36-vless
+      - node-35-ss
+      - node-36-ss
       - node-37-vless
-      - node-38-vmess
+      - node-38-ss
+      - node-39-vless
+      - node-40-vless
+      - node-41-vless
+      - node-42-vless
+      - node-43-vless
+      - node-44-vless
+      - node-45-vless
+      - node-46-ss
+      - node-47-vless
+      - node-48-ss
+      - node-49-vless
+      - node-50-vless
+      - node-51-vless
+      - node-52-vless
+      - node-53-ss
+      - node-54-vless
+      - node-55-vless
+      - node-56-vless
+      - node-57-vless
+      - node-58-vless
+      - node-59-vless
+      - node-60-vless
+      - node-61-vless
+      - node-62-ss
+      - node-63-vless
+      - node-64-vless
+      - node-65-vless
+      - node-66-vless
+      - node-67-vless
+      - node-68-vless
 
 rules:
   - DOMAIN-SUFFIX,local,DIRECT
