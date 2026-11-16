@@ -67,36 +67,6 @@ proxies:
         Host: edt-sub.antonstorer.workers.dev
   - name: node-05-vless
     type: vless
-    server: 144.31.3.105
-    port: "8443"
-    uuid: 0ed9418b-e687-4c2d-8869-7e368c44887e
-    network: grpc
-    tls: true
-    udp: true
-    reality-opts:
-      public-key: 0f9tBNd1e0FjqakxfoGM_bGfYIAdE81XzXwPQgJkVDI
-      short-id: 1eb65c424decdb73
-    servername: pl105.homelab-cdn.cloud
-    client-fingerprint: firefox
-    grpc-opts:
-      grpc-service-name: grpc
-  - name: node-06-vless
-    type: vless
-    server: 76.164.202.164
-    port: "443"
-    uuid: 0ed9418b-e687-4c2d-8869-7e368c44887e
-    network: grpc
-    tls: true
-    udp: true
-    reality-opts:
-      public-key: -ABl1aWUmg19BGoOGs8DwhPCTj4uUGgdyXZ1xaWh0W4
-      short-id: 376ec5abd2a1b80c
-    servername: de7-164.homelab-cdn.cloud
-    client-fingerprint: firefox
-    grpc-opts:
-      grpc-service-name: grpc
-  - name: node-07-vless
-    type: vless
     server: 76.164.202.165
     port: "443"
     uuid: 0ed9418b-e687-4c2d-8869-7e368c44887e
@@ -110,7 +80,7 @@ proxies:
     client-fingerprint: firefox
     grpc-opts:
       grpc-service-name: grpc
-  - name: node-08-vless
+  - name: node-06-vless
     type: vless
     server: 201.8.71.201
     port: "443"
@@ -125,7 +95,22 @@ proxies:
     client-fingerprint: firefox
     grpc-opts:
       grpc-service-name: 0136d39d9d85
-  - name: node-09-vless
+  - name: node-07-vless
+    type: vless
+    server: 144.31.3.105
+    port: "8443"
+    uuid: 0ed9418b-e687-4c2d-8869-7e368c44887e
+    network: grpc
+    tls: true
+    udp: true
+    reality-opts:
+      public-key: 0f9tBNd1e0FjqakxfoGM_bGfYIAdE81XzXwPQgJkVDI
+      short-id: 1eb65c424decdb73
+    servername: pl105.homelab-cdn.cloud
+    client-fingerprint: firefox
+    grpc-opts:
+      grpc-service-name: grpc
+  - name: node-08-vless
     type: vless
     server: 76.164.202.166
     port: "443"
@@ -137,6 +122,21 @@ proxies:
       public-key: -ABl1aWUmg19BGoOGs8DwhPCTj4uUGgdyXZ1xaWh0W4
       short-id: 376ec5abd2a1b80c
     servername: de7-166.homelab-cdn.cloud
+    client-fingerprint: firefox
+    grpc-opts:
+      grpc-service-name: grpc
+  - name: node-09-vless
+    type: vless
+    server: 76.164.202.164
+    port: "443"
+    uuid: 0ed9418b-e687-4c2d-8869-7e368c44887e
+    network: grpc
+    tls: true
+    udp: true
+    reality-opts:
+      public-key: -ABl1aWUmg19BGoOGs8DwhPCTj4uUGgdyXZ1xaWh0W4
+      short-id: 376ec5abd2a1b80c
+    servername: de7-164.homelab-cdn.cloud
     client-fingerprint: firefox
     grpc-opts:
       grpc-service-name: grpc
