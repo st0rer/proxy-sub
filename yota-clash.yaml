@@ -112,21 +112,6 @@ proxies:
       grpc-service-name: grpc
   - name: node-08-vless
     type: vless
-    server: 76.164.202.166
-    port: "443"
-    uuid: 0ed9418b-e687-4c2d-8869-7e368c44887e
-    network: grpc
-    tls: true
-    udp: true
-    reality-opts:
-      public-key: -ABl1aWUmg19BGoOGs8DwhPCTj4uUGgdyXZ1xaWh0W4
-      short-id: 376ec5abd2a1b80c
-    servername: de7-166.homelab-cdn.cloud
-    client-fingerprint: firefox
-    grpc-opts:
-      grpc-service-name: grpc
-  - name: node-09-vless
-    type: vless
     server: 76.164.202.164
     port: "443"
     uuid: 0ed9418b-e687-4c2d-8869-7e368c44887e
@@ -140,22 +125,22 @@ proxies:
     client-fingerprint: firefox
     grpc-opts:
       grpc-service-name: grpc
-  - name: node-10-vless
+  - name: node-09-vless
     type: vless
-    server: ec7a81g.de19.h1clayd.click
+    server: 76.164.202.166
     port: "443"
-    uuid: 07df3711-07a1-4649-9a61-3f16cb931d02
+    uuid: 0ed9418b-e687-4c2d-8869-7e368c44887e
     network: grpc
     tls: true
     udp: true
     reality-opts:
-      public-key: shUbIWcBJdXaDzO80KqTU9exgMarUCOiiZ56Dwl7XVU
-      short-id: 7a8e24da4eb2c1b5
-    servername: ec7a81g.de19.h1clayd.click
-    client-fingerprint: chrome
+      public-key: -ABl1aWUmg19BGoOGs8DwhPCTj4uUGgdyXZ1xaWh0W4
+      short-id: 376ec5abd2a1b80c
+    servername: de7-166.homelab-cdn.cloud
+    client-fingerprint: firefox
     grpc-opts:
-      grpc-service-name: 43f41cd7fee0
-  - name: node-11-vless
+      grpc-service-name: grpc
+  - name: node-10-vless
     type: vless
     server: 13.143.239.216
     port: "443"
@@ -170,7 +155,7 @@ proxies:
     client-fingerprint: firefox
     grpc-opts:
       grpc-service-name: 4c9e80459954
-  - name: node-12-vless
+  - name: node-11-vless
     type: vless
     server: 87.120.252.67
     port: "443"
@@ -183,13 +168,22 @@ proxies:
       public-key: 6dc3iKXilOQpA_JFrKlk5-CsFjSmOm_5p0kSQcO9qi4
     servername: www.worldoftanks.com
     client-fingerprint: firefox
-  - name: node-13-hy2
+  - name: node-12-hy2
     type: hysteria2
     server: 86.107.179.245
     port: "443"
     password: e45c1654-9184-40c7-b68b-2929ce2a0a89
     sni: cruises-cdn.travel-blogmir.blog
     skip-cert-verify: false
+    udp: true
+  - name: node-13-anytls
+    type: anytls
+    server: iijjp.mggl.wang
+    port: "35791"
+    password: 9e98496a-0036-4cc6-8302-3929c29ba772
+    sni: www.apple.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
     udp: true
 
 proxy-groups:
@@ -211,8 +205,8 @@ proxy-groups:
       - node-09-vless
       - node-10-vless
       - node-11-vless
-      - node-12-vless
-      - node-13-hy2
+      - node-12-hy2
+      - node-13-anytls
   - name: FALLBACK
     type: fallback
     url: 'https://www.gstatic.com/generate_204'
@@ -230,8 +224,8 @@ proxy-groups:
       - node-09-vless
       - node-10-vless
       - node-11-vless
-      - node-12-vless
-      - node-13-hy2
+      - node-12-hy2
+      - node-13-anytls
 
 rules:
   - DOMAIN-SUFFIX,local,DIRECT
