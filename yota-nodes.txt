@@ -3,3 +3,5 @@ vless://0ed9418b-e687-4c2d-8869-7e368c44887e@76.164.202.164:443?encryption=none&
 vless://0ed9418b-e687-4c2d-8869-7e368c44887e@76.164.202.165:443?encryption=none&fp=firefox&pbk=-ABl1aWUmg19BGoOGs8DwhPCTj4uUGgdyXZ1xaWh0W4&security=reality&serviceName=grpc&sid=376ec5abd2a1b80c&sni=de7-165.homelab-cdn.cloud&type=grpc
 vless://0ed9418b-e687-4c2d-8869-7e368c44887e@5.178.85.81:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&security=tls&sni=selec.homelab-cdn.cloud&type=raw
 vless://0ed9418b-e687-4c2d-8869-7e368c44887e@76.164.202.163:443?encryption=none&fp=firefox&pbk=-ABl1aWUmg19BGoOGs8DwhPCTj4uUGgdyXZ1xaWh0W4&security=reality&serviceName=grpc&sid=376ec5abd2a1b80c&sni=de7-163.homelab-cdn.cloud&type=grpc
+vless://8197b9b9-8945-460f-99c9-325ef8a8a7c3@193.243.189.64:443?security=reality&encryption=none&pbk=631qtx5_iiR8HBYdp3duf2SMqdN0URE1AWVb85I_FFg&headerType=none&fp=ios&spx=%2Fb4fcc6d25bda84e&type=tcp&flow=xtls-rprx-vision&sni=no1.gofizz.in&sid=b12c3119d219dc#@vpnsal
+anytls://0324fbc29561@sdf65h46wr.df6h451rh.xin:443/?insecure=1&sni=images.ctfassets.net

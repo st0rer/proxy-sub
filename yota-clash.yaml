@@ -77,6 +77,29 @@ proxies:
     client-fingerprint: firefox
     grpc-opts:
       grpc-service-name: grpc
+  - name: node-06-vless
+    type: vless
+    server: 193.243.189.64
+    port: "443"
+    uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: 631qtx5_iiR8HBYdp3duf2SMqdN0URE1AWVb85I_FFg
+      short-id: b12c3119d219dc
+    servername: no1.gofizz.in
+    client-fingerprint: ios
+  - name: node-07-anytls
+    type: anytls
+    server: sdf65h46wr.df6h451rh.xin
+    port: "443"
+    password: 0324fbc29561
+    sni: images.ctfassets.net
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
 
 proxy-groups:
   - name: AUTO
@@ -91,6 +114,8 @@ proxy-groups:
       - node-03-vless
       - node-04-vless
       - node-05-vless
+      - node-06-vless
+      - node-07-anytls
   - name: FALLBACK
     type: fallback
     url: 'https://www.gstatic.com/generate_204'
@@ -102,6 +127,8 @@ proxy-groups:
       - node-03-vless
       - node-04-vless
       - node-05-vless
+      - node-06-vless
+      - node-07-anytls
 
 rules:
   - DOMAIN-SUFFIX,local,DIRECT
