@@ -18,5 +18,6 @@ hy2://1beb216e3f60aea9555dae60d219a5ca@152-69-231-175.liao.kdns.fr:50160?insecur
 hy2://bce6c821-200d-421f-bf3d-7159e5246ea0@155.248.209.237:33333?insecure=1
 hysteria2://eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ@152.32.254.68:5010?insecure=0&sni=nas.aizhzo.com&obfs=salamander&obfs-password=7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
 hy2://H7mP2xY9kJ4nQ8wR5tF6vB3z@3.76.221.4:443?insecure=1
+hy2://d042d150716709bb778cc73889cddb02@138.2.89.249:443/?insecure=1&hop_interval=10&sni=www.bing.com&obfs=salamander&obfs-password=309502c4a8df10b46fb976d4a8c43f42
 hy2://maintell@152.70.237.123:2053?insecure=1
 hysteria2://d1gkicdgem3bsoaa@panel.autonetshop.ir:43345?security=tls&obfs=salamander&obfs-password=km9oqmefh2km1i5n&insecure=0&sni=panel.autonetshop.ir
