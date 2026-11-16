@@ -121,28 +121,7 @@ proxies:
     client-fingerprint: firefox
     grpc-opts:
       grpc-service-name: grpc
-  - name: node-09-ss
-    type: ss
-    server: 18.175.238.57
-    port: "443"
-    cipher: 2022-blake3-chacha20-poly1305
-    password: Cg2Dw4OhdBZhqbeO9ZTA3g/Gk/AvsrYZGhAJeGnQIx4=
-    udp: true
-  - name: node-10-ss
-    type: ss
-    server: 3.71.19.239
-    port: "443"
-    cipher: 2022-blake3-chacha20-poly1305
-    password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
-    udp: true
-  - name: node-11-ss
-    type: ss
-    server: 172.233.33.78
-    port: "25397"
-    cipher: chacha20-ietf-poly1305
-    password: 4wqzjbejkwh5ipep
-    udp: true
-  - name: node-12-anytls
+  - name: node-09-anytls
     type: anytls
     server: anytls2.864106.xyz
     port: "19000"
@@ -151,7 +130,7 @@ proxies:
     skip-cert-verify: true
     client-fingerprint: chrome
     udp: true
-  - name: node-13-anytls
+  - name: node-10-anytls
     type: anytls
     server: sdf65h46wr.df6h451rh.xin
     port: "443"
@@ -177,11 +156,8 @@ proxy-groups:
       - node-06-vless
       - node-07-vless
       - node-08-vless
-      - node-09-ss
-      - node-10-ss
-      - node-11-ss
-      - node-12-anytls
-      - node-13-anytls
+      - node-09-anytls
+      - node-10-anytls
   - name: FALLBACK
     type: fallback
     url: 'https://www.gstatic.com/generate_204'
@@ -196,11 +172,8 @@ proxy-groups:
       - node-06-vless
       - node-07-vless
       - node-08-vless
-      - node-09-ss
-      - node-10-ss
-      - node-11-ss
-      - node-12-anytls
-      - node-13-anytls
+      - node-09-anytls
+      - node-10-anytls
 
 rules:
   - DOMAIN-SUFFIX,local,DIRECT
