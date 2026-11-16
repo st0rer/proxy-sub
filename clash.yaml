@@ -229,23 +229,13 @@ proxies:
     udp: true
   - name: node-25-hy2
     type: hysteria2
-    server: 138.2.89.249
-    port: "443"
-    password: d042d150716709bb778cc73889cddb02
-    sni: www.bing.com
-    skip-cert-verify: true
-    udp: true
-    obfs: salamander
-    obfs-password: 309502c4a8df10b46fb976d4a8c43f42
-  - name: node-26-hy2
-    type: hysteria2
     server: 152.70.237.123
     port: "2053"
     password: maintell
     sni: 152.70.237.123
     skip-cert-verify: true
     udp: true
-  - name: node-27-hysteria2
+  - name: node-26-hysteria2
     type: hysteria2
     server: panel.autonetshop.ir
     port: "43345"
@@ -255,7 +245,7 @@ proxies:
     udp: true
     obfs: salamander
     obfs-password: km9oqmefh2km1i5n
-  - name: node-28-vless
+  - name: node-27-vless
     type: vless
     server: 200.169.179.233
     port: "443"
@@ -268,7 +258,7 @@ proxies:
     client-fingerprint: chrome
     grpc-opts:
       grpc-service-name: mobile.api.Event
-  - name: node-29-vless
+  - name: node-28-vless
     type: vless
     server: 201.24.121.243
     port: "443"
@@ -283,7 +273,7 @@ proxies:
       - h2
     grpc-opts:
       grpc-service-name: vlgrpc
-  - name: node-30-vless
+  - name: node-29-vless
     type: vless
     server: 201.34.133.20
     port: "443"
@@ -299,7 +289,7 @@ proxies:
       - http/1.1
     grpc-opts:
       grpc-service-name: glush.de3.v1
-  - name: node-31-vless
+  - name: node-30-vless
     type: vless
     server: 144.31.3.105
     port: "8443"
@@ -314,7 +304,7 @@ proxies:
     client-fingerprint: firefox
     grpc-opts:
       grpc-service-name: grpc
-  - name: node-32-vless
+  - name: node-31-vless
     type: vless
     server: 13e1cfg.plp1.h1cloud.net
     port: "443"
@@ -329,6 +319,13 @@ proxies:
     client-fingerprint: ios
     grpc-opts:
       grpc-service-name: d5d6142b8b66
+  - name: node-32-ss
+    type: ss
+    server: 90.156.203.62
+    port: "5112"
+    cipher: chacha20-ietf-poly1305
+    password: VVlAff77CnAU43Aoc5j15Y
+    udp: true
   - name: node-33-ss
     type: ss
     server: 3.79.47.19
@@ -520,13 +517,12 @@ proxies:
     cipher: 2022-blake3-chacha20-poly1305
     password: 3NBsnBLanPfG6i3S2GTHineswr6EeSJPb0PCeMQoGoA=
     udp: true
-  - name: node-51-vless
-    type: vless
-    server: 168.110.21.56
-    port: "18453"
-    uuid: 1751bebc-1bf1-420c-8b9d-97157aad179b
-    network: tcp
-    tls: false
+  - name: node-51-ss
+    type: ss
+    server: 92.5.150.247
+    port: "59924"
+    cipher: 2022-blake3-chacha20-poly1305
+    password: igIYdO+UOVn50088y6pqhAzq3VFj/zrFQMKu28vkW0E=
     udp: true
   - name: node-52-vless
     type: vless
@@ -548,14 +544,35 @@ proxies:
     cipher: 2022-blake3-aes-256-gcm
     password: "sUR6Ny8Y6PSvHhl/DUxconwxg6VZyFdsdfaVCvEatJo=:7bTEhHgpErKiRjE1ega+H6pcpJsNLFB0CjQseujAHrA="
     udp: true
-  - name: node-54-ss
-    type: ss
-    server: 158.180.15.158
-    port: "45819"
-    cipher: 2022-blake3-chacha20-poly1305
-    password: fkw1W2oQj+k3UVZq5FrzPbNE0jCdYUvvluFTih3qSh8=
+  - name: node-54-vless
+    type: vless
+    server: 196.196.149.20
+    port: "443"
+    uuid: 4618cebd-e1e9-45c3-be98-d9d6e3ee8bef
+    network: grpc
+    tls: true
     udp: true
+    reality-opts:
+      public-key: C_DlyXDDS4fWcAlxb-6O7LBKtq28fg2slCrH5tPaTQ4
+      short-id: 16cea10606a4e401
+    servername: a566d1g.de18.h1clayd.click
+    client-fingerprint: firefox
+    grpc-opts:
+      grpc-service-name: 98b9c56e8ebb
   - name: node-55-vless
+    type: vless
+    server: 196.196.149.20
+    port: "443"
+    uuid: 16f3d526-8cf8-4af5-a86f-b023c5b52085
+    network: tcp
+    tls: true
+    udp: true
+    reality-opts:
+      public-key: lneTk9CP66okHF_VgXVaSj_QNpRzEmvrAmRxmux5JVU
+      short-id: 08485ad122fafbd5
+    servername: f3b21at.de18.h1clayd.click
+    client-fingerprint: firefox
+  - name: node-56-vless
     type: vless
     server: 79.182.39.138
     port: "443"
@@ -570,7 +587,7 @@ proxies:
     client-fingerprint: chrome
     grpc-opts:
       grpc-service-name: 43f41cd7fee0
-  - name: node-56-vless
+  - name: node-57-vless
     type: vless
     server: ec7a81g.de19.h1clayd.click
     port: "443"
@@ -585,7 +602,7 @@ proxies:
     client-fingerprint: chrome
     grpc-opts:
       grpc-service-name: 43f41cd7fee0
-  - name: node-57-vless
+  - name: node-58-vless
     type: vless
     server: 345739t.de19.h1clayd.click
     port: "443"
@@ -598,12 +615,21 @@ proxies:
       short-id: 23732d14a527990d
     servername: 345739t.de19.h1clayd.click
     client-fingerprint: chrome
-  - name: node-58-anytls
+  - name: node-59-anytls
     type: anytls
     server: sdf65h46wr.df6h451rh.xin
     port: "443"
     password: 0324fbc29561
     sni: images.ctfassets.net
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
+  - name: node-60-anytls
+    type: anytls
+    server: forwarded.frnhk.xyz
+    port: "2053"
+    password: 7c93d2c4-ebe2-456a-a10e-d650112fa286
+    sni: my.gosthk.site
     skip-cert-verify: true
     client-fingerprint: chrome
     udp: true
@@ -641,13 +667,13 @@ proxy-groups:
       - node-23-hysteria2
       - node-24-hy2
       - node-25-hy2
-      - node-26-hy2
-      - node-27-hysteria2
+      - node-26-hysteria2
+      - node-27-vless
       - node-28-vless
       - node-29-vless
       - node-30-vless
       - node-31-vless
-      - node-32-vless
+      - node-32-ss
       - node-33-ss
       - node-34-ss
       - node-35-vless
@@ -666,14 +692,16 @@ proxy-groups:
       - node-48-vless
       - node-49-ss
       - node-50-ss
-      - node-51-vless
+      - node-51-ss
       - node-52-vless
       - node-53-ss
-      - node-54-ss
+      - node-54-vless
       - node-55-vless
       - node-56-vless
       - node-57-vless
-      - node-58-anytls
+      - node-58-vless
+      - node-59-anytls
+      - node-60-anytls
   - name: FALLBACK
     type: fallback
     url: 'https://www.gstatic.com/generate_204'
@@ -705,13 +733,13 @@ proxy-groups:
       - node-23-hysteria2
       - node-24-hy2
       - node-25-hy2
-      - node-26-hy2
-      - node-27-hysteria2
+      - node-26-hysteria2
+      - node-27-vless
       - node-28-vless
       - node-29-vless
       - node-30-vless
       - node-31-vless
-      - node-32-vless
+      - node-32-ss
       - node-33-ss
       - node-34-ss
       - node-35-vless
@@ -730,14 +758,16 @@ proxy-groups:
       - node-48-vless
       - node-49-ss
       - node-50-ss
-      - node-51-vless
+      - node-51-ss
       - node-52-vless
       - node-53-ss
-      - node-54-ss
+      - node-54-vless
       - node-55-vless
       - node-56-vless
       - node-57-vless
-      - node-58-anytls
+      - node-58-vless
+      - node-59-anytls
+      - node-60-anytls
 
 rules:
   - DOMAIN-SUFFIX,local,DIRECT
