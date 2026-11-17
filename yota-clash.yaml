@@ -7,33 +7,32 @@ ipv6: false
 proxies:
   - name: node-01-vless
     type: vless
-    server: 195.206.235.34
+    server: 5.253.86.3
     port: "443"
-    uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+    uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
     reality-opts:
-      public-key: VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA
-      short-id: 8d0d0679f42ffd98
-    servername: 8a2e72t.nl11.h1clayd.click
-    client-fingerprint: chrome
+      public-key: 51ZCyVOxvcD_smARtd9mV-3Rh_WurOzMGRFxk9u2Kgo
+      short-id: fa1754221e4c5f9e
+    servername: nl3.gofizz.in
+    client-fingerprint: firefox
   - name: node-02-vless
     type: vless
-    server: 801a40g.de14.h1clayd.click
-    port: "443"
-    uuid: 2208b003-78b1-453c-b5ca-ce847ff0efd6
-    network: grpc
+    server: 178.18.158.17
+    port: "43000"
+    uuid: 0809eed6-5204-49b8-8312-b82a10024022
+    network: tcp
     tls: true
     udp: true
+    flow: xtls-rprx-vision
     reality-opts:
-      public-key: tXovWVNlInVZuMVIQLpSbb__RuTUEZKyhjcdpBrThBY
-      short-id: caa2bd1009a29530
-    servername: 801a40g.de14.h1clayd.click
+      public-key: U_dxFnbfesmgSwL-SlpvGYFbpY5vlJ1kb52knlCXkkI
+      short-id: 8cfe1563
+    servername: 178.18.158.17
     client-fingerprint: firefox
-    grpc-opts:
-      grpc-service-name: 0136d39d9d85
   - name: node-03-vless
     type: vless
     server: 195.110.15.19
@@ -50,6 +49,20 @@ proxies:
     client-fingerprint: firefox
   - name: node-04-vless
     type: vless
+    server: 193.243.189.64
+    port: "443"
+    uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: 631qtx5_iiR8HBYdp3duf2SMqdN0URE1AWVb85I_FFg
+      short-id: b12c3119d219dc
+    servername: no1.gofizz.in
+    client-fingerprint: ios
+  - name: node-05-vless
+    type: vless
     server: 45.150.108.180
     port: "443"
     uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3
@@ -62,7 +75,60 @@ proxies:
       short-id: dc1bf50b0e0a
     servername: il1.gofizzin.com
     client-fingerprint: firefox
-  - name: node-05-anytls
+  - name: " DE 06 [vless]"
+    type: vless
+    server: ec7a81g.de19.h1clayd.click
+    port: "443"
+    uuid: 07df3711-07a1-4649-9a61-3f16cb931d02
+    network: grpc
+    tls: true
+    udp: true
+    reality-opts:
+      public-key: shUbIWcBJdXaDzO80KqTU9exgMarUCOiiZ56Dwl7XVU
+      short-id: 7a8e24da4eb2c1b5
+    servername: ec7a81g.de19.h1clayd.click
+    client-fingerprint: chrome
+    grpc-opts:
+      grpc-service-name: 43f41cd7fee0
+  - name: " DE 07 [vless]"
+    type: vless
+    server: 345739t.de19.h1clayd.click
+    port: "443"
+    uuid: 07df3711-07a1-4649-9a61-3f16cb931d02
+    network: tcp
+    tls: true
+    udp: true
+    reality-opts:
+      public-key: hFee7zTreqlv_wccK_8zxN5v23hj9u-DshByvGf-KAA
+      short-id: 23732d14a527990d
+    servername: 345739t.de19.h1clayd.click
+    client-fingerprint: chrome
+  - name: node-08-vless
+    type: vless
+    server: 801a40g.de14.h1clayd.click
+    port: "443"
+    uuid: 2208b003-78b1-453c-b5ca-ce847ff0efd6
+    network: grpc
+    tls: true
+    udp: true
+    reality-opts:
+      public-key: tXovWVNlInVZuMVIQLpSbb__RuTUEZKyhjcdpBrThBY
+      short-id: caa2bd1009a29530
+    servername: 801a40g.de14.h1clayd.click
+    client-fingerprint: firefox
+    grpc-opts:
+      grpc-service-name: 0136d39d9d85
+  - name: " SE 09 [hysteria2]"
+    type: hysteria2
+    server: m1.config7x.kz.ci
+    port: "26206"
+    password: Telegram--CONFIG7X--CONFIG7X--CONFIG7X--CONFIG7X--CONFIG7X--CONFIG7X--CONFIG7X--CONFIG7X-
+    sni: config7x.de5.net
+    skip-cert-verify: false
+    udp: true
+    obfs: salamander
+    obfs-password: vxvnmus9agdzduvz
+  - name: node-10-anytls
     type: anytls
     server: sdf65h46wr.df6h451rh.xin
     port: "443"
@@ -84,7 +150,12 @@ proxy-groups:
       - node-02-vless
       - node-03-vless
       - node-04-vless
-      - node-05-anytls
+      - node-05-vless
+      - " DE 06 [vless]"
+      - " DE 07 [vless]"
+      - node-08-vless
+      - " SE 09 [hysteria2]"
+      - node-10-anytls
   - name: FALLBACK
     type: fallback
     url: 'https://www.gstatic.com/generate_204'
@@ -95,7 +166,12 @@ proxy-groups:
       - node-02-vless
       - node-03-vless
       - node-04-vless
-      - node-05-anytls
+      - node-05-vless
+      - " DE 06 [vless]"
+      - " DE 07 [vless]"
+      - node-08-vless
+      - " SE 09 [hysteria2]"
+      - node-10-anytls
 
 rules:
   - DOMAIN-SUFFIX,local,DIRECT
