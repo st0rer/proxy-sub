@@ -155,7 +155,14 @@ proxies:
     sni: 127.0.0.1
     skip-cert-verify: true
     udp: true
-  - name: node-18-vless
+  - name: node-18-ss
+    type: ss
+    server: 47.245.173.25
+    port: "443"
+    cipher: 2022-blake3-chacha20-poly1305
+    password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
+    udp: true
+  - name: node-19-vless
     type: vless
     server: 201.24.121.243
     port: "443"
@@ -170,19 +177,6 @@ proxies:
       - h2
     grpc-opts:
       grpc-service-name: vlgrpc
-  - name: node-19-vless
-    type: vless
-    server: 147.45.108.45
-    port: "443"
-    uuid: 1e2b9c0c-4f9b-56f5-a062-1c4f2d2aa200
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: IuzAWh6UM62Txrnh_No9y5n6wmZecyR1ki8z5xor-0g
-    servername: absolute-disaster.org
-    client-fingerprint: chrome
   - name: node-20-ss
     type: ss
     server: 47.245.167.223
@@ -211,27 +205,7 @@ proxies:
     cipher: 2022-blake3-chacha20-poly1305
     password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
     udp: true
-  - name: " DE 24 [ss]"
-    type: ss
-    server: 47.245.173.25
-    port: "443"
-    cipher: 2022-blake3-chacha20-poly1305
-    password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
-    udp: true
-  - name: " DE 25 [vless]"
-    type: vless
-    server: 345739t.de19.h1clayd.click
-    port: "443"
-    uuid: 07df3711-07a1-4649-9a61-3f16cb931d02
-    network: tcp
-    tls: true
-    udp: true
-    reality-opts:
-      public-key: hFee7zTreqlv_wccK_8zxN5v23hj9u-DshByvGf-KAA
-      short-id: 23732d14a527990d
-    servername: 345739t.de19.h1clayd.click
-    client-fingerprint: chrome
-  - name: " RU 26 [vless]"
+  - name: " RU 24 [vless]"
     type: vless
     server: 200.169.179.233
     port: "443"
@@ -244,7 +218,7 @@ proxies:
     client-fingerprint: chrome
     grpc-opts:
       grpc-service-name: mobile.api.Event
-  - name: " DE 27 [vless]"
+  - name: " DE 25 [vless]"
     type: vless
     server: 193.163.203.170
     port: "443"
@@ -284,16 +258,14 @@ proxy-groups:
       - node-15-hysteria2
       - node-16-hysteria2
       - node-17-hy2
-      - node-18-vless
+      - node-18-ss
       - node-19-vless
       - node-20-ss
       - " US 21 [ss]"
       - node-22-ss
       - " DE 23 [ss]"
-      - " DE 24 [ss]"
+      - " RU 24 [vless]"
       - " DE 25 [vless]"
-      - " RU 26 [vless]"
-      - " DE 27 [vless]"
   - name: FALLBACK
     type: fallback
     url: 'https://www.gstatic.com/generate_204'
@@ -317,16 +289,14 @@ proxy-groups:
       - node-15-hysteria2
       - node-16-hysteria2
       - node-17-hy2
-      - node-18-vless
+      - node-18-ss
       - node-19-vless
       - node-20-ss
       - " US 21 [ss]"
       - node-22-ss
       - " DE 23 [ss]"
-      - " DE 24 [ss]"
+      - " RU 24 [vless]"
       - " DE 25 [vless]"
-      - " RU 26 [vless]"
-      - " DE 27 [vless]"
 
 rules:
   - DOMAIN-SUFFIX,local,DIRECT
