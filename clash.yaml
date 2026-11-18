@@ -185,7 +185,22 @@ proxies:
     sni: 127.0.0.1
     skip-cert-verify: true
     udp: true
-  - name: " GB 22 [vless]"
+  - name: node-22-vless
+    type: vless
+    server: lodizu.hagrid-connected.com
+    port: "443"
+    uuid: beda6bd0-7ce4-477a-91f1-860d018dbfcb
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: lodizu.hagrid-connected.com
+    skip-cert-verify: true
+    client-fingerprint: firefox
+    alpn:
+      - h2
+      - http/1.1
+  - name: " GB 23 [vless]"
     type: vless
     server: 167.104.223.233
     port: "8443"
@@ -200,7 +215,7 @@ proxies:
       - h2
     grpc-opts:
       grpc-service-name: vlgrpc
-  - name: " DE 23 [vless]"
+  - name: " DE 24 [vless]"
     type: vless
     server: 144.31.242.143
     port: "8443"
@@ -215,7 +230,7 @@ proxies:
       - h2
     grpc-opts:
       grpc-service-name: vlgrpc
-  - name: " DE 24 [vless]"
+  - name: " DE 25 [vless]"
     type: vless
     server: 144.31.219.238
     port: "8443"
@@ -230,23 +245,6 @@ proxies:
       - h2
     grpc-opts:
       grpc-service-name: vlgrpc
-  - name: " DE 25 [vless]"
-    type: vless
-    server: deployedhazde.shimobile.net
-    port: "8443"
-    uuid: 1b0b1650-5125-43a1-a6bb-9886623f4bf9
-    network: xhttp
-    tls: true
-    udp: true
-    servername: static.shimobile.net
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    alpn:
-      - h2
-      - http/1.1
-    xhttp-opts:
-      path: /v2/ledger/stream
-      mode: stream-one
   - name: " NL 26 [vless]"
     type: vless
     server: 171.22.133.101
@@ -351,42 +349,35 @@ proxies:
     cipher: 2022-blake3-chacha20-poly1305
     password: qG5HzrJO2OAzMFY6WDz991qHHonSP2ix6l6jKlHwokY=
     udp: true
-  - name: " US 35 [ss]"
-    type: ss
-    server: 77.90.10.175
-    port: "8086"
-    cipher: 2022-blake3-aes-256-gcm
-    password: "f2Nq5YLnyclPaWR8my7/Vdd3ZX8URncXZNly5+HcUSs=:dQ6WYcPpGX5xIxUVPAR8w1A9eY6kEVoKKW3HleJ6o8Y="
-    udp: true
-  - name: " DE 36 [ss]"
+  - name: " DE 35 [ss]"
     type: ss
     server: 92.5.153.134
     port: "59924"
     cipher: 2022-blake3-chacha20-poly1305
     password: ZCkdI8a7Yd/8gR8mUS2JICtiTwRlfytt3kzMf3WLTvw=
     udp: true
-  - name: " DE 37 [ss]"
+  - name: " DE 36 [ss]"
     type: ss
     server: 47.85.162.44
     port: "443"
     cipher: 2022-blake3-chacha20-poly1305
     password: 3NBsnBLanPfG6i3S2GTHineswr6EeSJPb0PCeMQoGoA=
     udp: true
-  - name: " DE 38 [ss]"
+  - name: " DE 37 [ss]"
     type: ss
     server: 3.122.241.248
     port: "443"
     cipher: 2022-blake3-chacha20-poly1305
     password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
     udp: true
-  - name: " DE 39 [ss]"
+  - name: " DE 38 [ss]"
     type: ss
     server: 47.245.173.25
     port: "443"
     cipher: 2022-blake3-chacha20-poly1305
     password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
     udp: true
-  - name: " JP 40 [ss]"
+  - name: " JP 39 [ss]"
     type: ss
     server: 18.176.55.211
     port: "2377"
@@ -397,7 +388,7 @@ proxies:
     plugin-opts:
       mode: tls
       host: "(Telegram @VPNine1)2fed698:63225"
-  - name: " NL 41 [ss]"
+  - name: " NL 40 [ss]"
     type: ss
     server: 144.21.35.158
     port: "45819"
@@ -434,8 +425,8 @@ proxy-groups:
       - node-19-hysteria2
       - node-20-hysteria2
       - node-21-hy2
-      - " GB 22 [vless]"
-      - " DE 23 [vless]"
+      - node-22-vless
+      - " GB 23 [vless]"
       - " DE 24 [vless]"
       - " DE 25 [vless]"
       - " NL 26 [vless]"
@@ -447,13 +438,12 @@ proxy-groups:
       - " DE 32 [ss]"
       - " DE 33 [ss]"
       - " US 34 [ss]"
-      - " US 35 [ss]"
+      - " DE 35 [ss]"
       - " DE 36 [ss]"
       - " DE 37 [ss]"
       - " DE 38 [ss]"
-      - " DE 39 [ss]"
-      - " JP 40 [ss]"
-      - " NL 41 [ss]"
+      - " JP 39 [ss]"
+      - " NL 40 [ss]"
   - name: FALLBACK
     type: fallback
     url: 'https://www.gstatic.com/generate_204'
@@ -481,8 +471,8 @@ proxy-groups:
       - node-19-hysteria2
       - node-20-hysteria2
       - node-21-hy2
-      - " GB 22 [vless]"
-      - " DE 23 [vless]"
+      - node-22-vless
+      - " GB 23 [vless]"
       - " DE 24 [vless]"
       - " DE 25 [vless]"
       - " NL 26 [vless]"
@@ -494,13 +484,12 @@ proxy-groups:
       - " DE 32 [ss]"
       - " DE 33 [ss]"
       - " US 34 [ss]"
-      - " US 35 [ss]"
+      - " DE 35 [ss]"
       - " DE 36 [ss]"
       - " DE 37 [ss]"
       - " DE 38 [ss]"
-      - " DE 39 [ss]"
-      - " JP 40 [ss]"
-      - " NL 41 [ss]"
+      - " JP 39 [ss]"
+      - " NL 40 [ss]"
 
 rules:
   - DOMAIN-SUFFIX,local,DIRECT
