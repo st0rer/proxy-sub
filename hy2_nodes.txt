@@ -2,11 +2,8 @@ hy2://41edb44c8e@103.88.243.142:11592?insecure=1&sni=103.88.243.142
 hysteria2://ff0343ad-1c9f-4986-8c62-c01935b508ca@153.56.210.134:57251?insecure=1&obfs=salamander&obfs-password=0ee2089e-70df-4c30-bfea-1fb9be61d93e&sni=www.bing.com
 hysteria2://a81a7b45-dd70-42ef-822f-ef467f944382@153.56.210.134:38045?insecure=1&obfs=salamander&obfs-password=642516f2-f9bd-41ce-9904-dee699c39cf9&sni=www.bing.com
 hy2://H7mP2xY9kJ4nQ8wR5tF6vB3z@13.36.234.11:443?insecure=1
-hysteria2://92bd8c68-6434-11ee-b644-f23c91cfbbc9@3de2432e-tmm5c0-tonrqx-1khwf.hk3.hyhuawei.com:443?insecure=1&sni=3de2432e-tmm5c0-tonrqx-1khwf.hk3.hyhuawei.com
 hysteria2://c8ed6cd1-6566-4f7a-819e-1c55b2b360c9@153.56.210.134:34121?insecure=1&obfs=salamander&obfs-password=9a33460c-b037-47aa-a606-d04211f4e0ec&sni=www.bing.com
-hysteria2://8294f130408299df8cab08c80bf6f819@24.233.8.109:443?insecure=1&obfs=salamander&obfs-password=c8827ab99e316c5bd414e21afa915ddf&sni=www.bing.com
 hysteria2://5fa748137b6d822308eea4611f474ad5@155.117.19.17:443?insecure=1&obfs=salamander&obfs-password=a39ca173b57ac7021b08bf3e3de9f1f6&sni=www.bing.com
-hysteria2://AIcYjw5Oc9Rrrr9SGDUBbBIC@38.76.150.108:36712?insecure=1&sni=38.76.150.108
 hy2://qQe1z5kU8kN6SlKnDt9Ru3Qp@47.129.241.99:443?insecure=1&sni=127.0.0.1
 hy2://3d7634af8cb2c6cb4bac1c0efad8b43d@152.67.200.82:50160?insecure=1
 hy2://maintell@152.70.237.123:2053?insecure=1
@@ -17,10 +14,7 @@ hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@54.179.113.70:443?insecure=1&sni=vpn-sg-001
 hysteria2://633bc3be486b646190661ac2387c150a@152.67.115.203:443?insecure=1&obfs=salamander&obfs-password=850a3fb1cd33a28f12d837578ae1a2e7&sni=www.bing.com
 hy2://H7mP2xY9kJ4nQ8wR5tF6vB3z@18.153.65.67:443?insecure=1
 hy2://H7mP2xY9kJ4nQ8wR5tF6vB3z@3.69.232.199:443?insecure=1
-hysteria2://b42d90fa667942aebc734d60@159.13.55.48:20000?insecure=1&obfs=salamander&obfs-password=b42d90fa667942aebc734d60&sni=hy2-au2.whuiy.xyz&mport=20000-30000
 hysteria2://eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ@152.32.254.68:5010?insecure=0&sni=nas.aizhzo.com&obfs=salamander&obfs-password=7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
-hysteria2://7e68e32f-8015-4f37-9082-70e8b0b58043@15.165.15.91:443/?sni=www.bing.com&insecure=1&pinSHA256=89%3A61%3A86%3AFE%3AB2%3A0C%3AB7%3A40%3A31%3A87%3AA4%3A5F%3AF3%3ABD%3A5D%3ADC%3A8B%3AFB%3ADD%3A41%3A9D%3A77%3A9D%3A55%3AD7%3A86%3A18%3A9D%3A36%3A73%3A1A%3A69&pcs=896186feb20cb7403187a45ff3bd5ddc8bfbdd419d779d55d786189d36731a69
-hysteria2://7e68e32f-8015-4f37-9082-70e8b0b58043@56.10.146.231:443/?sni=www.bing.com&insecure=1&pinSHA256=C1%3AFD%3A40%3A94%3A1F%3A91%3A9B%3A5C%3A78%3A96%3A24%3A40%3A97%3AF2%3A2D%3A9D%3A95%3A8E%3A62%3A5C%3AD9%3A58%3AB7%3A5F%3A34%3ACC%3AFA%3A42%3A18%3A1F%3A50%3AB2&pcs=c1fd40941f919b5c7896244097f22d9d958e625cd958b75f34ccfa42181f50b2
 hy2://qQe1z5kU8kN6SlKnDt9Ru3Qp@13.212.78.215:443?insecure=1&sni=vpn-sg-001.fastervpn.world
 hysteria2://41edb44c8e@srv-17e124.21freedom.net:11592?insecure=1&security=tls&sni=srv-17e124#%F0%9F%87%B7%F0%9F%87%BA216756%20%7C%20%E2%9A%A1%EF%B8%8FTelegram%20%3D%20t.me%2FSOSkeyNET
 hy2://41edb44c8e@srv-17e124.21freedom.net:11592/?insecure=1&sni=127.0.0.1
