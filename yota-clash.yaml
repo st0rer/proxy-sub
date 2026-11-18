@@ -149,14 +149,7 @@ proxies:
     cipher: 2022-blake3-chacha20-poly1305
     password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
     udp: true
-  - name: " KR 12 [ss]"
-    type: ss
-    server: 15.165.15.91
-    port: "8443"
-    cipher: chacha20-ietf-poly1305
-    password: 7e68e32f-8015-4f37-9082-70e8b0b58043
-    udp: true
-  - name: " DE 13 [hysteria2]"
+  - name: " DE 12 [hysteria2]"
     type: hysteria2
     server: 179.61.138.145
     port: "36264"
@@ -166,7 +159,7 @@ proxies:
     udp: true
     obfs: salamander
     obfs-password: "Telegram@vpnjey"
-  - name: " HK 14 [hysteria2]"
+  - name: " HK 13 [hysteria2]"
     type: hysteria2
     server: 24.233.8.109
     port: "443"
@@ -176,7 +169,7 @@ proxies:
     udp: true
     obfs: salamander
     obfs-password: c8827ab99e316c5bd414e21afa915ddf
-  - name: " BR 15 [hysteria2]"
+  - name: " BR 14 [hysteria2]"
     type: hysteria2
     server: 137.131.177.121
     port: "20000"
@@ -186,7 +179,7 @@ proxies:
     udp: true
     obfs: salamander
     obfs-password: z/yIxn3sBV03PkAxbnX8rg==
-  - name: " DE 16 [hy2]"
+  - name: " DE 15 [hy2]"
     type: hysteria2
     server: 18.193.79.104
     port: "443"
@@ -194,7 +187,7 @@ proxies:
     sni: 18.193.79.104
     skip-cert-verify: true
     udp: true
-  - name: " DE 17 [hy2]"
+  - name: " DE 16 [hy2]"
     type: hysteria2
     server: 3.76.221.4
     port: "443"
@@ -202,7 +195,7 @@ proxies:
     sni: 3.76.221.4
     skip-cert-verify: true
     udp: true
-  - name: " DE 18 [hysteria2]"
+  - name: " DE 17 [hysteria2]"
     type: hysteria2
     server: 3.76.203.180
     port: "443"
@@ -210,7 +203,7 @@ proxies:
     sni: "off"
     skip-cert-verify: true
     udp: true
-  - name: " KR 19 [hysteria2]"
+  - name: " KR 18 [hysteria2]"
     type: hysteria2
     server: 15.165.15.91
     port: "443"
@@ -238,14 +231,13 @@ proxy-groups:
       - " DE 09 [ss]"
       - " DE 10 [ss]"
       - " DE 11 [ss]"
-      - " KR 12 [ss]"
-      - " DE 13 [hysteria2]"
-      - " HK 14 [hysteria2]"
-      - " BR 15 [hysteria2]"
+      - " DE 12 [hysteria2]"
+      - " HK 13 [hysteria2]"
+      - " BR 14 [hysteria2]"
+      - " DE 15 [hy2]"
       - " DE 16 [hy2]"
-      - " DE 17 [hy2]"
-      - " DE 18 [hysteria2]"
-      - " KR 19 [hysteria2]"
+      - " DE 17 [hysteria2]"
+      - " KR 18 [hysteria2]"
   - name: FALLBACK
     type: fallback
     url: 'https://www.gstatic.com/generate_204'
@@ -263,14 +255,13 @@ proxy-groups:
       - " DE 09 [ss]"
       - " DE 10 [ss]"
       - " DE 11 [ss]"
-      - " KR 12 [ss]"
-      - " DE 13 [hysteria2]"
-      - " HK 14 [hysteria2]"
-      - " BR 15 [hysteria2]"
+      - " DE 12 [hysteria2]"
+      - " HK 13 [hysteria2]"
+      - " BR 14 [hysteria2]"
+      - " DE 15 [hy2]"
       - " DE 16 [hy2]"
-      - " DE 17 [hy2]"
-      - " DE 18 [hysteria2]"
-      - " KR 19 [hysteria2]"
+      - " DE 17 [hysteria2]"
+      - " KR 18 [hysteria2]"
 
 rules:
   - DOMAIN-SUFFIX,local,DIRECT
