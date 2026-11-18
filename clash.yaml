@@ -195,7 +195,14 @@ proxies:
     sni: 127.0.0.1
     skip-cert-verify: true
     udp: true
-  - name: node-23-vless
+  - name: node-23-ss
+    type: ss
+    server: 47.245.173.25
+    port: "443"
+    cipher: 2022-blake3-chacha20-poly1305
+    password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
+    udp: true
+  - name: node-24-vless
     type: vless
     server: 199.232.78.120
     port: "443"
@@ -210,7 +217,7 @@ proxies:
       path: /
       headers:
         Host: ushetzijji.global.ssl.fastly.net.
-  - name: node-24-vless
+  - name: node-25-vless
     type: vless
     server: zfapi.zalolink.com
     port: "54528"
@@ -224,7 +231,7 @@ proxies:
       short-id: 54cca3c1c1c7
     servername: www.apple.com
     client-fingerprint: chrome
-  - name: node-25-vless
+  - name: node-26-vless
     type: vless
     server: zfapi.zalolink.com
     port: "47691"
@@ -238,60 +245,21 @@ proxies:
       short-id: 2905326a
     servername: m.media-amazon.com
     client-fingerprint: chrome
-  - name: node-26-vless
-    type: vless
-    server: zfapi.zalolink.com
-    port: "30322"
-    uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: 5gncThwqPFzLu23WO3mPTEhG7-KgVYlGVvveHjM2SUo
-      short-id: 6a60e7e382d6
-    servername: psstatic.cdn.bcebos.com
-    client-fingerprint: random
-  - name: " PL 27 [vless]"
-    type: vless
-    server: 141.11.203.165
-    port: "443"
-    uuid: 003ec416-45f0-462a-8030-016fe0a71703
-    network: xhttp
-    tls: true
-    udp: true
-    servername: 186.baklajann.ru
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    alpn:
-      - h2
-      - http/1.1
-    xhttp-opts:
-      path: /
-      host: 186.baklajann.ru
-      mode: auto
-  - name: " NL 28 [ss]"
+  - name: " NL 27 [ss]"
     type: ss
     server: 144.21.35.158
     port: "45819"
     cipher: 2022-blake3-chacha20-poly1305
     password: rx1e8SsjGM7ZKlR0tLnzSWoxhyRRJJrcTccM3uMu+Rc=
     udp: true
-  - name: " DE 29 [ss]"
-    type: ss
-    server: 3.121.208.76
-    port: "443"
-    cipher: 2022-blake3-chacha20-poly1305
-    password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
-    udp: true
-  - name: " DE 30 [ss]"
+  - name: " DE 28 [ss]"
     type: ss
     server: 47.245.174.67
     port: "443"
     cipher: 2022-blake3-chacha20-poly1305
     password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
     udp: true
-  - name: " DE 31 [vless]"
+  - name: " DE 29 [vless]"
     type: vless
     server: 91.107.177.172
     port: "443"
@@ -302,28 +270,14 @@ proxies:
     servername: mergo.vpn.iiproxy.com
     skip-cert-verify: true
     client-fingerprint: firefox
-  - name: " TR 32 [ss]"
-    type: ss
-    server: 206.1.103.22
-    port: "44364"
-    cipher: 2022-blake3-aes-256-gcm
-    password: "Bz8UfpIg1mfq1NKzWJHCqMJKnir+XnFlmg66uhQwadg=:JUq5CmRM+NCKAIwhqfiVvKX/UJnYaGelTBzBQsQFrAY="
-    udp: true
-  - name: " SG 33 [ss]"
+  - name: " SG 30 [ss]"
     type: ss
     server: 129.150.59.74
     port: "14384"
     cipher: 2022-blake3-aes-256-gcm
     password: "sUR6Ny8Y6PSvHhl/DUxconwxg6VZyFdsdfaVCvEatJo=:7bTEhHgpErKiRjE1ega+H6pcpJsNLFB0CjQseujAHrA="
     udp: true
-  - name: " GB 34 [ss]"
-    type: ss
-    server: 129.151.82.175
-    port: "61312"
-    cipher: 2022-blake3-chacha20-poly1305
-    password: iXCjp4xDS0peZbXuug3rNopAlTQsVF/86+PkbFTv5JI=
-    udp: true
-  - name: " US 35 [vless]"
+  - name: " US 31 [vless]"
     type: vless
     server: 162.159.249.92
     port: "443"
@@ -338,7 +292,7 @@ proxies:
       path: ?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
       headers:
         Host: dd-xx.pages.dev
-  - name: node-36-vless
+  - name: node-32-vless
     type: vless
     server: 201.24.121.243
     port: "443"
@@ -353,14 +307,14 @@ proxies:
       - h2
     grpc-opts:
       grpc-service-name: vlgrpc
-  - name: node-37-ss
+  - name: node-33-ss
     type: ss
     server: 129.146.61.90
     port: "50356"
     cipher: 2022-blake3-chacha20-poly1305
     password: qG5HzrJO2OAzMFY6WDz991qHHonSP2ix6l6jKlHwokY=
     udp: true
-  - name: node-38-vless
+  - name: node-34-vless
     type: vless
     server: 200.169.179.233
     port: "443"
@@ -373,7 +327,7 @@ proxies:
     client-fingerprint: chrome
     grpc-opts:
       grpc-service-name: mobile.api.Event
-  - name: node-39-vless
+  - name: node-35-vless
     type: vless
     server: 193.163.203.170
     port: "443"
@@ -418,23 +372,19 @@ proxy-groups:
       - " KR 20 [hy2]"
       - node-21-hysteria2
       - node-22-hy2
-      - node-23-vless
+      - node-23-ss
       - node-24-vless
       - node-25-vless
       - node-26-vless
-      - " PL 27 [vless]"
-      - " NL 28 [ss]"
-      - " DE 29 [ss]"
-      - " DE 30 [ss]"
-      - " DE 31 [vless]"
-      - " TR 32 [ss]"
-      - " SG 33 [ss]"
-      - " GB 34 [ss]"
-      - " US 35 [vless]"
-      - node-36-vless
-      - node-37-ss
-      - node-38-vless
-      - node-39-vless
+      - " NL 27 [ss]"
+      - " DE 28 [ss]"
+      - " DE 29 [vless]"
+      - " SG 30 [ss]"
+      - " US 31 [vless]"
+      - node-32-vless
+      - node-33-ss
+      - node-34-vless
+      - node-35-vless
   - name: FALLBACK
     type: fallback
     url: 'https://www.gstatic.com/generate_204'
@@ -463,23 +413,19 @@ proxy-groups:
       - " KR 20 [hy2]"
       - node-21-hysteria2
       - node-22-hy2
-      - node-23-vless
+      - node-23-ss
       - node-24-vless
       - node-25-vless
       - node-26-vless
-      - " PL 27 [vless]"
-      - " NL 28 [ss]"
-      - " DE 29 [ss]"
-      - " DE 30 [ss]"
-      - " DE 31 [vless]"
-      - " TR 32 [ss]"
-      - " SG 33 [ss]"
-      - " GB 34 [ss]"
-      - " US 35 [vless]"
-      - node-36-vless
-      - node-37-ss
-      - node-38-vless
-      - node-39-vless
+      - " NL 27 [ss]"
+      - " DE 28 [ss]"
+      - " DE 29 [vless]"
+      - " SG 30 [ss]"
+      - " US 31 [vless]"
+      - node-32-vless
+      - node-33-ss
+      - node-34-vless
+      - node-35-vless
 
 rules:
   - DOMAIN-SUFFIX,local,DIRECT
