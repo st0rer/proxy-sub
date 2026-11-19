@@ -321,63 +321,75 @@ proxies:
     client-fingerprint: chrome
     grpc-opts:
       grpc-service-name: mobile.api.Event
-  - name: " DE 31 [ss]"
+  - name: node-31-vless
+    type: vless
+    server: 104.21.227.134
+    port: "80"
+    uuid: 0991a0c4-0ee5-4213-af89-7ad589f853f3
+    network: ws
+    tls: false
+    udp: true
+    ws-opts:
+      path: ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY----ELiV2-RAY
+      headers:
+        Host: elenaaaaaaaaaa.cloudns.pro
+  - name: " DE 32 [ss]"
     type: ss
     server: 3.8.236.216
     port: "443"
     cipher: 2022-blake3-chacha20-poly1305
     password: Cg2Dw4OhdBZhqbeO9ZTA3g/Gk/AvsrYZGhAJeGnQIx4=
     udp: true
-  - name: " DE 32 [ss]"
+  - name: " DE 33 [ss]"
     type: ss
     server: 18.134.253.71
     port: "443"
     cipher: 2022-blake3-chacha20-poly1305
     password: Cg2Dw4OhdBZhqbeO9ZTA3g/Gk/AvsrYZGhAJeGnQIx4=
     udp: true
-  - name: " DE 33 [ss]"
+  - name: " DE 34 [ss]"
     type: ss
     server: 18.171.211.44
     port: "443"
     cipher: 2022-blake3-chacha20-poly1305
     password: Cg2Dw4OhdBZhqbeO9ZTA3g/Gk/AvsrYZGhAJeGnQIx4=
     udp: true
-  - name: " US 34 [ss]"
+  - name: " US 35 [ss]"
     type: ss
     server: 129.146.61.90
     port: "50356"
     cipher: 2022-blake3-chacha20-poly1305
     password: qG5HzrJO2OAzMFY6WDz991qHHonSP2ix6l6jKlHwokY=
     udp: true
-  - name: " DE 35 [ss]"
+  - name: " DE 36 [ss]"
     type: ss
     server: 92.5.153.134
     port: "59924"
     cipher: 2022-blake3-chacha20-poly1305
     password: ZCkdI8a7Yd/8gR8mUS2JICtiTwRlfytt3kzMf3WLTvw=
     udp: true
-  - name: " DE 36 [ss]"
+  - name: " DE 37 [ss]"
     type: ss
     server: 47.85.162.44
     port: "443"
     cipher: 2022-blake3-chacha20-poly1305
     password: 3NBsnBLanPfG6i3S2GTHineswr6EeSJPb0PCeMQoGoA=
     udp: true
-  - name: " DE 37 [ss]"
+  - name: " DE 38 [ss]"
     type: ss
     server: 3.122.241.248
     port: "443"
     cipher: 2022-blake3-chacha20-poly1305
     password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
     udp: true
-  - name: " DE 38 [ss]"
+  - name: " DE 39 [ss]"
     type: ss
     server: 47.245.173.25
     port: "443"
     cipher: 2022-blake3-chacha20-poly1305
     password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
     udp: true
-  - name: " JP 39 [ss]"
+  - name: " JP 40 [ss]"
     type: ss
     server: 18.176.55.211
     port: "2377"
@@ -388,12 +400,19 @@ proxies:
     plugin-opts:
       mode: tls
       host: "(Telegram @VPNine1)2fed698:63225"
-  - name: " NL 40 [ss]"
+  - name: " NL 41 [ss]"
     type: ss
     server: 144.21.35.158
     port: "45819"
     cipher: 2022-blake3-chacha20-poly1305
     password: rx1e8SsjGM7ZKlR0tLnzSWoxhyRRJJrcTccM3uMu+Rc=
+    udp: true
+  - name: node-42-ss
+    type: ss
+    server: 213.202.208.199
+    port: "7001"
+    cipher: aes-256-gcm
+    password: RexnBgU7EV5ADxG
     udp: true
 
 proxy-groups:
@@ -434,16 +453,18 @@ proxy-groups:
       - " FI 28 [vless]"
       - node-29-vless
       - node-30-vless
-      - " DE 31 [ss]"
+      - node-31-vless
       - " DE 32 [ss]"
       - " DE 33 [ss]"
-      - " US 34 [ss]"
-      - " DE 35 [ss]"
+      - " DE 34 [ss]"
+      - " US 35 [ss]"
       - " DE 36 [ss]"
       - " DE 37 [ss]"
       - " DE 38 [ss]"
-      - " JP 39 [ss]"
-      - " NL 40 [ss]"
+      - " DE 39 [ss]"
+      - " JP 40 [ss]"
+      - " NL 41 [ss]"
+      - node-42-ss
   - name: FALLBACK
     type: fallback
     url: 'https://www.gstatic.com/generate_204'
@@ -480,16 +501,18 @@ proxy-groups:
       - " FI 28 [vless]"
       - node-29-vless
       - node-30-vless
-      - " DE 31 [ss]"
+      - node-31-vless
       - " DE 32 [ss]"
       - " DE 33 [ss]"
-      - " US 34 [ss]"
-      - " DE 35 [ss]"
+      - " DE 34 [ss]"
+      - " US 35 [ss]"
       - " DE 36 [ss]"
       - " DE 37 [ss]"
       - " DE 38 [ss]"
-      - " JP 39 [ss]"
-      - " NL 40 [ss]"
+      - " DE 39 [ss]"
+      - " JP 40 [ss]"
+      - " NL 41 [ss]"
+      - node-42-ss
 
 rules:
   - DOMAIN-SUFFIX,local,DIRECT
