@@ -33,14 +33,7 @@ proxies:
       short-id: 4ad2e4e660550e43
     servername: github.githubassets.com
     client-fingerprint: chrome
-  - name: " US 03 [ss]"
-    type: ss
-    server: 77.90.10.175
-    port: "8086"
-    cipher: 2022-blake3-aes-256-gcm
-    password: "f2Nq5YLnyclPaWR8my7/Vdd3ZX8URncXZNly5+HcUSs=:dQ6WYcPpGX5xIxUVPAR8w1A9eY6kEVoKKW3HleJ6o8Y="
-    udp: true
-  - name: node-04-anytls
+  - name: node-03-anytls
     type: anytls
     server: anytls2.864106.xyz
     port: "19000"
@@ -60,8 +53,7 @@ proxy-groups:
     proxies:
       - node-01-vless
       - node-02-vless
-      - " US 03 [ss]"
-      - node-04-anytls
+      - node-03-anytls
   - name: FALLBACK
     type: fallback
     url: 'https://www.gstatic.com/generate_204'
@@ -70,8 +62,7 @@ proxy-groups:
       - AUTO
       - node-01-vless
       - node-02-vless
-      - " US 03 [ss]"
-      - node-04-anytls
+      - node-03-anytls
 
 rules:
   - DOMAIN-SUFFIX,local,DIRECT
