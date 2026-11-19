@@ -29,7 +29,7 @@ proxies:
     sni: 3.76.203.180
     skip-cert-verify: true
     udp: true
-  - name: " DE 04 [hysteria2]"
+  - name: node-04-hysteria2
     type: hysteria2
     server: 3.76.203.180
     port: "443"
@@ -37,7 +37,7 @@ proxies:
     sni: "off"
     skip-cert-verify: true
     udp: true
-  - name: " DE 05 [hysteria2]"
+  - name: node-05-hysteria2
     type: hysteria2
     server: 179.61.138.145
     port: "36264"
@@ -55,7 +55,7 @@ proxies:
     sni: 152.70.237.123
     skip-cert-verify: true
     udp: true
-  - name: " KR 07 [hysteria2]"
+  - name: node-07-hysteria2
     type: hysteria2
     server: 150-230-252-217.liao.kdns.fr
     port: "50160"
@@ -63,7 +63,7 @@ proxies:
     sni: 127.0.0.1
     skip-cert-verify: true
     udp: true
-  - name: " AU 08 [hysteria2]"
+  - name: node-08-hysteria2
     type: hysteria2
     server: 152.67.115.203
     port: "443"
@@ -73,7 +73,7 @@ proxies:
     udp: true
     obfs: salamander
     obfs-password: 850a3fb1cd33a28f12d837578ae1a2e7
-  - name: " SG 09 [hy2]"
+  - name: node-09-hy2
     type: hysteria2
     server: 47.129.241.99
     port: "443"
@@ -97,7 +97,7 @@ proxies:
     sni: 152.69.231.175
     skip-cert-verify: true
     udp: true
-  - name: " AU 12 [hysteria2]"
+  - name: node-12-hysteria2
     type: hysteria2
     server: 13.55.52.44
     port: "36712"
@@ -113,7 +113,7 @@ proxies:
     sni: 152.67.200.82
     skip-cert-verify: true
     udp: true
-  - name: " HK 14 [hysteria2]"
+  - name: node-14-hysteria2
     type: hysteria2
     server: 152.32.254.68
     port: "5010"
@@ -123,7 +123,15 @@ proxies:
     udp: true
     obfs: salamander
     obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
-  - name: node-15-hysteria2
+  - name: node-15-hy2
+    type: hysteria2
+    server: 54.179.113.70
+    port: "443"
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    sni: vpn-sg-001.fastervpn.world
+    skip-cert-verify: true
+    udp: true
+  - name: node-16-hysteria2
     type: hysteria2
     server: srv-17e124.21freedom.net
     port: "11592"
@@ -131,7 +139,7 @@ proxies:
     sni: srv-17e124
     skip-cert-verify: true
     udp: true
-  - name: node-16-hy2
+  - name: node-17-hy2
     type: hysteria2
     server: srv-17e124.21freedom.net
     port: "11592"
@@ -139,22 +147,7 @@ proxies:
     sni: 127.0.0.1
     skip-cert-verify: true
     udp: true
-  - name: node-17-vless
-    type: vless
-    server: 199.232.78.120
-    port: "443"
-    uuid: 8d2cbffd-43d0-458d-906b-7c54b7b51f38
-    network: ws
-    tls: true
-    udp: true
-    servername: cdn.akamai.steamstatic.com
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /
-      headers:
-        Host: ushetzijji.global.ssl.fastly.net.
-  - name: " DE 18 [vless]"
+  - name: node-18-vless
     type: vless
     server: almanac.filnex.baby
     port: "443"
@@ -215,33 +208,41 @@ proxies:
     client-fingerprint: chrome
     grpc-opts:
       grpc-service-name: mobile.api.Event
-  - name: " DE 22 [ss]"
+  - name: node-22-vmess
+    type: vmess
+    server: 38.91.107.49
+    port: "18000"
+    uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+    alterId: "0"
+    cipher: auto
+    udp: true
+  - name: node-23-ss
     type: ss
     server: 47.245.173.25
     port: "443"
     cipher: 2022-blake3-chacha20-poly1305
     password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
     udp: true
-  - name: " DE 23 [ss]"
-    type: ss
-    server: 18.134.253.71
-    port: "443"
-    cipher: 2022-blake3-chacha20-poly1305
-    password: Cg2Dw4OhdBZhqbeO9ZTA3g/Gk/AvsrYZGhAJeGnQIx4=
-    udp: true
-  - name: " DE 24 [ss]"
+  - name: node-24-ss
     type: ss
     server: 47.85.162.44
     port: "443"
     cipher: 2022-blake3-chacha20-poly1305
     password: 3NBsnBLanPfG6i3S2GTHineswr6EeSJPb0PCeMQoGoA=
     udp: true
-  - name: " SG 25 [ss]"
+  - name: node-25-ss
     type: ss
     server: 129.221.253.23
     port: "56927"
     cipher: 2022-blake3-chacha20-poly1305
     password: C34+ziWxv8UL1K4m74bSIqKgUWN3R5XkSDf+3vOj9RE=
+    udp: true
+  - name: node-26-ss
+    type: ss
+    server: 77.90.10.175
+    port: "8086"
+    cipher: 2022-blake3-aes-256-gcm
+    password: "f2Nq5YLnyclPaWR8my7/Vdd3ZX8URncXZNly5+HcUSs=:dQ6WYcPpGX5xIxUVPAR8w1A9eY6kEVoKKW3HleJ6o8Y="
     udp: true
 
 proxy-groups:
@@ -255,28 +256,29 @@ proxy-groups:
       - " RU 01 [hy2]"
       - " DE 02 [hy2]"
       - " DE 03 [hy2]"
-      - " DE 04 [hysteria2]"
-      - " DE 05 [hysteria2]"
+      - node-04-hysteria2
+      - node-05-hysteria2
       - " KR 06 [hy2]"
-      - " KR 07 [hysteria2]"
-      - " AU 08 [hysteria2]"
-      - " SG 09 [hy2]"
+      - node-07-hysteria2
+      - node-08-hysteria2
+      - node-09-hy2
       - " KR 10 [hy2]"
       - " KR 11 [hy2]"
-      - " AU 12 [hysteria2]"
+      - node-12-hysteria2
       - " KR 13 [hy2]"
-      - " HK 14 [hysteria2]"
-      - node-15-hysteria2
-      - node-16-hy2
-      - node-17-vless
-      - " DE 18 [vless]"
+      - node-14-hysteria2
+      - node-15-hy2
+      - node-16-hysteria2
+      - node-17-hy2
+      - node-18-vless
       - node-19-vless
       - node-20-vless
       - node-21-vless
-      - " DE 22 [ss]"
-      - " DE 23 [ss]"
-      - " DE 24 [ss]"
-      - " SG 25 [ss]"
+      - node-22-vmess
+      - node-23-ss
+      - node-24-ss
+      - node-25-ss
+      - node-26-ss
   - name: FALLBACK
     type: fallback
     url: 'https://www.gstatic.com/generate_204'
@@ -286,28 +288,29 @@ proxy-groups:
       - " RU 01 [hy2]"
       - " DE 02 [hy2]"
       - " DE 03 [hy2]"
-      - " DE 04 [hysteria2]"
-      - " DE 05 [hysteria2]"
+      - node-04-hysteria2
+      - node-05-hysteria2
       - " KR 06 [hy2]"
-      - " KR 07 [hysteria2]"
-      - " AU 08 [hysteria2]"
-      - " SG 09 [hy2]"
+      - node-07-hysteria2
+      - node-08-hysteria2
+      - node-09-hy2
       - " KR 10 [hy2]"
       - " KR 11 [hy2]"
-      - " AU 12 [hysteria2]"
+      - node-12-hysteria2
       - " KR 13 [hy2]"
-      - " HK 14 [hysteria2]"
-      - node-15-hysteria2
-      - node-16-hy2
-      - node-17-vless
-      - " DE 18 [vless]"
+      - node-14-hysteria2
+      - node-15-hy2
+      - node-16-hysteria2
+      - node-17-hy2
+      - node-18-vless
       - node-19-vless
       - node-20-vless
       - node-21-vless
-      - " DE 22 [ss]"
-      - " DE 23 [ss]"
-      - " DE 24 [ss]"
-      - " SG 25 [ss]"
+      - node-22-vmess
+      - node-23-ss
+      - node-24-ss
+      - node-25-ss
+      - node-26-ss
 
 rules:
   - DOMAIN-SUFFIX,local,DIRECT
