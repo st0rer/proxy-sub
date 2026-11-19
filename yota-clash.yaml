@@ -7,26 +7,47 @@ ipv6: false
 proxies:
   - name: node-01-vless
     type: vless
-    server: lodizu.hagrid-connected.com
+    server: 199.232.78.120
     port: "443"
-    uuid: beda6bd0-7ce4-477a-91f1-860d018dbfcb
+    uuid: 8d2cbffd-43d0-458d-906b-7c54b7b51f38
+    network: ws
+    tls: true
+    udp: true
+    servername: cdn.akamai.steamstatic.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: /
+      headers:
+        Host: ushetzijji.global.ssl.fastly.net.
+  - name: node-02-vless
+    type: vless
+    server: 156.229.167.109
+    port: "8443"
+    uuid: eb8c97f7-a154-4442-91b0-54c0d055ad0b
     network: tcp
     tls: true
     udp: true
-    flow: xtls-rprx-vision
-    servername: lodizu.hagrid-connected.com
+    reality-opts:
+      public-key: 4g6gX0ueJap7pY_iTDx23h6bzo3KIOTcFzP1Uacn0QA
+      short-id: 4ad2e4e660550e43
+    servername: github.githubassets.com
+    client-fingerprint: chrome
+  - name: " US 03 [ss]"
+    type: ss
+    server: 77.90.10.175
+    port: "8086"
+    cipher: 2022-blake3-aes-256-gcm
+    password: "f2Nq5YLnyclPaWR8my7/Vdd3ZX8URncXZNly5+HcUSs=:dQ6WYcPpGX5xIxUVPAR8w1A9eY6kEVoKKW3HleJ6o8Y="
+    udp: true
+  - name: node-04-anytls
+    type: anytls
+    server: anytls2.864106.xyz
+    port: "19000"
+    password: github.com/Alvin9999-newpac/fanqiang
+    sni: anytls2.864106.xyz
     skip-cert-verify: true
-    client-fingerprint: firefox
-    alpn:
-      - h2
-      - http/1.1
-  - name: node-02-hysteria2
-    type: hysteria2
-    server: 5.181.219.131
-    port: "8443"
-    password: w6qsn04S8jKUCJZRhVimSQ==
-    sni: bing.com
-    skip-cert-verify: true
+    client-fingerprint: chrome
     udp: true
 
 proxy-groups:
@@ -38,7 +59,9 @@ proxy-groups:
     lazy: false
     proxies:
       - node-01-vless
-      - node-02-hysteria2
+      - node-02-vless
+      - " US 03 [ss]"
+      - node-04-anytls
   - name: FALLBACK
     type: fallback
     url: 'https://www.gstatic.com/generate_204'
@@ -46,7 +69,9 @@ proxy-groups:
     proxies:
       - AUTO
       - node-01-vless
-      - node-02-hysteria2
+      - node-02-vless
+      - " US 03 [ss]"
+      - node-04-anytls
 
 rules:
   - DOMAIN-SUFFIX,local,DIRECT
