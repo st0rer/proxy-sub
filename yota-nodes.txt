@@ -1,3 +1,4 @@
 vless://beda6bd0-7ce4-477a-91f1-860d018dbfcb@lodizu.hagrid-connected.com:443?security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&headerType=none&fp=firefox&type=tcp&allowInsecure=0&flow=xtls-rprx-vision&sni=lodizu.hagrid-connected.com#%F0%9F%87%B8%F0%9F%87%AA218867%20%7C%20%E2%9A%A1%EF%B8%8FTelegram%20%3D%20t.me%2FLonUp_M
-hysteria2://w6qsn04S8jKUCJZRhVimSQ==@5.181.219.131:8443?insecure=1&sni=bing.com
 hysteria2://u9axzkplfc3463am@sub.macdonalder.cyou:16146?security=tls&obfs=salamander&obfs-password=mn1g0eianbese7bl&insecure=0&sni=sub.macdonalder.cyou
+hysteria2://w6qsn04S8jKUCJZRhVimSQ==@5.181.219.131:8443?insecure=1&sni=bing.com
+anytls://github.com/Alvin9999-newpac/fanqiang@anytls2.864106.xyz:19000?security=tls&type=tcp&packetEncoding=none&allowInsecure=1&sni=anytls2.864106.xyz&insecure=1&sub_tag=R002-260618&udp=1

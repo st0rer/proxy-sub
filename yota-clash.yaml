@@ -20,15 +20,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: " US 02 [hysteria2]"
-    type: hysteria2
-    server: 5.181.219.131
-    port: "8443"
-    password: w6qsn04S8jKUCJZRhVimSQ==
-    sni: bing.com
-    skip-cert-verify: true
-    udp: true
-  - name: " US 03 [hysteria2]"
+  - name: node-02-hysteria2
     type: hysteria2
     server: sub.macdonalder.cyou
     port: "16146"
@@ -38,6 +30,23 @@ proxies:
     udp: true
     obfs: salamander
     obfs-password: mn1g0eianbese7bl
+  - name: node-03-hysteria2
+    type: hysteria2
+    server: 5.181.219.131
+    port: "8443"
+    password: w6qsn04S8jKUCJZRhVimSQ==
+    sni: bing.com
+    skip-cert-verify: true
+    udp: true
+  - name: node-04-anytls
+    type: anytls
+    server: anytls2.864106.xyz
+    port: "19000"
+    password: github.com/Alvin9999-newpac/fanqiang
+    sni: anytls2.864106.xyz
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
 
 proxy-groups:
   - name: AUTO
@@ -48,8 +57,9 @@ proxy-groups:
     lazy: false
     proxies:
       - node-01-vless
-      - " US 02 [hysteria2]"
-      - " US 03 [hysteria2]"
+      - node-02-hysteria2
+      - node-03-hysteria2
+      - node-04-anytls
   - name: FALLBACK
     type: fallback
     url: 'https://www.gstatic.com/generate_204'
@@ -57,8 +67,9 @@ proxy-groups:
     proxies:
       - AUTO
       - node-01-vless
-      - " US 02 [hysteria2]"
-      - " US 03 [hysteria2]"
+      - node-02-hysteria2
+      - node-03-hysteria2
+      - node-04-anytls
 
 rules:
   - DOMAIN-SUFFIX,local,DIRECT
