@@ -1,11 +1,3 @@
-vless://12910384-1ef8-40a3-818a-57277063ea66@167.104.223.233:8443?mode=gun&security=tls&alpn=h2&encryption=none&fp=chrome&type=grpc&serviceName=vlgrpc&sni=kk-gb2-223233.testkknegr.online
-vless://12910384-1ef8-40a3-818a-57277063ea66@144.31.219.238:8443?mode=gun&security=tls&alpn=h2&encryption=none&fp=chrome&type=grpc&serviceName=vlgrpc&sni=kk-331e6a.testkknegr.online
-vless://12910384-1ef8-40a3-818a-57277063ea66@31.76.69.76:8443?mode=gun&security=tls&alpn=h2&encryption=none&fp=chrome&type=grpc&serviceName=vlgrpc&sni=kk-97e6ec.testkknegr.online
-vless://13e6bdfd-d51b-4e57-a40e-b88784cba8bd@ec7a81g.de15.h1clayd.click:443?encryption=none&amp;fp=&amp;pbk=shUbIWcBJdXaDzO80KqTU9exgMarUCOiiZ56Dwl7XVU&amp;security=reality&amp;serviceName=43f41cd7fee0&amp;sid=7a8e24da4eb2c1b5&amp;sni=ec7a81g.de15.h1clayd.click&amp;type=grpc
-vless://beda6bd0-7ce4-477a-91f1-860d018dbfcb@lodizu.hagrid-connected.com:443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=lodizu.hagrid-connected.com&fp=firefox&alpn=h2%2Chttp%2F1.1&type=tcp&headerType=none#Channel%20%3A%20%40Daily_Configs
-vless://fa80a2a1-edb1-461a-b94b-e360b8574e27@104.21.1.213:443?path=%2F27ae75d08381b6af%23TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI%3Fed%3D2048&security=tls&encryption=none&insecure=0&host=media-0a02cd.aiacademyhub.org&fp=chrome&type=ws&allowInsecure=0&sni=media-0a02cd.aiacademyhub.org#Tel%40MARAMBASHI%20%F0%9F%87%AC%F0%9F%87%A7
-ss://2022-blake3-aes-256-gcm:f2Nq5YLnyclPaWR8my7%2FVdd3ZX8URncXZNly5+HcUSs=:dQ6WYcPpGX5xIxUVPAR8w1A9eY6kEVoKKW3HleJ6o8Y=@77.90.10.175:8086
-ss://YWVzLTEyOC1nY206QndscWg3R2NGQg==@jpa.123069.xyz:53758#%F0%9F%87%AF%F0%9F%87%B5218817%20%7C%20%E2%9A%A1%EF%B8%8FTelegram%20%3D%20t.me%2FLonUp_M
-hysteria2://u9axzkplfc3463am@sub.macdonalder.cyou:16146?security=tls&obfs=salamander&obfs-password=mn1g0eianbese7bl&insecure=0&sni=sub.macdonalder.cyou
+vless://beda6bd0-7ce4-477a-91f1-860d018dbfcb@lodizu.hagrid-connected.com:443?security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&headerType=none&fp=firefox&type=tcp&allowInsecure=0&flow=xtls-rprx-vision&sni=lodizu.hagrid-connected.com#%F0%9F%87%B8%F0%9F%87%AA218867%20%7C%20%E2%9A%A1%EF%B8%8FTelegram%20%3D%20t.me%2FLonUp_M
 hysteria2://w6qsn04S8jKUCJZRhVimSQ==@5.181.219.131:8443?insecure=1&sni=bing.com
-anytls://0324fbc29561@sdf65h46wr.df6h451rh.xin:443?insecure=1&security=tls&sni=images.ctfassets.net&type=tcp&headerType=none
+hysteria2://u9axzkplfc3463am@sub.macdonalder.cyou:16146?security=tls&obfs=salamander&obfs-password=mn1g0eianbese7bl&insecure=0&sni=sub.macdonalder.cyou
