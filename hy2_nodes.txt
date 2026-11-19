@@ -6,8 +6,6 @@ hysteria2://VPNJEy@179.61.138.145:36264?insecure=1&sni=de2.jey.cc.cd&obfs=salama
 hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@3.76.203.180:443?sni=off&insecure=1
 hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@18.194.242.173:443/?insecure=1&sni=127.0.0.1
 hy2://H7mP2xY9kJ4nQ8wR5tF6vB3z@3.76.221.4:443?insecure=1
-hysteria2://w6qsn04S8jKUCJZRhVimSQ==@5.181.219.131:8443?sni=bing.com&insecure=1
-hysteria2://5fa748137b6d822308eea4611f474ad5@155.117.19.17:443?insecure=1&obfs=salamander&obfs-password=a39ca173b57ac7021b08bf3e3de9f1f6&sni=www.bing.com
 hy2://1671a252e2a97dc2bda4e515475931da@132.226.226.189:50160?insecure=1
 hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@54.179.113.70:443?insecure=1&sni=vpn-sg-001.fastervpn.world
 hy2://qQe1z5kU8kN6SlKnDt9Ru3Qp@47.129.241.99:443?insecure=1&sni=127.0.0.1
