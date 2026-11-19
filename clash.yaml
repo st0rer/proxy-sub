@@ -123,15 +123,7 @@ proxies:
     udp: true
     obfs: salamander
     obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
-  - name: node-15-hy2
-    type: hysteria2
-    server: 54.179.113.70
-    port: "443"
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    sni: vpn-sg-001.fastervpn.world
-    skip-cert-verify: true
-    udp: true
-  - name: node-16-hysteria2
+  - name: node-15-hysteria2
     type: hysteria2
     server: srv-17e124.21freedom.net
     port: "11592"
@@ -139,7 +131,7 @@ proxies:
     sni: srv-17e124
     skip-cert-verify: true
     udp: true
-  - name: node-17-hy2
+  - name: node-16-hy2
     type: hysteria2
     server: srv-17e124.21freedom.net
     port: "11592"
@@ -147,6 +139,18 @@ proxies:
     sni: 127.0.0.1
     skip-cert-verify: true
     udp: true
+  - name: node-17-vless
+    type: vless
+    server: 132.243.212.204
+    port: "443"
+    uuid: 352a250d-080b-47b5-b7db-f9f8fa31c551
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: 10w0wjw.virtual-network.lol
+    skip-cert-verify: true
+    client-fingerprint: firefox
   - name: node-18-vless
     type: vless
     server: almanac.filnex.baby
@@ -195,20 +199,7 @@ proxies:
       - h2
     grpc-opts:
       grpc-service-name: vlgrpc
-  - name: node-21-vless
-    type: vless
-    server: 200.169.179.233
-    port: "443"
-    uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
-    network: grpc
-    tls: true
-    udp: true
-    servername: vps3.nemnogogo.com
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    grpc-opts:
-      grpc-service-name: mobile.api.Event
-  - name: node-22-vmess
+  - name: node-21-vmess
     type: vmess
     server: 38.91.107.49
     port: "18000"
@@ -216,28 +207,21 @@ proxies:
     alterId: "0"
     cipher: auto
     udp: true
-  - name: node-23-ss
+  - name: node-22-ss
     type: ss
     server: 47.245.173.25
     port: "443"
     cipher: 2022-blake3-chacha20-poly1305
     password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
     udp: true
-  - name: node-24-ss
+  - name: node-23-ss
     type: ss
     server: 47.85.162.44
     port: "443"
     cipher: 2022-blake3-chacha20-poly1305
     password: 3NBsnBLanPfG6i3S2GTHineswr6EeSJPb0PCeMQoGoA=
     udp: true
-  - name: node-25-ss
-    type: ss
-    server: 129.221.253.23
-    port: "56927"
-    cipher: 2022-blake3-chacha20-poly1305
-    password: C34+ziWxv8UL1K4m74bSIqKgUWN3R5XkSDf+3vOj9RE=
-    udp: true
-  - name: node-26-ss
+  - name: node-24-ss
     type: ss
     server: 77.90.10.175
     port: "8086"
@@ -267,18 +251,16 @@ proxy-groups:
       - node-12-hysteria2
       - " KR 13 [hy2]"
       - node-14-hysteria2
-      - node-15-hy2
-      - node-16-hysteria2
-      - node-17-hy2
+      - node-15-hysteria2
+      - node-16-hy2
+      - node-17-vless
       - node-18-vless
       - node-19-vless
       - node-20-vless
-      - node-21-vless
-      - node-22-vmess
+      - node-21-vmess
+      - node-22-ss
       - node-23-ss
       - node-24-ss
-      - node-25-ss
-      - node-26-ss
   - name: FALLBACK
     type: fallback
     url: 'https://www.gstatic.com/generate_204'
@@ -299,18 +281,16 @@ proxy-groups:
       - node-12-hysteria2
       - " KR 13 [hy2]"
       - node-14-hysteria2
-      - node-15-hy2
-      - node-16-hysteria2
-      - node-17-hy2
+      - node-15-hysteria2
+      - node-16-hy2
+      - node-17-vless
       - node-18-vless
       - node-19-vless
       - node-20-vless
-      - node-21-vless
-      - node-22-vmess
+      - node-21-vmess
+      - node-22-ss
       - node-23-ss
       - node-24-ss
-      - node-25-ss
-      - node-26-ss
 
 rules:
   - DOMAIN-SUFFIX,local,DIRECT
