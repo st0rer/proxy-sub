@@ -123,15 +123,7 @@ proxies:
     udp: true
     obfs: salamander
     obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
-  - name: node-15-hy2
-    type: hysteria2
-    server: 54.179.113.70
-    port: "443"
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    sni: vpn-sg-001.fastervpn.world
-    skip-cert-verify: true
-    udp: true
-  - name: node-16-hysteria2
+  - name: node-15-hysteria2
     type: hysteria2
     server: srv-17e124.21freedom.net
     port: "11592"
@@ -139,7 +131,7 @@ proxies:
     sni: srv-17e124
     skip-cert-verify: true
     udp: true
-  - name: node-17-hy2
+  - name: node-16-hy2
     type: hysteria2
     server: srv-17e124.21freedom.net
     port: "11592"
@@ -147,85 +139,22 @@ proxies:
     sni: 127.0.0.1
     skip-cert-verify: true
     udp: true
-  - name: node-18-vless
+  - name: node-17-vless
     type: vless
-    server: 201.51.12.98
+    server: 199.232.78.120
     port: "443"
-    uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
-    network: grpc
+    uuid: 8d2cbffd-43d0-458d-906b-7c54b7b51f38
+    network: ws
     tls: true
     udp: true
-    servername: vps3.nemnogogo.com
+    servername: cdn.akamai.steamstatic.com
     skip-cert-verify: true
-    client-fingerprint: firefox
-    grpc-opts:
-      grpc-service-name: mobile.api.Event
-  - name: " FI 19 [vless]"
-    type: vless
-    server: 171.22.133.5
-    port: "9443"
-    uuid: 0b22812b-4a79-42b1-93ec-5b157b0f2f7f
-    network: xhttp
-    tls: true
-    udp: true
-    reality-opts:
-      public-key: zd4L59ejBo94N8N9GQtZMox2eBBF9TQf2TLyIgpwlCg
-      short-id: fd7624659f1e7d66
-    servername: fin.krabvpn.pro
     client-fingerprint: chrome
-    xhttp-opts:
-      path: /assets/246a109dceaa6b7832a98d17
-      mode: auto
-  - name: " PL 20 [vless]"
-    type: vless
-    server: 130.78.31.25
-    port: "443"
-    uuid: 146d567c-6335-4e63-a8aa-7ec068642440
-    network: xhttp
-    tls: true
-    udp: true
-    reality-opts:
-      public-key: fDrDDz_GCqhDgG8kMxWXk2vRuyfBHTTNwVa7k7nJHgw
-      short-id: 5c42ed8c
-    servername: pl2.obxodvpn.us
-    client-fingerprint: chrome
-    xhttp-opts:
-      path: /xhttp
-      host: pl2.obxodvpn.us
-      mode: packet-up
-  - name: " FI 21 [vless]"
-    type: vless
-    server: 171.22.133.101
-    port: "443"
-    uuid: 0b22812b-4a79-42b1-93ec-5b157b0f2f7f
-    network: xhttp
-    tls: true
-    udp: true
-    reality-opts:
-      public-key: zd4L59ejBo94N8N9GQtZMox2eBBF9TQf2TLyIgpwlCg
-      short-id: fd7624659f1e7d66
-    servername: fin.krabvpn.pro
-    client-fingerprint: firefox
-    xhttp-opts:
-      path: /assets/246a109dceaa6b7832a98d17
-      mode: auto
-  - name: " NL 22 [vless]"
-    type: vless
-    server: 171.22.133.5
-    port: "6443"
-    uuid: 0b22812b-4a79-42b1-93ec-5b157b0f2f7f
-    network: xhttp
-    tls: true
-    udp: true
-    reality-opts:
-      public-key: RBQhVV7u-QBkQL79vHRE2tQEeR1SA8CJ9zI9i99XA24
-      short-id: 3bcbfe3856680516
-    servername: nl.krabvpn.pro
-    client-fingerprint: chrome
-    xhttp-opts:
-      path: /assets/e19f8e871ca55b3d77d42ae7
-      mode: auto
-  - name: " DE 23 [vless]"
+    ws-opts:
+      path: /
+      headers:
+        Host: ushetzijji.global.ssl.fastly.net.
+  - name: " DE 18 [vless]"
     type: vless
     server: almanac.filnex.baby
     port: "443"
@@ -240,7 +169,7 @@ proxies:
       - h2
     grpc-opts:
       grpc-service-name: glush.de1.v1
-  - name: node-24-vless
+  - name: node-19-vless
     type: vless
     server: orchard.elvano.website
     port: "443"
@@ -258,7 +187,7 @@ proxies:
       path: /api/de1/sync
       host: orchard.elvano.website
       mode: auto
-  - name: node-25-vless
+  - name: node-20-vless
     type: vless
     server: 201.24.121.243
     port: "443"
@@ -273,7 +202,7 @@ proxies:
       - h2
     grpc-opts:
       grpc-service-name: vlgrpc
-  - name: node-26-vless
+  - name: node-21-vless
     type: vless
     server: 200.169.179.233
     port: "443"
@@ -286,69 +215,33 @@ proxies:
     client-fingerprint: chrome
     grpc-opts:
       grpc-service-name: mobile.api.Event
-  - name: node-27-vless
-    type: vless
-    server: 199.232.78.120
-    port: "443"
-    uuid: 8d2cbffd-43d0-458d-906b-7c54b7b51f38
-    network: ws
-    tls: true
-    udp: true
-    servername: cdn.akamai.steamstatic.com
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: /
-      headers:
-        Host: ushetzijji.global.ssl.fastly.net.
-  - name: " DE 28 [ss]"
+  - name: " DE 22 [ss]"
     type: ss
     server: 47.245.173.25
     port: "443"
     cipher: 2022-blake3-chacha20-poly1305
     password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
     udp: true
-  - name: " DE 29 [ss]"
+  - name: " DE 23 [ss]"
     type: ss
     server: 18.134.253.71
     port: "443"
     cipher: 2022-blake3-chacha20-poly1305
     password: Cg2Dw4OhdBZhqbeO9ZTA3g/Gk/AvsrYZGhAJeGnQIx4=
     udp: true
-  - name: " DE 30 [ss]"
-    type: ss
-    server: 3.8.236.216
-    port: "443"
-    cipher: 2022-blake3-chacha20-poly1305
-    password: Cg2Dw4OhdBZhqbeO9ZTA3g/Gk/AvsrYZGhAJeGnQIx4=
-    udp: true
-  - name: " DE 31 [ss]"
+  - name: " DE 24 [ss]"
     type: ss
     server: 47.85.162.44
     port: "443"
     cipher: 2022-blake3-chacha20-poly1305
     password: 3NBsnBLanPfG6i3S2GTHineswr6EeSJPb0PCeMQoGoA=
     udp: true
-  - name: " SG 32 [ss]"
+  - name: " SG 25 [ss]"
     type: ss
     server: 129.221.253.23
     port: "56927"
     cipher: 2022-blake3-chacha20-poly1305
     password: C34+ziWxv8UL1K4m74bSIqKgUWN3R5XkSDf+3vOj9RE=
-    udp: true
-  - name: " NL 33 [ss]"
-    type: ss
-    server: 144.21.35.158
-    port: "45819"
-    cipher: 2022-blake3-chacha20-poly1305
-    password: rx1e8SsjGM7ZKlR0tLnzSWoxhyRRJJrcTccM3uMu+Rc=
-    udp: true
-  - name: " NL 34 [ss]"
-    type: ss
-    server: 194.87.233.93
-    port: "46190"
-    cipher: chacha20-ietf-poly1305
-    password: 2Ef8X21WALqK7H6N8A78j5WYtzZ999PP8rF8DaLsb5LLyDLQpf5dGVAjdA3mj1wudigKXTt5heYU9jmaBbfxXBJJAqhPHkxe
     udp: true
 
 proxy-groups:
@@ -373,26 +266,17 @@ proxy-groups:
       - " AU 12 [hysteria2]"
       - " KR 13 [hy2]"
       - " HK 14 [hysteria2]"
-      - node-15-hy2
-      - node-16-hysteria2
-      - node-17-hy2
-      - node-18-vless
-      - " FI 19 [vless]"
-      - " PL 20 [vless]"
-      - " FI 21 [vless]"
-      - " NL 22 [vless]"
-      - " DE 23 [vless]"
-      - node-24-vless
-      - node-25-vless
-      - node-26-vless
-      - node-27-vless
-      - " DE 28 [ss]"
-      - " DE 29 [ss]"
-      - " DE 30 [ss]"
-      - " DE 31 [ss]"
-      - " SG 32 [ss]"
-      - " NL 33 [ss]"
-      - " NL 34 [ss]"
+      - node-15-hysteria2
+      - node-16-hy2
+      - node-17-vless
+      - " DE 18 [vless]"
+      - node-19-vless
+      - node-20-vless
+      - node-21-vless
+      - " DE 22 [ss]"
+      - " DE 23 [ss]"
+      - " DE 24 [ss]"
+      - " SG 25 [ss]"
   - name: FALLBACK
     type: fallback
     url: 'https://www.gstatic.com/generate_204'
@@ -413,26 +297,17 @@ proxy-groups:
       - " AU 12 [hysteria2]"
       - " KR 13 [hy2]"
       - " HK 14 [hysteria2]"
-      - node-15-hy2
-      - node-16-hysteria2
-      - node-17-hy2
-      - node-18-vless
-      - " FI 19 [vless]"
-      - " PL 20 [vless]"
-      - " FI 21 [vless]"
-      - " NL 22 [vless]"
-      - " DE 23 [vless]"
-      - node-24-vless
-      - node-25-vless
-      - node-26-vless
-      - node-27-vless
-      - " DE 28 [ss]"
-      - " DE 29 [ss]"
-      - " DE 30 [ss]"
-      - " DE 31 [ss]"
-      - " SG 32 [ss]"
-      - " NL 33 [ss]"
-      - " NL 34 [ss]"
+      - node-15-hysteria2
+      - node-16-hy2
+      - node-17-vless
+      - " DE 18 [vless]"
+      - node-19-vless
+      - node-20-vless
+      - node-21-vless
+      - " DE 22 [ss]"
+      - " DE 23 [ss]"
+      - " DE 24 [ss]"
+      - " SG 25 [ss]"
 
 rules:
   - DOMAIN-SUFFIX,local,DIRECT
