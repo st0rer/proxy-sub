@@ -1,5 +1,5 @@
-vless://beda6bd0-7ce4-477a-91f1-860d018dbfcb@lodizu.hagrid-connected.com:443?security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&headerType=none&fp=firefox&type=tcp&allowInsecure=0&flow=xtls-rprx-vision&sni=lodizu.hagrid-connected.com#%F0%9F%87%B8%F0%9F%87%AA218867%20%7C%20%E2%9A%A1%EF%B8%8FTelegram%20%3D%20t.me%2FLonUp_M
-vless://8d2cbffd-43d0-458d-906b-7c54b7b51f38@199.232.78.120:443?pcs=CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E&path=/&security=tls&encryption=none&insecure=0&host=ushetzijji.global.ssl.fastly.net.&type=ws&allowInsecure=0&sni=cdn.akamai.steamstatic.com#%E2%9A%A112%20%7C%20%E2%9A%A1Telegram%20%3D%20t.me%2Fex_proxies
-hy2://H7mP2xY9kJ4nQ8wR5tF6vB3z@vpn-hk-004.fastervpn.world:443?insecure=1&sni=vpn-hk-004.fastervpn.world
+vless://265ecca2-4733-49de-b2c9-ed7f0e999655@193.233.219.98:443?path=%2Fapi%2Fvless&security=tls&alpn=http&encryption=none&insecure=0&host=vpn-rating.space&fp=firefox&type=ws&allowInsecure=0&sni=daily-author.ru#[97958]
+vless://0c1c6550-08ee-49fd-8ef8-df2776cca31f@179.253.85.127:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=a9O5evb8g385KJm77j9SKlB7MvHzUBGes6c8BAxyO1U&security=reality&sid=5fd3245e96291c37&sni=212.192.156.15&type=tcp
 anytls://github.com/Alvin9999-newpac/fanqiang@anytls2.864106.xyz:19000?security=tls&type=tcp&packetEncoding=none&allowInsecure=1&sni=anytls2.864106.xyz&insecure=1&sub_tag=R002-260618&udp=1
-anytls://0324fbc29561@sdf65h46wr.df6h451rh.xin:443/?insecure=1&sni=images.ctfassets.net
+hysteria2://Telegram--CONFIG7X--CONFIG7X--CONFIG7X--CONFIG7X--CONFIG7X--CONFIG7X--CONFIG7X--CONFIG7X-@185.164.72.192:26206?obfs=salamander&obfs-password=vxvnmus9agdzduvz&sni=config7x.de5.net
+hysteria2://oracle_hy2_pass_2026@129.225.181.46:8443?insecure=1&sni=bing.com

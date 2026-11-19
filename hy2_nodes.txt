@@ -1,10 +1,5 @@
+hysteria2://oracle_hy2_pass_2026@129.225.181.46:8443?insecure=1&sni=bing.com
 hy2://41edb44c8e@103.88.243.142:11592/?insecure=1&sni=srv-17e124.21freedom.net
-hysteria2://ff0343ad-1c9f-4986-8c62-c01935b508ca@153.56.210.134:57251?insecure=1&obfs=salamander&obfs-password=0ee2089e-70df-4c30-bfea-1fb9be61d93e&sni=www.bing.com
-hysteria2://a81a7b45-dd70-42ef-822f-ef467f944382@153.56.210.134:38045?insecure=1&obfs=salamander&obfs-password=642516f2-f9bd-41ce-9904-dee699c39cf9&sni=www.bing.com
-hysteria2://c8ed6cd1-6566-4f7a-819e-1c55b2b360c9@153.56.210.134:34121?insecure=1&obfs=salamander&obfs-password=9a33460c-b037-47aa-a606-d04211f4e0ec&sni=www.bing.com
-hy2://H7mP2xY9kJ4nQ8wR5tF6vB3z@3.69.232.199:443?insecure=1
-hy2://H7mP2xY9kJ4nQ8wR5tF6vB3z@3.76.203.180:443?insecure=1
-hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@3.76.203.180:443?sni=off&insecure=1
 hysteria2://VPNJEy@179.61.138.145:36264?insecure=1&sni=de2.jey.cc.cd&obfs=salamander&obfs-password=Telegram@vpnjey
 hysteria2://AIcYjw5Oc9Rrrr9SGDUBbBIC@38.76.150.108:36712?sni=38.76.150.108&insecure=1
 hy2://maintell@152.70.237.123:2053?insecure=1
@@ -17,9 +12,6 @@ hysteria2://linlin-2026@13.55.52.44:36712?insecure=1&sni=13.55.52.44
 hy2://3d7634af8cb2c6cb4bac1c0efad8b43d@152.67.200.82:50160?insecure=1
 hysteria2://eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ@152.32.254.68:5010?insecure=0&sni=nas.aizhzo.com&obfs=salamander&obfs-password=7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
 hysteria2://769f34f0-1500-488f-b414-03bc90666502@95.143.196.97:443?security=tls&sni=se.mimowhat.online
-hysteria2://oracle_hy2_pass_2026@129.225.181.46:8443?insecure=1&sni=bing.com
-hysteria2://u9axzkplfc3463am@sub.macdonalder.cyou:16146?obfs=salamander&obfs-password=mn1g0eianbese7bl&sni=sub.macdonalder.cyou
-hysteria2://qQe1z5kU8kN6SlKnDt9Ru3Qp@54.179.113.70:443?insecure=1&sni=vpn-sg-001.fastervpn.world
 hy2://qQe1z5kU8kN6SlKnDt9Ru3Qp@54.179.113.70:443?insecure=1&sni=vpn-sg-001.fastervpn.world
 hysteria2://41edb44c8e@srv-17e124.21freedom.net:11592?insecure=1&security=tls&sni=srv-17e124#%F0%9F%87%B7%F0%9F%87%BA216756%20%7C%20%E2%9A%A1%EF%B8%8FTelegram%20%3D%20t.me%2FSOSkeyNET
 hy2://41edb44c8e@srv-17e124.21freedom.net:11592/?insecure=1&sni=127.0.0.1
