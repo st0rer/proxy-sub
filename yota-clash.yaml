@@ -7,18 +7,17 @@ ipv6: false
 proxies:
   - name: node-01-vless
     type: vless
-    server: 176.108.240.45
-    port: "443"
-    uuid: 6895528a-aa3e-48c4-8804-ced625e92b47
+    server: 188.130.209.225
+    port: "444"
+    uuid: c1d7617a-7559-45c9-9d07-a62c5ba8cb36
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
     reality-opts:
-      public-key: me0xkqd3f9UlKOavrYCOTK5J2erH1-JK_LA017XHkUU
-      short-id: 43560624cceb5666
-    servername: xn---26-5cd9bhfc0a8c7b8af.xn--p1ai
-    client-fingerprint: chrome
+      public-key: P7F65GjTQGZju-N8CVHtlKNaWebVe_76Xt7Lm00RuH0
+    servername: vextor.win
+    client-fingerprint: firefox
   - name: node-02-vless
     type: vless
     server: 13.143.187.220
@@ -32,7 +31,61 @@ proxies:
       public-key: eDzVz3bxkv3IoN3BUCa_aA-RicoeG7ACylYSnmS2Pgg
     servername: fi-s1.kadrhub.tech
     client-fingerprint: chrome
-  - name: node-03-anytls
+  - name: node-03-vless
+    type: vless
+    server: 88.210.62.122
+    port: "443"
+    uuid: b392873f-82a2-01f4-ac46-303dd8d4f388
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: 9F7JxyyP-TNLt0dY2xOB0_34I8W0xXIpFY7rZ7-L0Gg
+      short-id: 0a6ba2716a409da6
+    servername: gateway.dzen-nl-1.com
+    client-fingerprint: firefox
+  - name: node-04-vless
+    type: vless
+    server: 45.130.127.79
+    port: "443"
+    uuid: 8d251959-b345-4665-b2fc-3ac177c35e6f
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: ZPjkqL8oFJ27Oa8ETFfSC_S2EHnGl8TyN5ujzYwMknw
+      short-id: 7d19a6e4c2f8305b
+    servername: fi.users.golu-gulu.online
+    client-fingerprint: firefox
+  - name: node-05-vless
+    type: vless
+    server: 93.88.203.43
+    port: "2087"
+    uuid: d2584d9d-f08f-438a-8353-76182ad4fa44
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: nXg_mNAscewD6CVR75kDyC0VhpxLr4wHyNzCj36W1UI
+      short-id: 313348acff18e4ef
+    servername: webstaurantstore.com
+    client-fingerprint: firefox
+  - name: node-06-vless
+    type: vless
+    server: 170.114.46.6
+    port: "80"
+    uuid: 9ce32242-557a-4d18-864d-c9c385b3dfa4
+    network: ws
+    tls: false
+    udp: true
+    ws-opts:
+      path: /
+      headers:
+        Host: matrix.learnpodedu.com
+  - name: node-07-anytls
     type: anytls
     server: anytls2.864106.xyz
     port: "19000"
@@ -41,14 +94,13 @@ proxies:
     skip-cert-verify: true
     client-fingerprint: chrome
     udp: true
-  - name: node-04-anytls
-    type: anytls
-    server: sdf65h46wr.df6h451rh.xin
+  - name: " HK 08 [hy2]"
+    type: hysteria2
+    server: vpn-hk-004.fastervpn.world
     port: "443"
-    password: 0324fbc29561
-    sni: images.ctfassets.net
+    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+    sni: vpn-hk-004.fastervpn.world
     skip-cert-verify: true
-    client-fingerprint: chrome
     udp: true
 
 proxy-groups:
@@ -61,8 +113,12 @@ proxy-groups:
     proxies:
       - node-01-vless
       - node-02-vless
-      - node-03-anytls
-      - node-04-anytls
+      - node-03-vless
+      - node-04-vless
+      - node-05-vless
+      - node-06-vless
+      - node-07-anytls
+      - " HK 08 [hy2]"
   - name: FALLBACK
     type: fallback
     url: 'https://www.gstatic.com/generate_204'
@@ -71,8 +127,12 @@ proxy-groups:
       - AUTO
       - node-01-vless
       - node-02-vless
-      - node-03-anytls
-      - node-04-anytls
+      - node-03-vless
+      - node-04-vless
+      - node-05-vless
+      - node-06-vless
+      - node-07-anytls
+      - " HK 08 [hy2]"
 
 rules:
   - DOMAIN-SUFFIX,local,DIRECT
