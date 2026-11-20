@@ -1,3 +1,5 @@
+hysteria2://oracle_hy2_pass_2026@129.225.181.46:8443?insecure=1&sni=bing.com
+hy2://H7mP2xY9kJ4nQ8wR5tF6vB3z@vpn-hk-004.fastervpn.world:443?insecure=1&sni=vpn-hk-004.fastervpn.world
 hysteria2://5760fb84-06f8-0001-890a-3d66044897ce@176.108.240.182:443?security=tls&sni=mwtjc-ru-73sb.my-fade.cloud&alpn=h3&pcs=b8414477e40fefd0518261802aeeec0251134eeeb5fb0cda665889061482bc99
 hysteria2://1d1d36cd-d3d4-0001-ab0e-99c68461d513@176.108.240.182:443?security=tls&sni=mwtjc-ru-73sb.my-fade.cloud&pcs=b8414477e40fefd0518261802aeeec0251134eeeb5fb0cda665889061482bc99
 hysteria2://b006650f-8771-0001-b7fa-e18fc6e80ef1@168.113.254.247:443?insecure=1&sni=vcerx-ru-67sb.my-fade.cloud&pinSHA256=c95e0c5630fadff7db0b6954ca210b104a9ea5a913e960a3ccb6d821664968e6
@@ -24,16 +26,12 @@ hysteria2://gG1JyjbJgDmEMvdTgcD9wVOS@35.221.91.82:443?insecure=1&sni=www.microso
 hysteria2://CyG0RFxMjzs41uQD4OLuHQ==@150.230.229.100:20000?insecure=0&sni=hy2-br2.whuiy.xyz&obfs=salamander&obfs-password=CyG0RFxMjzs41uQD4OLuHQ==
 hysteria2://9cfc9458e48c028ec03ff86ebc71c744@150-230-252-217.liao.kdns.fr:50160?insecure=1
 hy2://maintell@152.70.237.123:2053?insecure=1
-hy2://1beb216e3f60aea9555dae60d219a5ca@152.69.231.175:50160?insecure=1
 hy2://qQe1z5kU8kN6SlKnDt9Ru3Qp@47.129.241.99:443?insecure=1&sni=127.0.0.1
 hy2://1671a252e2a97dc2bda4e515475931da@132.226.226.189:50160?insecure=1
 hysteria2://401db914-1fef-0001-b41a-287bd9ac13f9@185.151.243.186:443?security=tls&sni=piodr-ru-74sel.my-fade.cloud&alpn=h3&pcs=d71dee6f06749e3ed87bba907da71f538edb9dd5e778eb7321e8d056ff207739
 hy2://linlin-2026@13.55.52.44:36712?sni=13.55.52.44&insecure=1
 hysteria2://633bc3be486b646190661ac2387c150a@152.67.115.203:443?insecure=1&obfs=salamander&obfs-password=850a3fb1cd33a28f12d837578ae1a2e7&sni=www.bing.com
-hy2://H7mP2xY9kJ4nQ8wR5tF6vB3z@vpn-hk-004.fastervpn.world:443?insecure=1&sni=vpn-hk-004.fastervpn.world
 hy2://3d7634af8cb2c6cb4bac1c0efad8b43d@152.67.200.82:50160?insecure=1
-hysteria2://5de9c7b1-25f2-0001-bbaa-e4292a33a59b@176.108.244.162:443?sni=ohyjf-ru-65sb.my-fade.cloud&alpn=h3&pinSHA256=b59ce628fb2824c0da7cbfa43e9f93aca2632068ebc29e2367eebe832a1402bf
-hysteria2://oracle_hy2_pass_2026@129.225.181.46:8443?insecure=1&sni=bing.com
 hysteria2://eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ@152.32.254.68:5010?insecure=0&sni=nas.aizhzo.com&obfs=salamander&obfs-password=7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
 hysteria2://00717a40-f058-0001-bd8b-946b3d578273@168.113.254.247:443?sni=vcerx-ru-67sb.my-fade.cloud
 hysteria2://3098af7f-dd3e-0001-b8e5-05a194206ac0@168.113.254.183:443?sni=xykmh-ru-70sb.my-fade.cloud
