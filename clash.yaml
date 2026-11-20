@@ -13,7 +13,23 @@ proxies:
     sni: srv-17e124.21freedom.net
     skip-cert-verify: true
     udp: true
-  - name: " DE 02 [hy2]"
+  - name: " DE 02 [hysteria2]"
+    type: hysteria2
+    server: 191.217.204.28
+    port: "443"
+    password: ca60984f-b1f0-4073-bd33-4c75168f749a
+    sni: ge-beer-10.fantoff.online
+    skip-cert-verify: false
+    udp: true
+  - name: " RU 03 [hysteria2]"
+    type: hysteria2
+    server: 176.108.240.182
+    port: "443"
+    password: 5760fb84-06f8-0001-890a-3d66044897ce
+    sni: mwtjc-ru-73sb.my-fade.cloud
+    skip-cert-verify: false
+    udp: true
+  - name: " DE 04 [hy2]"
     type: hysteria2
     server: 3.76.203.180
     port: "443"
@@ -21,7 +37,7 @@ proxies:
     sni: 3.76.203.180
     skip-cert-verify: true
     udp: true
-  - name: " DE 03 [hysteria2]"
+  - name: " DE 05 [hysteria2]"
     type: hysteria2
     server: 3.76.203.180
     port: "443"
@@ -29,7 +45,7 @@ proxies:
     sni: "off"
     skip-cert-verify: true
     udp: true
-  - name: " DE 04 [hy2]"
+  - name: " DE 06 [hy2]"
     type: hysteria2
     server: 3.69.232.199
     port: "443"
@@ -37,7 +53,7 @@ proxies:
     sni: 3.69.232.199
     skip-cert-verify: true
     udp: true
-  - name: " BG 05 [hysteria2]"
+  - name: " BG 07 [hysteria2]"
     type: hysteria2
     server: 45.137.201.211
     port: "443"
@@ -45,7 +61,23 @@ proxies:
     sni: wwe.fantoff.online
     skip-cert-verify: false
     udp: true
-  - name: " GB 06 [hysteria2]"
+  - name: " RU 08 [hysteria2]"
+    type: hysteria2
+    server: 176.108.244.162
+    port: "443"
+    password: 5de9c7b1-25f2-0001-bbaa-e4292a33a59b
+    sni: ohyjf-ru-65sb.my-fade.cloud
+    skip-cert-verify: false
+    udp: true
+  - name: " IL 09 [hysteria2]"
+    type: hysteria2
+    server: 129.159.156.109
+    port: "50160"
+    password: f25f19f29ce3fb53a35bf1b35b452a43
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+  - name: " GB 10 [hysteria2]"
     type: hysteria2
     server: 195.63.138.212
     port: "16443"
@@ -53,7 +85,7 @@ proxies:
     sni: cloudehouse24.ru
     skip-cert-verify: false
     udp: true
-  - name: " US 07 [hysteria2]"
+  - name: " US 11 [hysteria2]"
     type: hysteria2
     server: 38.76.150.108
     port: "36712"
@@ -61,7 +93,7 @@ proxies:
     sni: 38.76.150.108
     skip-cert-verify: true
     udp: true
-  - name: " DE 08 [hysteria2]"
+  - name: " DE 12 [hysteria2]"
     type: hysteria2
     server: 195.63.138.212
     port: "15443"
@@ -69,7 +101,7 @@ proxies:
     sni: cloudehouse24.ru
     skip-cert-verify: false
     udp: true
-  - name: " DE 09 [hysteria2]"
+  - name: " DE 13 [hysteria2]"
     type: hysteria2
     server: 179.61.138.145
     port: "36264"
@@ -79,7 +111,7 @@ proxies:
     udp: true
     obfs: salamander
     obfs-password: "Telegram@vpnjey"
-  - name: " DE 10 [hysteria2]"
+  - name: " DE 14 [hysteria2]"
     type: hysteria2
     server: 31.59.169.225
     port: "443"
@@ -87,7 +119,7 @@ proxies:
     sni: ge-beer-1.fantoff.online
     skip-cert-verify: true
     udp: true
-  - name: " GB 11 [hysteria2]"
+  - name: " GB 15 [hysteria2]"
     type: hysteria2
     server: 195.63.138.212
     port: "10444"
@@ -95,7 +127,17 @@ proxies:
     sni: cloudehouse24.ru
     skip-cert-verify: false
     udp: true
-  - name: " KR 12 [hy2]"
+  - name: " US 16 [hysteria2]"
+    type: hysteria2
+    server: 89.117.172.45
+    port: "443"
+    password: HPzKAhFXV5XgEmRSTM33DRuTHeFcB5ON
+    sni: eth.todsm.com
+    skip-cert-verify: false
+    udp: true
+    obfs: salamander
+    obfs-password: 0dRexOATy4t9J1ckKOLpPy9HrNoU5FmN
+  - name: " KR 17 [hy2]"
     type: hysteria2
     server: 132.226.226.189
     port: "50160"
@@ -103,7 +145,7 @@ proxies:
     sni: 132.226.226.189
     skip-cert-verify: true
     udp: true
-  - name: " KR 13 [hysteria2]"
+  - name: " KR 18 [hysteria2]"
     type: hysteria2
     server: 150-230-252-217.liao.kdns.fr
     port: "50160"
@@ -111,7 +153,7 @@ proxies:
     sni: 150-230-252-217.liao.kdns.fr
     skip-cert-verify: true
     udp: true
-  - name: " KR 14 [hy2]"
+  - name: " KR 19 [hy2]"
     type: hysteria2
     server: 152.70.237.123
     port: "2053"
@@ -119,7 +161,15 @@ proxies:
     sni: 152.70.237.123
     skip-cert-verify: true
     udp: true
-  - name: " AU 15 [hysteria2]"
+  - name: " KR 20 [hy2]"
+    type: hysteria2
+    server: 152.69.231.175
+    port: "50160"
+    password: 1beb216e3f60aea9555dae60d219a5ca
+    sni: 152.69.231.175
+    skip-cert-verify: true
+    udp: true
+  - name: " AU 21 [hysteria2]"
     type: hysteria2
     server: 152.67.115.203
     port: "443"
@@ -129,7 +179,7 @@ proxies:
     udp: true
     obfs: salamander
     obfs-password: 850a3fb1cd33a28f12d837578ae1a2e7
-  - name: " SE 16 [hysteria2]"
+  - name: " SE 22 [hysteria2]"
     type: hysteria2
     server: 95.143.196.97
     port: "443"
@@ -137,7 +187,7 @@ proxies:
     sni: se.mimowhat.online
     skip-cert-verify: false
     udp: true
-  - name: " AU 17 [hy2]"
+  - name: " AU 23 [hy2]"
     type: hysteria2
     server: 13.55.52.44
     port: "36712"
@@ -145,7 +195,15 @@ proxies:
     sni: 13.55.52.44
     skip-cert-verify: true
     udp: true
-  - name: " RU 18 [hysteria2]"
+  - name: " KR 24 [hy2]"
+    type: hysteria2
+    server: 152.67.200.82
+    port: "50160"
+    password: 3d7634af8cb2c6cb4bac1c0efad8b43d
+    sni: 152.67.200.82
+    skip-cert-verify: true
+    udp: true
+  - name: " RU 25 [hysteria2]"
     type: hysteria2
     server: 185.151.243.186
     port: "443"
@@ -153,7 +211,25 @@ proxies:
     sni: piodr-ru-74sel.my-fade.cloud
     skip-cert-verify: false
     udp: true
-  - name: " RU 19 [hysteria2]"
+  - name: " RU 26 [hysteria2]"
+    type: hysteria2
+    server: 176.108.244.162
+    port: "443"
+    password: 6acdc33a-a25b-0001-8095-c9a252d72fd0
+    sni: ohyjf-ru-65sb.my-fade.cloud
+    skip-cert-verify: false
+    udp: true
+  - name: " HK 27 [hysteria2]"
+    type: hysteria2
+    server: 152.32.254.68
+    port: "5010"
+    password: eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ
+    sni: nas.aizhzo.com
+    skip-cert-verify: false
+    udp: true
+    obfs: salamander
+    obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
+  - name: " RU 28 [hysteria2]"
     type: hysteria2
     server: 188.68.216.27
     port: "443"
@@ -161,7 +237,7 @@ proxies:
     sni: qtuod-ru-56sel.fade.mom
     skip-cert-verify: false
     udp: true
-  - name: " RU 20 [hysteria2]"
+  - name: " RU 29 [hysteria2]"
     type: hysteria2
     server: 188.68.216.27
     port: "443"
@@ -169,7 +245,7 @@ proxies:
     sni: qtuod-ru-56sel.fade.mom
     skip-cert-verify: false
     udp: true
-  - name: " RU 21 [hysteria2]"
+  - name: " RU 30 [hysteria2]"
     type: hysteria2
     server: 168.113.254.247
     port: "443"
@@ -177,7 +253,7 @@ proxies:
     sni: vcerx-ru-67sb.my-fade.cloud
     skip-cert-verify: false
     udp: true
-  - name: node-22-hysteria2
+  - name: node-31-hysteria2
     type: hysteria2
     server: 168.113.254.183
     port: "443"
@@ -185,7 +261,7 @@ proxies:
     sni: xykmh-ru-70sb.my-fade.cloud
     skip-cert-verify: false
     udp: true
-  - name: node-23-hy2
+  - name: node-32-hy2
     type: hysteria2
     server: 47.129.241.99
     port: "443"
@@ -193,7 +269,15 @@ proxies:
     sni: 127.0.0.1
     skip-cert-verify: true
     udp: true
-  - name: node-24-hysteria2
+  - name: node-33-hysteria2
+    type: hysteria2
+    server: 176.108.240.182
+    port: "443"
+    password: 1d1d36cd-d3d4-0001-ab0e-99c68461d513
+    sni: mwtjc-ru-73sb.my-fade.cloud
+    skip-cert-verify: false
+    udp: true
+  - name: node-34-hysteria2
     type: hysteria2
     server: 13.55.52.44
     port: "36712"
@@ -201,7 +285,7 @@ proxies:
     sni: 13.55.52.44
     skip-cert-verify: true
     udp: true
-  - name: node-25-hysteria2
+  - name: node-35-hysteria2
     type: hysteria2
     server: srv-17e124.21freedom.net
     port: "11592"
@@ -209,7 +293,7 @@ proxies:
     sni: srv-17e124
     skip-cert-verify: true
     udp: true
-  - name: " DE 26 [vless]"
+  - name: " DE 36 [vless]"
     type: vless
     server: 193.233.198.117
     port: "443"
@@ -223,7 +307,7 @@ proxies:
       short-id: 5eebb4b74e873b14
     servername: de-03.neverspy.tech
     client-fingerprint: chrome
-  - name: " RU 27 [vless]"
+  - name: " RU 37 [vless]"
     type: vless
     server: 185.151.243.186
     port: "443"
@@ -234,7 +318,7 @@ proxies:
     servername: piodr-ru-74sel.my-fade.cloud
     skip-cert-verify: true
     client-fingerprint: firefox
-  - name: node-28-vless
+  - name: node-38-vless
     type: vless
     server: 193.233.89.130
     port: "8443"
@@ -248,7 +332,7 @@ proxies:
     client-fingerprint: chrome
     grpc-opts:
       grpc-service-name: grpc
-  - name: node-29-vless
+  - name: node-39-vless
     type: vless
     server: almanac.filnex.baby
     port: "443"
@@ -263,28 +347,60 @@ proxies:
       - h2
     grpc-opts:
       grpc-service-name: glush.de1.v1
-  - name: node-30-vless
+  - name: node-40-vless
     type: vless
-    server: 169.40.42.168
+    server: orchard.elvano.website
     port: "443"
-    uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-    network: tcp
+    uuid: 25ac78e7-6d1d-4c9a-a450-c01a4871769f
+    network: xhttp
     tls: true
     udp: true
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-      short-id: c39cc7310a
-    servername: yahoo.com
-    client-fingerprint: chrome
-  - name: node-31-ss
+    servername: orchard.elvano.website
+    skip-cert-verify: true
+    client-fingerprint: firefox
+    alpn:
+      - h2
+      - http/1.1
+    xhttp-opts:
+      path: /api/de1/sync
+      host: orchard.elvano.website
+      mode: auto
+  - name: " US 41 [vmess]"
+    type: vmess
+    server: 142.171.48.179
+    port: "28167"
+    uuid: c5d9e8a0-6281-4d0e-8a8a-63adf30b7478
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: gw.alicdn.com
+  - name: node-42-vmess
+    type: vmess
+    server: 64.176.34.102
+    port: "46130"
+    uuid: 477350b2-7536-4f38-ee21-020efdde2d1d
+    alterId: "0"
+    cipher: auto
+    udp: true
+  - name: node-43-ss
     type: ss
     server: 84.247.155.196
     port: "443"
     cipher: aes-256-gcm
     password: 3eOFeNssde7PYYMv
     udp: true
-  - name: node-32-ss
+  - name: node-44-ss
+    type: ss
+    server: 47.245.173.25
+    port: "443"
+    cipher: 2022-blake3-chacha20-poly1305
+    password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
+    udp: true
+  - name: node-45-ss
     type: ss
     server: 129.150.59.74
     port: "14384"
@@ -301,37 +417,50 @@ proxy-groups:
     lazy: false
     proxies:
       - " RU 01 [hy2]"
-      - " DE 02 [hy2]"
-      - " DE 03 [hysteria2]"
+      - " DE 02 [hysteria2]"
+      - " RU 03 [hysteria2]"
       - " DE 04 [hy2]"
-      - " BG 05 [hysteria2]"
-      - " GB 06 [hysteria2]"
-      - " US 07 [hysteria2]"
-      - " DE 08 [hysteria2]"
-      - " DE 09 [hysteria2]"
-      - " DE 10 [hysteria2]"
-      - " GB 11 [hysteria2]"
-      - " KR 12 [hy2]"
-      - " KR 13 [hysteria2]"
-      - " KR 14 [hy2]"
-      - " AU 15 [hysteria2]"
-      - " SE 16 [hysteria2]"
-      - " AU 17 [hy2]"
-      - " RU 18 [hysteria2]"
-      - " RU 19 [hysteria2]"
-      - " RU 20 [hysteria2]"
-      - " RU 21 [hysteria2]"
-      - node-22-hysteria2
-      - node-23-hy2
-      - node-24-hysteria2
-      - node-25-hysteria2
-      - " DE 26 [vless]"
-      - " RU 27 [vless]"
-      - node-28-vless
-      - node-29-vless
-      - node-30-vless
-      - node-31-ss
-      - node-32-ss
+      - " DE 05 [hysteria2]"
+      - " DE 06 [hy2]"
+      - " BG 07 [hysteria2]"
+      - " RU 08 [hysteria2]"
+      - " IL 09 [hysteria2]"
+      - " GB 10 [hysteria2]"
+      - " US 11 [hysteria2]"
+      - " DE 12 [hysteria2]"
+      - " DE 13 [hysteria2]"
+      - " DE 14 [hysteria2]"
+      - " GB 15 [hysteria2]"
+      - " US 16 [hysteria2]"
+      - " KR 17 [hy2]"
+      - " KR 18 [hysteria2]"
+      - " KR 19 [hy2]"
+      - " KR 20 [hy2]"
+      - " AU 21 [hysteria2]"
+      - " SE 22 [hysteria2]"
+      - " AU 23 [hy2]"
+      - " KR 24 [hy2]"
+      - " RU 25 [hysteria2]"
+      - " RU 26 [hysteria2]"
+      - " HK 27 [hysteria2]"
+      - " RU 28 [hysteria2]"
+      - " RU 29 [hysteria2]"
+      - " RU 30 [hysteria2]"
+      - node-31-hysteria2
+      - node-32-hy2
+      - node-33-hysteria2
+      - node-34-hysteria2
+      - node-35-hysteria2
+      - " DE 36 [vless]"
+      - " RU 37 [vless]"
+      - node-38-vless
+      - node-39-vless
+      - node-40-vless
+      - " US 41 [vmess]"
+      - node-42-vmess
+      - node-43-ss
+      - node-44-ss
+      - node-45-ss
   - name: FALLBACK
     type: fallback
     url: 'https://www.gstatic.com/generate_204'
@@ -339,37 +468,50 @@ proxy-groups:
     proxies:
       - AUTO
       - " RU 01 [hy2]"
-      - " DE 02 [hy2]"
-      - " DE 03 [hysteria2]"
+      - " DE 02 [hysteria2]"
+      - " RU 03 [hysteria2]"
       - " DE 04 [hy2]"
-      - " BG 05 [hysteria2]"
-      - " GB 06 [hysteria2]"
-      - " US 07 [hysteria2]"
-      - " DE 08 [hysteria2]"
-      - " DE 09 [hysteria2]"
-      - " DE 10 [hysteria2]"
-      - " GB 11 [hysteria2]"
-      - " KR 12 [hy2]"
-      - " KR 13 [hysteria2]"
-      - " KR 14 [hy2]"
-      - " AU 15 [hysteria2]"
-      - " SE 16 [hysteria2]"
-      - " AU 17 [hy2]"
-      - " RU 18 [hysteria2]"
-      - " RU 19 [hysteria2]"
-      - " RU 20 [hysteria2]"
-      - " RU 21 [hysteria2]"
-      - node-22-hysteria2
-      - node-23-hy2
-      - node-24-hysteria2
-      - node-25-hysteria2
-      - " DE 26 [vless]"
-      - " RU 27 [vless]"
-      - node-28-vless
-      - node-29-vless
-      - node-30-vless
-      - node-31-ss
-      - node-32-ss
+      - " DE 05 [hysteria2]"
+      - " DE 06 [hy2]"
+      - " BG 07 [hysteria2]"
+      - " RU 08 [hysteria2]"
+      - " IL 09 [hysteria2]"
+      - " GB 10 [hysteria2]"
+      - " US 11 [hysteria2]"
+      - " DE 12 [hysteria2]"
+      - " DE 13 [hysteria2]"
+      - " DE 14 [hysteria2]"
+      - " GB 15 [hysteria2]"
+      - " US 16 [hysteria2]"
+      - " KR 17 [hy2]"
+      - " KR 18 [hysteria2]"
+      - " KR 19 [hy2]"
+      - " KR 20 [hy2]"
+      - " AU 21 [hysteria2]"
+      - " SE 22 [hysteria2]"
+      - " AU 23 [hy2]"
+      - " KR 24 [hy2]"
+      - " RU 25 [hysteria2]"
+      - " RU 26 [hysteria2]"
+      - " HK 27 [hysteria2]"
+      - " RU 28 [hysteria2]"
+      - " RU 29 [hysteria2]"
+      - " RU 30 [hysteria2]"
+      - node-31-hysteria2
+      - node-32-hy2
+      - node-33-hysteria2
+      - node-34-hysteria2
+      - node-35-hysteria2
+      - " DE 36 [vless]"
+      - " RU 37 [vless]"
+      - node-38-vless
+      - node-39-vless
+      - node-40-vless
+      - " US 41 [vmess]"
+      - node-42-vmess
+      - node-43-ss
+      - node-44-ss
+      - node-45-ss
 
 rules:
   - DOMAIN-SUFFIX,local,DIRECT
