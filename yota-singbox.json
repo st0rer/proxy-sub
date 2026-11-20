@@ -1,0 +1,248 @@
+{
+  "log": {
+    "level": "warn",
+    "timestamp": true
+  },
+  "inbounds": [
+    {
+      "type": "redirect",
+      "tag": "redirect-in",
+      "listen": "0.0.0.0",
+      "listen_port": 12345
+    },
+    {
+      "type": "socks",
+      "tag": "socks-in",
+      "listen": "0.0.0.0",
+      "listen_port": 10808
+    }
+  ],
+  "outbounds": [
+    {
+      "type": "vless",
+      "tag": "node-1",
+      "server": "188.130.209.225",
+      "server_port": 444,
+      "uuid": "c1d7617a-7559-45c9-9d07-a62c5ba8cb36",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "vextor.win",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "fragment": true,
+        "record_fragment": true,
+        "fragment_fallback_delay": "500ms",
+        "reality": {
+          "enabled": true,
+          "public_key": "P7F65GjTQGZju-N8CVHtlKNaWebVe_76Xt7Lm00RuH0",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "node-2",
+      "server": "13.143.187.220",
+      "server_port": 443,
+      "uuid": "66c78912-4e2d-41dc-8742-aaae2590804e",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "fi-s1.kadrhub.tech",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "fragment": true,
+        "record_fragment": true,
+        "fragment_fallback_delay": "500ms",
+        "reality": {
+          "enabled": true,
+          "public_key": "eDzVz3bxkv3IoN3BUCa_aA-RicoeG7ACylYSnmS2Pgg",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "node-3",
+      "server": "88.210.62.122",
+      "server_port": 443,
+      "uuid": "b392873f-82a2-01f4-ac46-303dd8d4f388",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "gateway.dzen-nl-1.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "fragment": true,
+        "record_fragment": true,
+        "fragment_fallback_delay": "500ms",
+        "reality": {
+          "enabled": true,
+          "public_key": "9F7JxyyP-TNLt0dY2xOB0_34I8W0xXIpFY7rZ7-L0Gg",
+          "short_id": "0a6ba2716a409da6"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "node-4",
+      "server": "45.130.127.79",
+      "server_port": 443,
+      "uuid": "8d251959-b345-4665-b2fc-3ac177c35e6f",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "fi.users.golu-gulu.online",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "fragment": true,
+        "record_fragment": true,
+        "fragment_fallback_delay": "500ms",
+        "reality": {
+          "enabled": true,
+          "public_key": "ZPjkqL8oFJ27Oa8ETFfSC_S2EHnGl8TyN5ujzYwMknw",
+          "short_id": "7d19a6e4c2f8305b"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "node-5",
+      "server": "93.88.203.43",
+      "server_port": 2087,
+      "uuid": "d2584d9d-f08f-438a-8353-76182ad4fa44",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "webstaurantstore.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "fragment": true,
+        "record_fragment": true,
+        "fragment_fallback_delay": "500ms",
+        "reality": {
+          "enabled": true,
+          "public_key": "nXg_mNAscewD6CVR75kDyC0VhpxLr4wHyNzCj36W1UI",
+          "short_id": "313348acff18e4ef"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "node-6",
+      "server": "170.114.46.6",
+      "server_port": 80,
+      "uuid": "9ce32242-557a-4d18-864d-c9c385b3dfa4",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "matrix.learnpodedu.com"
+        }
+      }
+    },
+    {
+      "type": "anytls",
+      "tag": "node-7",
+      "server": "anytls2.864106.xyz",
+      "server_port": 19000,
+      "password": "github.com/Alvin9999-newpac/fanqiang",
+      "tls": {
+        "enabled": true,
+        "server_name": "anytls2.864106.xyz",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "fragment": true,
+        "record_fragment": true,
+        "fragment_fallback_delay": "500ms"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "node-8",
+      "server": "vpn-hk-004.fastervpn.world",
+      "server_port": 443,
+      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "tls": {
+        "enabled": true,
+        "server_name": "vpn-hk-004.fastervpn.world",
+        "insecure": true,
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "node-1",
+        "node-2",
+        "node-3",
+        "node-4",
+        "node-5",
+        "node-6",
+        "node-7",
+        "node-8"
+      ],
+      "url": "https://www.gstatic.com/generate_204",
+      "interval": "2m",
+      "tolerance": 50
+    },
+    {
+      "type": "selector",
+      "tag": "proxy",
+      "outbounds": [
+        "auto",
+        "node-1",
+        "node-2",
+        "node-3",
+        "node-4",
+        "node-5",
+        "node-6",
+        "node-7",
+        "node-8"
+      ],
+      "default": "auto"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    }
+  ],
+  "route": {
+    "rules": [
+      {
+        "network": "udp",
+        "port": 443,
+        "action": "reject"
+      }
+    ],
+    "final": "proxy",
+    "auto_detect_interface": true
+  },
+  "experimental": {
+    "clash_api": {
+      "external_controller": "127.0.0.1:9090"
+    }
+  }
+}
