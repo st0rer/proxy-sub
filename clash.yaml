@@ -285,20 +285,31 @@ proxies:
       mode: auto
   - name: node-31-vmess
     type: vmess
+    server: 156.245.232.239
+    port: "35043"
+    uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
+    alterId: "0"
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /
+  - name: node-32-vmess
+    type: vmess
     server: 64.176.34.102
     port: "46130"
     uuid: 477350b2-7536-4f38-ee21-020efdde2d1d
     alterId: "0"
     cipher: auto
     udp: true
-  - name: node-32-ss
+  - name: node-33-ss
     type: ss
     server: 84.247.155.196
     port: "443"
     cipher: aes-256-gcm
     password: 3eOFeNssde7PYYMv
     udp: true
-  - name: node-33-ss
+  - name: node-34-ss
     type: ss
     server: 129.150.59.74
     port: "14384"
@@ -345,8 +356,9 @@ proxy-groups:
       - node-29-vless
       - node-30-vless
       - node-31-vmess
-      - node-32-ss
+      - node-32-vmess
       - node-33-ss
+      - node-34-ss
   - name: FALLBACK
     type: fallback
     url: 'https://www.gstatic.com/generate_204'
@@ -384,8 +396,9 @@ proxy-groups:
       - node-29-vless
       - node-30-vless
       - node-31-vmess
-      - node-32-ss
+      - node-32-vmess
       - node-33-ss
+      - node-34-ss
 
 rules:
   - DOMAIN-SUFFIX,local,DIRECT
