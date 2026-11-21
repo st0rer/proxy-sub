@@ -1,7 +1,5 @@
 hysteria2://fa937345-6d3e-4ff4-8127-1a836987a0db@195.63.138.212:15443/?sni=cloudehouse24.ru
-hysteria2://b7941807-1f4d-4bda-a878-92d708b84494@46.8.210.33:8446?obfs=salamander&obfs-password=nTm4oBa6QCpWoAFDVtF6mpMpfMfN8CM6&sni=litelitvalitter.rooferz.surf
 hysteria2://fa937345-6d3e-4ff4-8127-1a836987a0db@195.63.138.212:16443?sni=cloudehouse24.ru
-hysteria2://fa937345-6d3e-4ff4-8127-1a836987a0db@195.63.138.212:6443?security=tls&insecure=0&sni=cloudehouse24.ru#%E1%B4%9B%E1%B4%87%CA%9F%E1%B4%87%C9%A2%CA%80%E1%B4%80%E1%B4%8D%20%C9%AA%E1%B4%85%20%3D%20%40%EA%9C%B0xx%C9%B4%E1%B4%87%E1%B4%9B%E2%98%82
 hysteria2://b280a29b-a3d9-0001-8a81-198855a17d57@84.38.189.122:443?alpn=h3&sni=shyrc-ru-75sel.my-fade.cloud
 hysteria2://5c49355f-afbc-0001-9c1c-8205436bb97c@185.151.243.186:443?sni=piodr-ru-74sel.my-fade.cloud
 hysteria2://401db914-1fef-0001-b41a-287bd9ac13f9@185.151.243.186:443?sni=piodr-ru-74sel.my-fade.cloud
@@ -11,7 +9,6 @@ hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@18.153.65.67:443?sni=off&insecure=1
 hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@18.194.242.173:443/?insecure=1&sni=127.0.0.1
 hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@3.76.203.180:443?sni=off&insecure=1
 hysteria2://3a702d4d1de4949005d8431220e040fb@152.67.75.161:443?insecure=1&obfs=salamander&obfs-password=c13f29db6a638ad2b211b9ce2669ef27&sni=www.bing.com
-hysteria2://769f34f0-1500-488f-b414-03bc90666502@95.143.196.97:443?security=tls&sni=se.mimowhat.online
 hysteria2://AIcYjw5Oc9Rrrr9SGDUBbBIC@38.76.150.108:36712?insecure=1&sni=38.76.150.108
 hy2://maintell@152.70.237.123:2053?insecure=1
 hysteria2://9cfc9458e48c028ec03ff86ebc71c744@150-230-252-217.liao.kdns.fr:50160?insecure=1
@@ -21,17 +18,15 @@ hy2://1beb216e3f60aea9555dae60d219a5ca@152.69.231.175:50160?insecure=1
 hy2://1671a252e2a97dc2bda4e515475931da@132.226.226.189:50160?insecure=1
 hysteria2://linlin-2026@13.237.192.121:36712?insecure=1
 hysteria2://eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ@152.32.254.68:5010?insecure=0&sni=nas.aizhzo.com&obfs=salamander&obfs-password=7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
-hysteria2://GIFCjtpiGVOsrCy2kgBmgndXX5lUP7Eb@185.102.75.145:777?sni=fin5.cft-razor.online
 hysteria2://f25f19f29ce3fb53a35bf1b35b452a43@129.159.156.109:50160?insecure=1&sni=www.bing.com
 hysteria2://87bb2ac4-b7a1-0001-b11d-2107709ea6cb@136.148.83.69:443?sni=szqbx-ru-77dc.my-fade.cloud
 hy2://41edb44c8e@103.88.243.142:11592/?insecure=1&sni=srv-17e124.21freedom.net
 hysteria2://linlin-2026@13.55.52.44:36712?insecure=1&sni=13.55.52.44
 hysteria2://41edb44c8e@srv-17e124.21freedom.net:11592?insecure=1&security=tls&sni=srv-17e124#%F0%9F%87%B7%F0%9F%87%BA216756%20%7C%20%E2%9A%A1%EF%B8%8FTelegram%20%3D%20t.me%2FSOSkeyNET
+vless://7bd7c4aa-52c4-482c-bdcc-e7380fa6b5fe@193.233.89.130:8443?mode=gun&security=reality&encryption=none&pbk=xx8KWdR4HbVmvqPb0wRPAstBHGN2Uk99m7AF794_E3c&type=grpc&serviceName=grpc&sni=g.play2go.gay#%E1%B4%9B%E1%B4%87%CA%9F%E1%B4%87%C9%A2%CA%80%E1%B4%80%E1%B4%8D%20%C9%AA%E1%B4%85%20%3D%20%40%EA%9C%B0xx%C9%B4%E1%B4%87%E1%B4%9B%F0%9F%A4%A1
 vless://03786aa4-21a5-4e7c-83d6-873aafc41217@193.233.198.117:443?&security=reality&flow=xtls-rprx-vision&pbk=zT-G11tZiOO7DFJD23MCeZC3TwaUJr6NMDHW4CLif1Y&sid=5eebb4b74e873b14&fp=chrome&sni=de-03.neverspy.tech&type=tcp&headerType=none&path=%2F
 vless://03edf06e-25fc-0001-a85c-b091a6019f50@185.151.243.186:443?encryption=none&security=tls&sni=piodr-ru-74sel.my-fade.cloud&type=tcp&fp=firefox
-vless://7bd7c4aa-52c4-482c-bdcc-e7380fa6b5fe@193.233.89.130:8443?security=reality&encryption=none&pbk=xx8KWdR4HbVmvqPb0wRPAstBHGN2Uk99m7AF794_E3c&type=grpc&serviceName=grpc&sni=g.play2go.gay#%E1%B4%9B%E1%B4%87%CA%9F%E1%B4%87%C9%A2%CA%80%E1%B4%80%E1%B4%8D%20%C9%AA%E1%B4%85%20%3D%20%40%EA%9C%B0xx%C9%B4%E1%B4%87%E1%B4%9B%F0%9F%91%91
-vless://4e4f1f70-5e56-4a76-bb9d-db087f4690c4@172.67.156.147:443?path=%2Ftyxyws&security=tls&encryption=none&insecure=0&host=jp3.yohototo.top&fp=chrome&type=ws&allowInsecure=0&sni=jp3.yohototo.top#%E1%B4%9B%E1%B4%87%CA%9F%E1%B4%87%C9%A2%CA%80%E1%B4%80%E1%B4%8D%20%C9%AA%E1%B4%85%20%3D%20%40%EA%9C%B0xx%C9%B4%E1%B4%87%E1%B4%9B%F0%9F%90%9E
 vless://4a923161-156f-4914-8cac-762fb2433bfb@144.48.11.146:43000?security=reality&encryption=none&pbk=CG0mVPuvPcfZjplA21zehlqoDpGHihJBK8K_u1zfhgQ&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=144.48.11.146&sid=ee4ea980#%E1%B4%9B%E1%B4%87%CA%9F%E1%B4%87%C9%A2%CA%80%E1%B4%80%E1%B4%8D%20%C9%AA%E1%B4%85%20%3D%20%40%EA%9C%B0xx%C9%B4%E1%B4%87%E1%B4%9B%F0%9F%A6%A0
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYc3k4T3g0eU9WM3hMbHB4dGp6czNY@102.133.165.160:16233
 vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogIlx1RDgzQ1x1RERFRlx1RDgzQ1x1RERGNV/ml6XmnKwgKDIpIiwNCiAgImFkZCI6ICI2NC4xNzYuMzQuMTAyIiwNCiAgInBvcnQiOiAiNDYxMzAiLA0KICAiaWQiOiAiNDc3MzUwYjItNzUzNi00ZjM4LWVlMjEtMDIwZWZkZGUyZDFkIiwNCiAgImFpZCI6ICIwIiwNCiAgInNjeSI6ICJhdXRvIiwNCiAgIm5ldCI6ICJ0Y3AiLA0KICAidHlwZSI6ICJub25lIiwNCiAgImhvc3QiOiAiIiwNCiAgInBhdGgiOiAiIiwNCiAgInRscyI6ICIiLA0KICAic25pIjogIiIsDQogICJhbHBuIjogIiIsDQogICJmcCI6ICIiLA0KICAiaW5zZWN1cmUiOiAiMCINCn0=
-ss://YWVzLTI1Ni1nY206M2VPRmVOc3NkZTdQWVlNdg==@84.247.155.196:443
+vmess://eyJhZGQiOiIxNTYuMjQ1LjIzMi4yMzkiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiYjE1ZTQ4MWQtMTdlNC00MWE4LTg0YzItMjNkNGYwNTE0ZDlhIiwiaW5zZWN1cmUiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsInBjcyI6IiIsInBvcnQiOiIzNTA0MyIsInBzIjoi4bSb4bSHyp/htIfJosqA4bSA4bSNIMmq4bSFID0gQOqcsHh4ybThtIfhtJvwn6W2Iiwic2N5IjoiYXV0byIsInNuaSI6IiIsInRscyI6Im5vbmUiLCJ0eXBlIjoibm9uZSIsInYiOiIyIiwidmNuIjoiIn0=
