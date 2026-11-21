@@ -7,19 +7,6 @@ ipv6: false
 proxies:
   - name: node-01-vless
     type: vless
-    server: 13.143.187.220
-    port: "443"
-    uuid: 66c78912-4e2d-41dc-8742-aaae2590804e
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: eDzVz3bxkv3IoN3BUCa_aA-RicoeG7ACylYSnmS2Pgg
-    servername: fi-s1.kadrhub.tech
-    client-fingerprint: chrome
-  - name: node-02-vless
-    type: vless
     server: 45.130.127.79
     port: "443"
     uuid: 8d251959-b345-4665-b2fc-3ac177c35e6f
@@ -32,7 +19,34 @@ proxies:
       short-id: 7d19a6e4c2f8305b
     servername: fi.users.golu-gulu.online
     client-fingerprint: firefox
+  - name: node-02-vless
+    type: vless
+    server: 178.20.28.5
+    port: "8443"
+    uuid: 4fabeed0-790e-9724-8f12-138ed31ac60e
+    network: grpc
+    tls: true
+    udp: true
+    reality-opts:
+      public-key: 4g8R0-Acc1LjppgvUopldH0Wg3JA2tPXvYB96aJnigo
+    servername: res.cdn.office.net
+    client-fingerprint: chrome
+    grpc-opts:
+      grpc-service-name: TunService
   - name: node-03-vless
+    type: vless
+    server: 13.143.187.220
+    port: "443"
+    uuid: 66c78912-4e2d-41dc-8742-aaae2590804e
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: eDzVz3bxkv3IoN3BUCa_aA-RicoeG7ACylYSnmS2Pgg
+    servername: fi-s1.kadrhub.tech
+    client-fingerprint: chrome
+  - name: node-04-vless
     type: vless
     server: 31.129.56.229
     port: "443"
@@ -46,7 +60,7 @@ proxies:
       short-id: b3c03b6dac5f1e7f
     servername: it-1.idkvpn.ru
     client-fingerprint: firefox
-  - name: node-04-vless
+  - name: node-05-vless
     type: vless
     server: 82.202.142.227
     port: "23444"
@@ -60,52 +74,140 @@ proxies:
       short-id: 6ad3c0f1e9b2478a
     servername: fontanka.ru
     client-fingerprint: firefox
-  - name: node-05-vless
-    type: vless
-    server: 48.102.205.89
-    port: "22444"
-    uuid: a9ff24d3-f308-4e72-acb9-a76062583837
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: T1BWBw3lq9G1LiQ7eQSPfdNQic7bUMEbdFNJBewAwB8
-      short-id: 6ad3c0f1e9b2478a
-    servername: fontanka.ru
-    client-fingerprint: firefox
   - name: node-06-vless
     type: vless
-    server: 170.114.46.6
-    port: "80"
-    uuid: 9ce32242-557a-4d18-864d-c9c385b3dfa4
-    network: ws
-    tls: false
-    udp: true
-    ws-opts:
-      path: /
-      headers:
-        Host: matrix.learnpodedu.com
-  - name: " NL 07 [vless]"
-    type: vless
-    server: 130.78.30.2
+    server: tgfree.rush-server.com
     port: "443"
-    uuid: 0259e5aa-c188-4334-b204-32cd5ea859f6
+    uuid: ebd1c0d6-7ff4-4b9f-8692-237517a27a64
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
     reality-opts:
-      public-key: 0HbEvKirH3zX6SuURbw9gA9v3Zl6BpIX4VLAPTA_qQ4
-      short-id: a8f4c19e72b305d6
-    servername: nl-site-prsv-forum.keno.su
-    client-fingerprint: firefox
-  - name: " US 08 [anytls]"
+      public-key: mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0
+      short-id: 64c1fe36c7846400
+    servername: anyfile2file.com
+    client-fingerprint: ios
+  - name: node-07-vless
+    type: vless
+    server: free.fugui.lol
+    port: "47396"
+    uuid: ead3595f-4020-4e76-a3ec-c248e1a2f2f7
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ
+      short-id: fa514b83
+    servername: swdist.apple.com
+    client-fingerprint: chrome
+  - name: node-08-vless
+    type: vless
+    server: 212.109.193.194
+    port: "2096"
+    uuid: e436321f-24a9-4c38-b935-7d7dee0c3f68
+    network: grpc
+    tls: true
+    udp: true
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    servername: id.vk.com
+    client-fingerprint: chrome
+    grpc-opts:
+      grpc-service-name: vless-grpc-reality
+  - name: " US 09 [ss]"
+    type: ss
+    server: 129.146.116.143
+    port: "50356"
+    cipher: 2022-blake3-chacha20-poly1305
+    password: tFlI+GCNnBcKUE0GuoHOahvh6g0HzdU8YJNyRDgGWTU=
+    udp: true
+  - name: node-10-ss
+    type: ss
+    server: 129.150.59.74
+    port: "14384"
+    cipher: 2022-blake3-aes-256-gcm
+    password: "sUR6Ny8Y6PSvHhl/DUxconwxg6VZyFdsdfaVCvEatJo=:7bTEhHgpErKiRjE1ega+H6pcpJsNLFB0CjQseujAHrA="
+    udp: true
+  - name: node-11-ss
+    type: ss
+    server: 38.14.254.139
+    port: "8100"
+    cipher: 2022-blake3-aes-128-gcm
+    password: "u7VfX8mD2zK4R9sW1w8YQA==:4DqqB3HH0OW+/uuBcsXJDA=="
+    udp: true
+  - name: node-12-ss
+    type: ss
+    server: 43.160.213.146
+    port: "8388"
+    cipher: 2022-blake3-aes-256-gcm
+    password: ClzJLvRzIxivCXbf5X5jnSU0pLg5ffCEUL2AZoeLg94=
+    udp: true
+  - name: node-13-ss
+    type: ss
+    server: 47.254.167.157
+    port: "443"
+    cipher: 2022-blake3-chacha20-poly1305
+    password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
+    udp: true
+  - name: " US 14 [anytls]"
     type: anytls
     server: anytls2.864106.xyz
     port: "19000"
     password: github.com/Alvin9999-newpac/fanqiang
     sni: anytls2.864106.xyz
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
+  - name: " DE 15 [hysteria2]"
+    type: hysteria2
+    server: 195.63.138.212
+    port: "15443"
+    password: fa937345-6d3e-4ff4-8127-1a836987a0db
+    sni: cloudehouse24.ru
+    skip-cert-verify: false
+    udp: true
+  - name: " LT 16 [hysteria2]"
+    type: hysteria2
+    server: 46.8.210.33
+    port: "8446"
+    password: b7941807-1f4d-4bda-a878-92d708b84494
+    sni: litelitvalitter.rooferz.surf
+    skip-cert-verify: false
+    udp: true
+    obfs: salamander
+    obfs-password: nTm4oBa6QCpWoAFDVtF6mpMpfMfN8CM6
+  - name: " GB 17 [hysteria2]"
+    type: hysteria2
+    server: 195.63.128.21
+    port: "10444"
+    password: fa937345-6d3e-4ff4-8127-1a836987a0db
+    sni: germany.cloudhouse1.ru
+    skip-cert-verify: false
+    udp: true
+  - name: " GB 18 [hysteria2]"
+    type: hysteria2
+    server: 195.63.138.212
+    port: "16443"
+    password: fa937345-6d3e-4ff4-8127-1a836987a0db
+    sni: cloudehouse24.ru
+    skip-cert-verify: false
+    udp: true
+  - name: " GB 19 [hysteria2]"
+    type: hysteria2
+    server: 195.63.138.212
+    port: "10444"
+    password: fa937345-6d3e-4ff4-8127-1a836987a0db
+    sni: cloudehouse24.ru
+    skip-cert-verify: false
+    udp: true
+  - name: node-20-anytls
+    type: anytls
+    server: sdf65h46wr.df6h451rh.xin
+    port: "443"
+    password: 0324fbc29561
+    sni: images.ctfassets.net
     skip-cert-verify: true
     client-fingerprint: chrome
     udp: true
@@ -124,8 +226,20 @@ proxy-groups:
       - node-04-vless
       - node-05-vless
       - node-06-vless
-      - " NL 07 [vless]"
-      - " US 08 [anytls]"
+      - node-07-vless
+      - node-08-vless
+      - " US 09 [ss]"
+      - node-10-ss
+      - node-11-ss
+      - node-12-ss
+      - node-13-ss
+      - " US 14 [anytls]"
+      - " DE 15 [hysteria2]"
+      - " LT 16 [hysteria2]"
+      - " GB 17 [hysteria2]"
+      - " GB 18 [hysteria2]"
+      - " GB 19 [hysteria2]"
+      - node-20-anytls
   - name: FALLBACK
     type: fallback
     url: 'https://www.gstatic.com/generate_204'
@@ -138,8 +252,20 @@ proxy-groups:
       - node-04-vless
       - node-05-vless
       - node-06-vless
-      - " NL 07 [vless]"
-      - " US 08 [anytls]"
+      - node-07-vless
+      - node-08-vless
+      - " US 09 [ss]"
+      - node-10-ss
+      - node-11-ss
+      - node-12-ss
+      - node-13-ss
+      - " US 14 [anytls]"
+      - " DE 15 [hysteria2]"
+      - " LT 16 [hysteria2]"
+      - " GB 17 [hysteria2]"
+      - " GB 18 [hysteria2]"
+      - " GB 19 [hysteria2]"
+      - node-20-anytls
 
 rules:
   - DOMAIN-SUFFIX,local,DIRECT
