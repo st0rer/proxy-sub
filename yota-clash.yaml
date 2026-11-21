@@ -7,19 +7,6 @@ ipv6: false
 proxies:
   - name: node-01-vless
     type: vless
-    server: 188.130.209.225
-    port: "444"
-    uuid: c1d7617a-7559-45c9-9d07-a62c5ba8cb36
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: P7F65GjTQGZju-N8CVHtlKNaWebVe_76Xt7Lm00RuH0
-    servername: vextor.win
-    client-fingerprint: firefox
-  - name: node-02-vless
-    type: vless
     server: 13.143.187.220
     port: "443"
     uuid: 66c78912-4e2d-41dc-8742-aaae2590804e
@@ -31,21 +18,7 @@ proxies:
       public-key: eDzVz3bxkv3IoN3BUCa_aA-RicoeG7ACylYSnmS2Pgg
     servername: fi-s1.kadrhub.tech
     client-fingerprint: chrome
-  - name: node-03-vless
-    type: vless
-    server: 88.210.62.122
-    port: "443"
-    uuid: b392873f-82a2-01f4-ac46-303dd8d4f388
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: 9F7JxyyP-TNLt0dY2xOB0_34I8W0xXIpFY7rZ7-L0Gg
-      short-id: 0a6ba2716a409da6
-    servername: gateway.dzen-nl-1.com
-    client-fingerprint: firefox
-  - name: node-04-vless
+  - name: node-02-vless
     type: vless
     server: 45.130.127.79
     port: "443"
@@ -59,19 +32,47 @@ proxies:
       short-id: 7d19a6e4c2f8305b
     servername: fi.users.golu-gulu.online
     client-fingerprint: firefox
-  - name: node-05-vless
+  - name: node-03-vless
     type: vless
-    server: 93.88.203.43
-    port: "2087"
-    uuid: d2584d9d-f08f-438a-8353-76182ad4fa44
+    server: 31.129.56.229
+    port: "443"
+    uuid: 3f48cee8-2e5d-4ea4-9297-0777a79a9f06
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
     reality-opts:
-      public-key: nXg_mNAscewD6CVR75kDyC0VhpxLr4wHyNzCj36W1UI
-      short-id: 313348acff18e4ef
-    servername: webstaurantstore.com
+      public-key: HxgKgQBR0Xs-lqb0snVMzcSH2xhb90Zia8KeT1tdaVs
+      short-id: b3c03b6dac5f1e7f
+    servername: it-1.idkvpn.ru
+    client-fingerprint: firefox
+  - name: node-04-vless
+    type: vless
+    server: 82.202.142.227
+    port: "23444"
+    uuid: a9ff24d3-f308-4e72-acb9-a76062583837
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: T1BWBw3lq9G1LiQ7eQSPfdNQic7bUMEbdFNJBewAwB8
+      short-id: 6ad3c0f1e9b2478a
+    servername: fontanka.ru
+    client-fingerprint: firefox
+  - name: node-05-vless
+    type: vless
+    server: 48.102.205.89
+    port: "22444"
+    uuid: a9ff24d3-f308-4e72-acb9-a76062583837
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: T1BWBw3lq9G1LiQ7eQSPfdNQic7bUMEbdFNJBewAwB8
+      short-id: 6ad3c0f1e9b2478a
+    servername: fontanka.ru
     client-fingerprint: firefox
   - name: node-06-vless
     type: vless
@@ -85,7 +86,21 @@ proxies:
       path: /
       headers:
         Host: matrix.learnpodedu.com
-  - name: node-07-anytls
+  - name: " NL 07 [vless]"
+    type: vless
+    server: 130.78.30.2
+    port: "443"
+    uuid: 0259e5aa-c188-4334-b204-32cd5ea859f6
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: 0HbEvKirH3zX6SuURbw9gA9v3Zl6BpIX4VLAPTA_qQ4
+      short-id: a8f4c19e72b305d6
+    servername: nl-site-prsv-forum.keno.su
+    client-fingerprint: firefox
+  - name: " US 08 [anytls]"
     type: anytls
     server: anytls2.864106.xyz
     port: "19000"
@@ -93,14 +108,6 @@ proxies:
     sni: anytls2.864106.xyz
     skip-cert-verify: true
     client-fingerprint: chrome
-    udp: true
-  - name: " HK 08 [hy2]"
-    type: hysteria2
-    server: vpn-hk-004.fastervpn.world
-    port: "443"
-    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-    sni: vpn-hk-004.fastervpn.world
-    skip-cert-verify: true
     udp: true
 
 proxy-groups:
@@ -117,8 +124,8 @@ proxy-groups:
       - node-04-vless
       - node-05-vless
       - node-06-vless
-      - node-07-anytls
-      - " HK 08 [hy2]"
+      - " NL 07 [vless]"
+      - " US 08 [anytls]"
   - name: FALLBACK
     type: fallback
     url: 'https://www.gstatic.com/generate_204'
@@ -131,8 +138,8 @@ proxy-groups:
       - node-04-vless
       - node-05-vless
       - node-06-vless
-      - node-07-anytls
-      - " HK 08 [hy2]"
+      - " NL 07 [vless]"
+      - " US 08 [anytls]"
 
 rules:
   - DOMAIN-SUFFIX,local,DIRECT
