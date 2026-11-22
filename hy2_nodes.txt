@@ -6,7 +6,6 @@ hy2://41edb44c8e@103.88.243.142:11592?auth=41edb44c8e&insecure=1&sni=srv-17e124.
 hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@3.76.203.180:443?sni=off&insecure=1
 hy2://H7mP2xY9kJ4nQ8wR5tF6vB3z@3.76.203.180:443?insecure=1
 hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@18.194.242.173:443?insecure=1&security=tls&sni=127.0.0.1
-hysteria2://57beeeb0-03fc-4fc9-94da-7604488a7134@nb5rb.hikigo.com:443?insecure=1&alpn=h3&sni=nb5rb.hikigo.com&obfs=salamander&obfs-password=yhlbhcysaba0wtn1
 hysteria2://fa937345-6d3e-4ff4-8127-1a836987a0db@195.63.128.21:5443?sni=germany.cloudhouse1.ru
 hysteria2://3a702d4d1de4949005d8431220e040fb@152.67.75.161:443?insecure=1&obfs=salamander&obfs-password=c13f29db6a638ad2b211b9ce2669ef27&sni=www.bing.com
 hysteria2://9a9f167d-b461-466f-be50-f0ffd598a6f8@germanyafterpool.fun:443/?insecure=1&sni=germanyafterpool.fun
