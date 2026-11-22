@@ -1,5 +1,4 @@
 hysteria2://fa937345-6d3e-4ff4-8127-1a836987a0db@195.63.128.21:5443?insecure=0&sni=germany.cloudhouse1.ru
-hysteria2://b7941807-1f4d-4bda-a878-92d708b84494@46.8.210.33:8446?obfs=salamander&obfs-password=nTm4oBa6QCpWoAFDVtF6mpMpfMfN8CM6&sni=litelitvalitter.rooferz.surf
 hysteria2://fa937345-6d3e-4ff4-8127-1a836987a0db@195.63.128.21:10444/?sni=germany.cloudhouse1.ru
 hysteria2://fa937345-6d3e-4ff4-8127-1a836987a0db@195.63.138.212:10444/?sni=cloudehouse24.ru
 hy2://41edb44c8e@103.88.243.142:11592/?insecure=1&sni=srv-17e124.21freedom.net
@@ -10,7 +9,6 @@ hysteria2://3a702d4d1de4949005d8431220e040fb@152.67.75.161:443?insecure=1&obfs=s
 hysteria2://AIcYjw5Oc9Rrrr9SGDUBbBIC@38.76.150.108:36712?insecure=1
 hy2://1671a252e2a97dc2bda4e515475931da@132.226.226.189:50160?insecure=1
 hysteria2://9cfc9458e48c028ec03ff86ebc71c744@150-230-252-217.liao.kdns.fr:50160?insecure=1
-hysteria2://0b396097d052915ef304b40d2bda6a2d@179.254.94.184:8443/?insecure=1&sni=www.bing.com
 hy2://maintell@152.70.237.123:2053?insecure=1
 hy2://linlin-2026@13.55.52.44:36712?sni=13.55.52.44&insecure=1
 hysteria2://linlin-2026@13.237.192.121:36712?insecure=1
