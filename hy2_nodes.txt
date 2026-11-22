@@ -3,7 +3,6 @@ hysteria2://fa937345-6d3e-4ff4-8127-1a836987a0db@195.63.138.212:16443?sni=cloude
 hysteria2://fa937345-6d3e-4ff4-8127-1a836987a0db@195.63.138.212:10444/?sni=cloudehouse24.ru
 hysteria2://fa937345-6d3e-4ff4-8127-1a836987a0db@195.63.128.21:10444/?security=tls&sni=germany.cloudhouse1.ru
 hysteria2://004ea4a8-d701-0001-b0c0-8e61a5c31a23@168.113.252.11:443?sni=jkawq-ru-45sb.fade.mom&pinSHA256=31543384f7b5c9bfdc55c87632ac17fa01a54761842c6c05197e0ac33a27e76a
-hysteria2://713142c9-ad09-4894-b35c-645423f3f6c9@media.embrofree.org:443/?sni=media.embrofree.org
 hy2://41edb44c8e@103.88.243.142:11592?insecure=1&sni=103.88.243.142
 hysteria2://9a9f167d-b461-466f-be50-f0ffd598a6f8@germanyafterpool.fun:443/?insecure=1&sni=germanyafterpool.fun
 hy2://H7mP2xY9kJ4nQ8wR5tF6vB3z@3.76.221.4:443?insecure=1
