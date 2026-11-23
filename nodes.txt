@@ -1,5 +1,4 @@
 hysteria2://fa937345-6d3e-4ff4-8127-1a836987a0db@195.63.128.21:5443?insecure=0&sni=germany.cloudhouse1.ru
-hysteria2://04920673-035c-410d-94e4-5b1469d3fb6f@91.211.27.231:42848?auth=04920673-035c-410d-94e4-5b1469d3fb6f&insecure=1
 hy2://f87376e17da040ed04c9665ce8972930@138.2.73.238:50160?insecure=1
 hy2://41edb44c8e@103.88.243.142:11592/?insecure=1&sni=srv-17e124.21freedom.net
 hysteria2://57beeeb0-03fc-4fc9-94da-7604488a7134@hkzfsg2.mateflora.com:443?insecure=1&alpn=h3&sni=hkzfsg2.mateflora.com&obfs=salamander&obfs-password=fcfqz5o4znnjqtrp
@@ -18,17 +17,16 @@ hysteria2://3a702d4d1de4949005d8431220e040fb@152.67.75.161:443?insecure=1&obfs=s
 hy2://maintell@152.70.237.123:2053?insecure=1
 hysteria2://eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ@152.32.254.68:5010?insecure=0&sni=nas.aizhzo.com&obfs=salamander&obfs-password=7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
 hysteria2://8294f130408299df8cab08c80bf6f819@24.233.8.109:443?insecure=1&obfs=salamander&obfs-password=c8827ab99e316c5bd414e21afa915ddf&sni=www.bing.com
-hysteria2://PEisy6m-98HcX1TWZt0yXiCS7jRZG4IzKQTXo6k1qb4@48.102.130.17:443?sni=de2.substituteme.space
 hysteria2://41edb44c8e@srv-17e124.21freedom.net:11592?insecure=1&security=tls&sni=srv-17e124#%F0%9F%87%B7%F0%9F%87%BA216756%20%7C%20%E2%9A%A1%EF%B8%8FTelegram%20%3D%20t.me%2FSOSkeyNET
 hysteria2://fa937345-6d3e-4ff4-8127-1a836987a0db@195.63.128.21:10444/?security=tls&sni=germany.cloudhouse1.ru
 vless://00000000-0000-0001-0000-000000000000@185.151.241.22:443?security=tls&fp=firefox&sni=mrhytymqyorzvzgwoh.fcloudservices.site
 vless://00000000-0000-0001-0000-000000000000@213.171.24.165:443?type=tcp&security=tls&fp=firefox&sni=dqgjbemytgqfwgxvuq.fcloudservices.site
-vless://03786aa4-21a5-4e7c-83d6-873aafc41217@193.233.198.117:443?&security=reality&flow=xtls-rprx-vision&pbk=zT-G11tZiOO7DFJD23MCeZC3TwaUJr6NMDHW4CLif1Y&sid=5eebb4b74e873b14&fp=chrome&sni=de-03.neverspy.tech&type=tcp&headerType=none&path=%2F
 vless://0b6a7fe0-206b-4071-9f96-cd397d1ec01a@81.200.158.26:443?encryption=none&insecure=0&mode=gun&security=tls&serviceName=glush.de1.v1&sni=fernglade.gerqix.online&type=grpc&fp=edge
 vless://7bd7c4aa-52c4-482c-bdcc-e7380fa6b5fe@193.233.89.130:8443?security=reality&encryption=none&pbk=xx8KWdR4HbVmvqPb0wRPAstBHGN2Uk99m7AF794_E3c&type=grpc&serviceName=grpc&sni=g.play2go.gay#%E1%B4%9B%E1%B4%87%CA%9F%E1%B4%87%C9%A2%CA%80%E1%B4%80%E1%B4%8D%20%C9%AA%E1%B4%85%20%3D%20%40%EA%9C%B0xx%C9%B4%E1%B4%87%E1%B4%9B%F0%9F%91%91
+vless://4a923161-156f-4914-8cac-762fb2433bfb@45.91.54.162:43000?security=reality&encryption=none&pbk=CG0mVPuvPcfZjplA21zehlqoDpGHihJBK8K_u1zfhgQ&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=45.91.54.162&sid=ee4ea980#%E2%9A%A103%20%7C%20%E2%9A%A1Telegram%20%3D%20t.me%2Fex_proxies
+vless://4a923161-156f-4914-8cac-762fb2433bfb@116.206.95.231:43000?type=tcp&security=reality&fp=chrome&flow=xtls-rprx-vision&pbk=CG0mVPuvPcfZjplA21zehlqoDpGHihJBK8K_u1zfhgQ&sid=ee4ea980#[839]
 anytls://2902c46c8493@ibsdsf.df6h451rh.xin:443/?insecure=1&sni=docs.microsoft.com&fp=chrome
 anytls://0324fbc29561@5641sdds.df6h451rh.xin:443/?insecure=1&sni=images.ctfassets.net&fp=chrome
-ss://YWVzLTI1Ni1nY206Y0NNSmdKVEEzQkE0ODlZVVlyRnE3WEhYU2lTcFdsTGE=@176.32.33.126:18443
 anytls://2902c46c8493@rtifgjdr.df6h451rh.xin:443/?insecure=1&sni=docs.microsoft.com&fp=chrome
 anytls://0324fbc29561@a54ge.df6h451rh.xin:443/?insecure=1&sni=docs.microsoft.com&fp=chrome
 vmess://ewogICAgImFkZCI6ICIxNTYuMjQ1LjIzMi4yMzkiLAogICAgImFpZCI6IDAsCiAgICAiaG9zdCI6ICIiLAogICAgImlkIjogImIxNWU0ODFkLTE3ZTQtNDFhOC04NGMyLTIzZDRmMDUxNGQ5YSIsCiAgICAibmV0IjogIndzIiwKICAgICJwYXRoIjogIi8iLAogICAgInBvcnQiOiAzNTA0MywKICAgICJwcyI6ICLwn4et8J+HsEhLLTE1Ni4yNDUuMjMyLjIzOS0wMjY2IiwKICAgICJ0bHMiOiAiIiwKICAgICJ0eXBlIjogImF1dG8iLAogICAgInNlY3VyaXR5IjogImF1dG8iLAogICAgInNraXAtY2VydC12ZXJpZnkiOiB0cnVlLAogICAgInNuaSI6ICIiCn0=

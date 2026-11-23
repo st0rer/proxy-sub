@@ -1,5 +1,4 @@
 hysteria2://fa937345-6d3e-4ff4-8127-1a836987a0db@195.63.128.21:5443?insecure=0&sni=germany.cloudhouse1.ru
-hysteria2://04920673-035c-410d-94e4-5b1469d3fb6f@91.211.27.231:42848?auth=04920673-035c-410d-94e4-5b1469d3fb6f&insecure=1
 hy2://f87376e17da040ed04c9665ce8972930@138.2.73.238:50160?insecure=1
 hy2://41edb44c8e@103.88.243.142:11592/?insecure=1&sni=srv-17e124.21freedom.net
 hysteria2://57beeeb0-03fc-4fc9-94da-7604488a7134@hkzfsg2.mateflora.com:443?insecure=1&alpn=h3&sni=hkzfsg2.mateflora.com&obfs=salamander&obfs-password=fcfqz5o4znnjqtrp
@@ -18,6 +17,5 @@ hysteria2://3a702d4d1de4949005d8431220e040fb@152.67.75.161:443?insecure=1&obfs=s
 hy2://maintell@152.70.237.123:2053?insecure=1
 hysteria2://eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ@152.32.254.68:5010?insecure=0&sni=nas.aizhzo.com&obfs=salamander&obfs-password=7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
 hysteria2://8294f130408299df8cab08c80bf6f819@24.233.8.109:443?insecure=1&obfs=salamander&obfs-password=c8827ab99e316c5bd414e21afa915ddf&sni=www.bing.com
-hysteria2://PEisy6m-98HcX1TWZt0yXiCS7jRZG4IzKQTXo6k1qb4@48.102.130.17:443?sni=de2.substituteme.space
 hysteria2://41edb44c8e@srv-17e124.21freedom.net:11592?insecure=1&security=tls&sni=srv-17e124#%F0%9F%87%B7%F0%9F%87%BA216756%20%7C%20%E2%9A%A1%EF%B8%8FTelegram%20%3D%20t.me%2FSOSkeyNET
 hysteria2://fa937345-6d3e-4ff4-8127-1a836987a0db@195.63.128.21:10444/?security=tls&sni=germany.cloudhouse1.ru
