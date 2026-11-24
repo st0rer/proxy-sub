@@ -5,7 +5,37 @@ log-level: info
 ipv6: false
 
 proxies:
-  - name: node-01-anytls
+  - name: node-01-vless
+    type: vless
+    server: fr-free.fastestrelay.com
+    port: "443"
+    uuid: 364D2D52-E61E-4E52-80EC-2BC6BDF15349
+    network: ws
+    tls: true
+    udp: true
+    servername: fr-free.fastestrelay.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: 700gvl
+      headers:
+        Host: fr-free.fastestrelay.com
+  - name: node-02-vless
+    type: vless
+    server: 172.67.139.189
+    port: "443"
+    uuid: 364D2D52-E61E-4E52-80EC-2BC6BDF15349
+    network: ws
+    tls: true
+    udp: true
+    servername: fr-free.fastestrelay.com
+    skip-cert-verify: true
+    client-fingerprint: qq
+    ws-opts:
+      path: 700gvl
+      headers:
+        Host: fr-free.fastestrelay.com
+  - name: node-03-anytls
     type: anytls
     server: anytls2.864106.xyz
     port: "19000"
@@ -14,17 +44,16 @@ proxies:
     skip-cert-verify: true
     client-fingerprint: chrome
     udp: true
-  - name: " PL 02 [hysteria2]"
-    type: hysteria2
-    server: tomsk.gosgenarchive.com
-    port: "8443"
-    password: cdfb74db-f288-4271-960d-6d31c4ef75cc
-    sni: tomsk.gosgenarchive.com
-    skip-cert-verify: false
+  - name: node-04-anytls
+    type: anytls
+    server: 5641sdds.df6h451rh.xin
+    port: "443"
+    password: 0324fbc29561
+    sni: images.ctfassets.net
+    skip-cert-verify: true
+    client-fingerprint: chrome
     udp: true
-    obfs: salamander
-    obfs-password: x9KvL2mP4nC72H3w
-  - name: " GB 03 [hysteria2]"
+  - name: " GB 05 [hysteria2]"
     type: hysteria2
     server: 22egdg.mateflora.com
     port: "40055"
@@ -34,7 +63,7 @@ proxies:
     udp: true
     obfs: salamander
     obfs-password: 6fltjteoyab7fjf1
-  - name: node-04-anytls
+  - name: " HK 06 [anytls]"
     type: anytls
     server: ibsdsf.df6h451rh.xin
     port: "443"
@@ -43,43 +72,24 @@ proxies:
     skip-cert-verify: true
     client-fingerprint: chrome
     udp: true
-  - name: node-05-anytls
-    type: anytls
-    server: rtifgjdr.df6h451rh.xin
-    port: "443"
-    password: 2902c46c8493
-    sni: docs.microsoft.com
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    udp: true
-  - name: node-06-anytls
-    type: anytls
-    server: 5641sdds.df6h451rh.xin
-    port: "443"
-    password: 0324fbc29561
-    sni: images.ctfassets.net
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    udp: true
   - name: node-07-anytls
     type: anytls
-    server: a54ge.df6h451rh.xin
+    server: im.lovehk.xyz
     port: "443"
-    password: 0324fbc29561
-    sni: docs.microsoft.com
+    password: d2e242fe-3a90-4d5c-b890-6089474faa39
+    sni: im.lovehk.xyz
+    skip-cert-verify: false
+    client-fingerprint: chrome
+    udp: true
+  - name: " TW 08 [anytls]"
+    type: anytls
+    server: theme.lovehk.xyz
+    port: "443"
+    password: 1ab804ed-fea9-4374-8d11-e6866495d8d0
+    sni: theme.lovehk.xyz
     skip-cert-verify: true
     client-fingerprint: chrome
     udp: true
-  - name: " SE 08 [hysteria2]"
-    type: hysteria2
-    server: m1.config7x.kz.ci
-    port: "26206"
-    password: Telegram--CONFIG7X--CONFIG7X--CONFIG7X--CONFIG7X--CONFIG7X--CONFIG7X--CONFIG7X--CONFIG7X-
-    sni: config7x.de5.net
-    skip-cert-verify: false
-    udp: true
-    obfs: salamander
-    obfs-password: vxvnmus9agdzduvz
 
 proxy-groups:
   - name: AUTO
@@ -89,28 +99,28 @@ proxy-groups:
     tolerance: 80
     lazy: false
     proxies:
-      - node-01-anytls
-      - " PL 02 [hysteria2]"
-      - " GB 03 [hysteria2]"
+      - node-01-vless
+      - node-02-vless
+      - node-03-anytls
       - node-04-anytls
-      - node-05-anytls
-      - node-06-anytls
+      - " GB 05 [hysteria2]"
+      - " HK 06 [anytls]"
       - node-07-anytls
-      - " SE 08 [hysteria2]"
+      - " TW 08 [anytls]"
   - name: FALLBACK
     type: fallback
     url: 'https://www.gstatic.com/generate_204'
     interval: 120
     proxies:
       - AUTO
-      - node-01-anytls
-      - " PL 02 [hysteria2]"
-      - " GB 03 [hysteria2]"
+      - node-01-vless
+      - node-02-vless
+      - node-03-anytls
       - node-04-anytls
-      - node-05-anytls
-      - node-06-anytls
+      - " GB 05 [hysteria2]"
+      - " HK 06 [anytls]"
       - node-07-anytls
-      - " SE 08 [hysteria2]"
+      - " TW 08 [anytls]"
 
 rules:
   - DOMAIN-SUFFIX,local,DIRECT
