@@ -22,9 +22,9 @@ hysteria2://41edb44c8e@srv-17e124.21freedom.net:11592?insecure=1&security=tls&sn
 hysteria2://fa937345-6d3e-4ff4-8127-1a836987a0db@195.63.138.212:16443?sni=cloudehouse24.ru
 hysteria2://57beeeb0-03fc-4fc9-94da-7604488a7134@a1dgus.supertoolify.com:40205?insecure=1&alpn=h3&sni=psstatic.cdn.bcebos.com&obfs=salamander&obfs-password=kydqninqtcdomlcb
 hysteria2://fa937345-6d3e-4ff4-8127-1a836987a0db@195.63.128.21:10444/?security=tls&sni=germany.cloudhouse1.ru
-vless://04920673-035c-410d-94e4-5b1469d3fb6f@91.132.190.161:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&security=tls&sni=171.22.183.166&alpn=h2%2Chttp%2F1.1&fp=firefox
 vless://08ef7604-b3a5-0001-b264-0038fa7c44fc@188.68.216.33:443?&security=tls&fp=chrome&sni=pmdhivnevikmltdhqp.fcloudservices.site&type=tcp&headerType=none&path=%2F
 vless://7bd7c4aa-52c4-482c-bdcc-e7380fa6b5fe@193.233.89.130:8443?security=reality&encryption=none&pbk=xx8KWdR4HbVmvqPb0wRPAstBHGN2Uk99m7AF794_E3c&type=grpc&serviceName=grpc&sni=g.play2go.gay#%E1%B4%9B%E1%B4%87%CA%9F%E1%B4%87%C9%A2%CA%80%E1%B4%80%E1%B4%8D%20%C9%AA%E1%B4%85%20%3D%20%40%EA%9C%B0xx%C9%B4%E1%B4%87%E1%B4%9B%F0%9F%91%91
+vless://4201786b-d99b-4147-a5f0-20d47acddb81@8a2e72t.nl20.h1clayd.shop:443?flow=xtls-rprx-vision&pbk=VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA&security=reality&sid=8d0d0679f42ffd98&sni=8a2e72t.nl20.h1clayd.shop&type=tcp&fp=edge#%40filembad
 anytls://0324fbc29561@5641sdds.df6h451rh.xin:443/?insecure=1&sni=images.ctfassets.net&fp=chrome
 anytls://2902c46c8493@ibsdsf.df6h451rh.xin:443/?insecure=1&sni=docs.microsoft.com&fp=chrome
 anytls://0324fbc29561@a54ge.df6h451rh.xin:443/?insecure=1&sni=docs.microsoft.com&fp=chrome
