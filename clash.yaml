@@ -163,6 +163,19 @@ proxies:
     udp: true
   - name: node-19-vless
     type: vless
+    server: 201.51.12.98
+    port: "443"
+    uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e
+    network: grpc
+    tls: true
+    udp: true
+    servername: vps3.nemnogogo.com
+    skip-cert-verify: true
+    client-fingerprint: firefox
+    grpc-opts:
+      grpc-service-name: mobile.api.Event
+  - name: node-20-vless
+    type: vless
     server: 212.192.3.237
     port: "9543"
     uuid: 920b3cd9-4f82-4669-bbd2-d4a28b9052c6
@@ -175,7 +188,7 @@ proxies:
       short-id: 123abcdf
     servername: storage.yandexcloud.net
     client-fingerprint: chrome
-  - name: node-20-vless
+  - name: node-21-vless
     type: vless
     server: 132.243.242.40
     port: "9543"
@@ -189,7 +202,7 @@ proxies:
       short-id: 123abcdf
     servername: storage.yandexcloud.net
     client-fingerprint: chrome
-  - name: " RU 21 [vless]"
+  - name: " RU 22 [vless]"
     type: vless
     server: 188.68.216.33
     port: "443"
@@ -200,7 +213,7 @@ proxies:
     servername: pmdhivnevikmltdhqp.fcloudservices.site
     skip-cert-verify: true
     client-fingerprint: chrome
-  - name: " RU 22 [vless]"
+  - name: " RU 23 [vless]"
     type: vless
     server: 188.68.216.33
     port: "443"
@@ -211,7 +224,7 @@ proxies:
     servername: pmdhivnevikmltdhqp.fcloudservices.site
     skip-cert-verify: true
     client-fingerprint: firefox
-  - name: " NL 23 [vless]"
+  - name: " NL 24 [vless]"
     type: vless
     server: 104.171.135.229
     port: "443"
@@ -224,7 +237,7 @@ proxies:
       public-key: mpo4BIcoWiMXAQGt5a8IJ4MFkPJQyLC50dO_bXzC7z0
     servername: absolute-disaster.org
     client-fingerprint: chrome
-  - name: " RU 24 [vless]"
+  - name: " RU 25 [vless]"
     type: vless
     server: 136.148.83.71
     port: "443"
@@ -235,7 +248,7 @@ proxies:
     servername: wccfu-ru-79dc.my-fade.cloud
     skip-cert-verify: true
     client-fingerprint: qq
-  - name: " SG 25 [vless]"
+  - name: " SG 26 [vless]"
     type: vless
     server: free.server.darknetlk.com
     port: "443"
@@ -246,7 +259,7 @@ proxies:
     servername: aka.ms
     skip-cert-verify: true
     client-fingerprint: chrome
-  - name: " RU 26 [vless]"
+  - name: " RU 27 [vless]"
     type: vless
     server: 136.148.83.70
     port: "443"
@@ -257,7 +270,7 @@ proxies:
     servername: aszbk-ru-78dc.my-fade.cloud
     skip-cert-verify: true
     client-fingerprint: qq
-  - name: node-27-vless
+  - name: node-28-vless
     type: vless
     server: 193.233.89.130
     port: "8443"
@@ -271,7 +284,21 @@ proxies:
     client-fingerprint: chrome
     grpc-opts:
       grpc-service-name: grpc
-  - name: " HK 28 [anytls]"
+  - name: node-29-vless
+    type: vless
+    server: free.fugui.lol
+    port: "19482"
+    uuid: ead3595f-4020-4e76-a3ec-c248e1a2f2f7
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    reality-opts:
+      public-key: IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ
+      short-id: fa514b83
+    servername: swdist.apple.com
+    client-fingerprint: ios
+  - name: " HK 30 [anytls]"
     type: anytls
     server: 5641sdds.df6h451rh.xin
     port: "443"
@@ -280,7 +307,7 @@ proxies:
     skip-cert-verify: true
     client-fingerprint: chrome
     udp: true
-  - name: " HK 29 [anytls]"
+  - name: " HK 31 [anytls]"
     type: anytls
     server: ibsdsf.df6h451rh.xin
     port: "443"
@@ -289,16 +316,7 @@ proxies:
     skip-cert-verify: true
     client-fingerprint: chrome
     udp: true
-  - name: " TW 30 [anytls]"
-    type: anytls
-    server: theme.lovehk.xyz
-    port: "443"
-    password: 1ab804ed-fea9-4374-8d11-e6866495d8d0
-    sni: theme.lovehk.xyz
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    udp: true
-  - name: " TW 31 [anytls]"
+  - name: " TW 32 [anytls]"
     type: anytls
     server: rtifgjdr.df6h451rh.xin
     port: "443"
@@ -307,7 +325,7 @@ proxies:
     skip-cert-verify: true
     client-fingerprint: chrome
     udp: true
-  - name: node-32-trojan
+  - name: node-33-trojan
     type: trojan
     server: win2loxfde0303.gggrelay.org
     port: "34745"
@@ -315,7 +333,7 @@ proxies:
     sni: nu3rb.supertoolify.com
     skip-cert-verify: true
     udp: true
-  - name: " TW 33 [anytls]"
+  - name: " TW 34 [anytls]"
     type: anytls
     server: a54ge.df6h451rh.xin
     port: "443"
@@ -353,19 +371,20 @@ proxy-groups:
       - node-18-hysteria2
       - node-19-vless
       - node-20-vless
-      - " RU 21 [vless]"
+      - node-21-vless
       - " RU 22 [vless]"
-      - " NL 23 [vless]"
-      - " RU 24 [vless]"
-      - " SG 25 [vless]"
-      - " RU 26 [vless]"
-      - node-27-vless
-      - " HK 28 [anytls]"
-      - " HK 29 [anytls]"
-      - " TW 30 [anytls]"
-      - " TW 31 [anytls]"
-      - node-32-trojan
-      - " TW 33 [anytls]"
+      - " RU 23 [vless]"
+      - " NL 24 [vless]"
+      - " RU 25 [vless]"
+      - " SG 26 [vless]"
+      - " RU 27 [vless]"
+      - node-28-vless
+      - node-29-vless
+      - " HK 30 [anytls]"
+      - " HK 31 [anytls]"
+      - " TW 32 [anytls]"
+      - node-33-trojan
+      - " TW 34 [anytls]"
   - name: FALLBACK
     type: fallback
     url: 'https://www.gstatic.com/generate_204'
@@ -392,19 +411,20 @@ proxy-groups:
       - node-18-hysteria2
       - node-19-vless
       - node-20-vless
-      - " RU 21 [vless]"
+      - node-21-vless
       - " RU 22 [vless]"
-      - " NL 23 [vless]"
-      - " RU 24 [vless]"
-      - " SG 25 [vless]"
-      - " RU 26 [vless]"
-      - node-27-vless
-      - " HK 28 [anytls]"
-      - " HK 29 [anytls]"
-      - " TW 30 [anytls]"
-      - " TW 31 [anytls]"
-      - node-32-trojan
-      - " TW 33 [anytls]"
+      - " RU 23 [vless]"
+      - " NL 24 [vless]"
+      - " RU 25 [vless]"
+      - " SG 26 [vless]"
+      - " RU 27 [vless]"
+      - node-28-vless
+      - node-29-vless
+      - " HK 30 [anytls]"
+      - " HK 31 [anytls]"
+      - " TW 32 [anytls]"
+      - node-33-trojan
+      - " TW 34 [anytls]"
 
 rules:
   - DOMAIN-SUFFIX,local,DIRECT

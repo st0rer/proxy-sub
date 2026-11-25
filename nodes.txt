@@ -16,6 +16,7 @@ hy2://b42d90fa667942aebc734d60@159.13.55.48:20000?sni=hy2-au2.whuiy.xyz&obfs=sal
 hysteria2://9cfc9458e48c028ec03ff86ebc71c744@150-230-252-217.liao.kdns.fr:50160?insecure=1
 hysteria2://eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ@152.32.254.68:5010?insecure=0&sni=nas.aizhzo.com&obfs=salamander&obfs-password=7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
 hysteria2://41edb44c8e@srv-17e124.21freedom.net:11592?insecure=1&security=tls&sni=srv-17e124#%F0%9F%87%B7%F0%9F%87%BA216756%20%7C%20%E2%9A%A1%EF%B8%8FTelegram%20%3D%20t.me%2FSOSkeyNET
+vless://38308ff1-5aa9-494f-a25a-0f2870d56b3e@201.51.12.98:443?encryption=none&security=tls&sni=vps3.nemnogogo.com&fp=firefox&type=grpc&mode=gun&authority=&serviceName=mobile.api.Event#
 vless://920b3cd9-4f82-4669-bbd2-d4a28b9052c6@212.192.3.237:9543?encryption=none&flow=xtls-rprx-vision&security=reality&sni=storage.yandexcloud.net&pbk=M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc&sid=123abcdf&type=tcp&headerType=none#
 vless://920b3cd9-4f82-4669-bbd2-d4a28b9052c6@132.243.242.40:9543?encryption=none&flow=xtls-rprx-vision&security=reality&sni=storage.yandexcloud.net&pbk=M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc&sid=123abcdf&type=tcp&headerType=none#
 vless://08ef7604-b3a5-0001-b264-0038fa7c44fc@188.68.216.33:443?&security=tls&fp=chrome&sni=pmdhivnevikmltdhqp.fcloudservices.site&type=tcp&headerType=none&path=%2F
@@ -25,9 +26,9 @@ vless://00000000-0000-0001-0000-000000000000@136.148.83.71:443?&security=tls&fp=
 vless://076799f8-d922-4bf1-805d-e758e6eb925f@free.server.darknetlk.com:443?security=tls&encryption=none&insecure=1&headerType=none&fp=chrome&type=tcp&allowInsecure=1&sni=aka.ms
 vless://00000000-0000-0001-0000-000000000000@136.148.83.70:443?&security=tls&fp=qq&sni=aszbk-ru-78dc.my-fade.cloud&type=tcp&headerType=none&path=%2F
 vless://7bd7c4aa-52c4-482c-bdcc-e7380fa6b5fe@193.233.89.130:8443?security=reality&encryption=none&pbk=xx8KWdR4HbVmvqPb0wRPAstBHGN2Uk99m7AF794_E3c&type=grpc&serviceName=grpc&sni=g.play2go.gay#%E1%B4%9B%E1%B4%87%CA%9F%E1%B4%87%C9%A2%CA%80%E1%B4%80%E1%B4%8D%20%C9%AA%E1%B4%85%20%3D%20%40%EA%9C%B0xx%C9%B4%E1%B4%87%E1%B4%9B%F0%9F%91%91
+vless://ead3595f-4020-4e76-a3ec-c248e1a2f2f7@free.fugui.lol:19482?encryption=none&flow=xtls-rprx-vision&security=reality&sni=swdist.apple.com&fp=ios&pbk=IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ&sid=fa514b83&type=tcp&headerType=none#%F0%9F%87%A9%F0%9F%87%AA10%20%7C%20%E2%9A%A1Telegram%20%3D%20t.me%2Fex_proxies
 anytls://0324fbc29561@5641sdds.df6h451rh.xin:443/?insecure=1&sni=images.ctfassets.net&fp=chrome
 anytls://2902c46c8493@ibsdsf.df6h451rh.xin:443/?insecure=1&sni=docs.microsoft.com&fp=chrome
-anytls://1ab804ed-fea9-4374-8d11-e6866495d8d0@theme.lovehk.xyz:443?security=tls&type=tcp&packetEncoding=none&allowInsecure=1&sni=theme.lovehk.xyz&insecure=1&sub_tag=P002-260618&udp=1
 anytls://2902c46c8493@rtifgjdr.df6h451rh.xin:443?security=tls&sni=docs.microsoft.com&insecure=1
 trojan://57beeeb0-03fc-4fc9-94da-7604488a7134@win2loxfde0303.gggrelay.org:34745?sni=nu3rb.supertoolify.com&allowInsecure=1&type=tcp#%F0%9F%87%AF%F0%9F%87%B511%20%7C%20%E2%9A%A1Telegram%20%3D%20t.me%2Fex_proxies
 anytls://0324fbc29561@a54ge.df6h451rh.xin:443/?insecure=1&sni=docs.microsoft.com&fp=chrome
