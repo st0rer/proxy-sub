@@ -7,101 +7,20 @@ ipv6: false
 proxies:
   - name: node-01-vless
     type: vless
-    server: ipfast.kingmna.com
+    server: 172.67.155.153
     port: "443"
-    uuid: 4e9d25d6-9dab-4569-87a4-d952e0a55002
+    uuid: FCEAD694-2E27-4EEB-8836-9D4ACF3E028B
     network: ws
     tls: true
     udp: true
-    servername: cdn.akamai.steamstatic.com
+    servername: ws.liuzedong.ltd
     skip-cert-verify: true
     client-fingerprint: chrome
     ws-opts:
-      path: "?Telegram---@iranping24---@iranping24---@iranping24---@iranping24---@iranping24---@iranping24---@iranping24"
+      path: ws
       headers:
-        Host: looabgermanyoijji.global.ssl.fastly.net
-  - name: node-02-vless
-    type: vless
-    server: xhtt2.nimbaha9.ir
-    port: "80"
-    uuid: ff95d030-691d-4650-bda8-a7f7857b00c3
-    network: ws
-    tls: false
-    udp: true
-    ws-opts:
-      path: weqe
-      headers:
-        Host: xhtt2.nimbaha9.ir
-  - name: node-03-vless
-    type: vless
-    server: ipfast.kingmna.com
-    port: "443"
-    uuid: 4e9d25d6-9dab-4569-87a4-d952e0a55002
-    network: ws
-    tls: true
-    udp: true
-    servername: community.fastly.steamstatic.com
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: "?Telegram---@iranping24---@iranping24---@iranping24---@iranping24---@iranping24---@iranping24---@iranping24"
-      headers:
-        Host: polandboijji.global.ssl.fastly.net
-  - name: " NL 04 [vless]"
-    type: vless
-    server: 171.22.183.167
-    port: "443"
-    uuid: 04920673-035c-410d-94e4-5b1469d3fb6f
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: 171.22.183.167
-    skip-cert-verify: true
-    client-fingerprint: firefox
-  - name: node-05-vless
-    type: vless
-    server: 94.126.225.138
-    port: "443"
-    uuid: f8cb3c89-32af-4255-bebc-d90aad175069
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ
-      short-id: 27350908de933e09
-    servername: beb.899themes.pro
-    client-fingerprint: chrome
-  - name: node-06-hysteria2
-    type: hysteria2
-    server: v1fr4.stablenode.cloud
-    port: "45206"
-    password: b6492705-8cac-4454-9d34-1498dd2ded87
-    sni: v1fr4.stablenode.cloud
-    skip-cert-verify: false
-    udp: true
-    obfs: salamander
-    obfs-password: N2rvCMYcDxnEWHVQ
-  - name: node-07-anytls
-    type: anytls
-    server: anytls2.864106.xyz
-    port: "19000"
-    password: github.com/Alvin9999-newpac/fanqiang
-    sni: anytls2.864106.xyz
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    udp: true
-  - name: node-08-anytls
-    type: anytls
-    server: ibsdsf.df6h451rh.xin
-    port: "443"
-    password: 2902c46c8493
-    sni: docs.microsoft.com
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    udp: true
-  - name: node-09-anytls
+        Host: ws.liuzedong.ltd
+  - name: " HK 02 [anytls]"
     type: anytls
     server: 5641sdds.df6h451rh.xin
     port: "443"
@@ -110,21 +29,39 @@ proxies:
     skip-cert-verify: true
     client-fingerprint: chrome
     udp: true
-  - name: node-10-anytls
+  - name: " HK 03 [anytls]"
     type: anytls
-    server: rtifgjdr.df6h451rh.xin
+    server: ibsdsf.df6h451rh.xin
     port: "443"
     password: 2902c46c8493
-    sni: rtifgjdr.df6h451rh.xin
+    sni: docs.microsoft.com
     skip-cert-verify: true
     client-fingerprint: chrome
     udp: true
-  - name: node-11-anytls
+  - name: " TW 04 [anytls]"
     type: anytls
-    server: er8u54dh.df6h451rh.xin
+    server: a54ge.df6h451rh.xin
     port: "443"
-    password: 2902c46c8493
+    password: 0324fbc29561
+    sni: docs.microsoft.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
+  - name: node-05-anytls
+    type: anytls
+    server: mfjh645drfj1dr6j5.df6h451rh.xin
+    port: "443"
+    password: 0324fbc29561
     sni: px.ads.linkedin.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
+  - name: node-06-anytls
+    type: anytls
+    server: sdf65h46wr.df6h451rh.xin
+    port: "443"
+    password: 0324fbc29561
+    sni: images.ctfassets.net
     skip-cert-verify: true
     client-fingerprint: chrome
     udp: true
@@ -138,16 +75,11 @@ proxy-groups:
     lazy: false
     proxies:
       - node-01-vless
-      - node-02-vless
-      - node-03-vless
-      - " NL 04 [vless]"
-      - node-05-vless
-      - node-06-hysteria2
-      - node-07-anytls
-      - node-08-anytls
-      - node-09-anytls
-      - node-10-anytls
-      - node-11-anytls
+      - " HK 02 [anytls]"
+      - " HK 03 [anytls]"
+      - " TW 04 [anytls]"
+      - node-05-anytls
+      - node-06-anytls
   - name: FALLBACK
     type: fallback
     url: 'https://www.gstatic.com/generate_204'
@@ -155,16 +87,11 @@ proxy-groups:
     proxies:
       - AUTO
       - node-01-vless
-      - node-02-vless
-      - node-03-vless
-      - " NL 04 [vless]"
-      - node-05-vless
-      - node-06-hysteria2
-      - node-07-anytls
-      - node-08-anytls
-      - node-09-anytls
-      - node-10-anytls
-      - node-11-anytls
+      - " HK 02 [anytls]"
+      - " HK 03 [anytls]"
+      - " TW 04 [anytls]"
+      - node-05-anytls
+      - node-06-anytls
 
 rules:
   - DOMAIN-SUFFIX,local,DIRECT

@@ -1,11 +1,6 @@
-vless://4e9d25d6-9dab-4569-87a4-d952e0a55002@ipfast.kingmna.com:443?pcs=CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E&path=%2F%3FTelegram---%40iranping24---%40iranping24---%40iranping24---%40iranping24---%40iranping24---%40iranping24---%40iranping24%2F%2F&security=tls&encryption=none&insecure=0&host=looabgermanyoijji.global.ssl.fastly.net&type=ws&allowInsecure=0&sni=cdn.akamai.steamstatic.com#%40tootffarangi%F0%9F%8D%93
-vless://ff95d030-691d-4650-bda8-a7f7857b00c3@xhtt2.nimbaha9.ir:80?encryption=none&host=xhtt2.nimbaha9.ir&path=%2Fweqe&security=none&type=ws#%40tootffarangi%F0%9F%8D%93
-vless://4e9d25d6-9dab-4569-87a4-d952e0a55002@ipfast.kingmna.com:443?pcs=CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E&path=%2F%3FTelegram---%40iranping24---%40iranping24---%40iranping24---%40iranping24---%40iranping24---%40iranping24---%40iranping24%2F%2F&security=tls&encryption=none&insecure=0&host=polandboijji.global.ssl.fastly.net&type=ws&allowInsecure=0&sni=community.fastly.steamstatic.com#%40tootffarangi%F0%9F%8D%93
-vless://04920673-035c-410d-94e4-5b1469d3fb6f@171.22.183.167:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&security=tls&type=tcp
-vless://f8cb3c89-32af-4255-bebc-d90aad175069@94.126.225.138:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=beb.899themes.pro&security=reality&pbk=pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ&sid=27350908de933e09#%40tootffarangi%F0%9F%8D%93
-hysteria2://b6492705-8cac-4454-9d34-1498dd2ded87@v1fr4.stablenode.cloud:45206?sni=v1fr4.stablenode.cloud&insecure=0&obfs=salamander&obfs-password=N2rvCMYcDxnEWHVQ#%40tootffarangi%F0%9F%8D%93
-anytls://github.com/Alvin9999-newpac/fanqiang@anytls2.864106.xyz:19000?security=tls&type=tcp&packetEncoding=none&allowInsecure=1&sni=anytls2.864106.xyz&insecure=1&sub_tag=R002-260618&udp=1
-anytls://2902c46c8493@ibsdsf.df6h451rh.xin:443/?insecure=1&sni=docs.microsoft.com&fp=chrome
+vless://FCEAD694-2E27-4EEB-8836-9D4ACF3E028B@172.67.155.153:443?security=tls&sni=ws.liuzedong.ltd&type=ws&host=ws.liuzedong.ltd&path=/ws#%F0%9F%87%BA%F0%9F%87%B8+US+%7C+vpnkeys.me+%7C+299ms
 anytls://0324fbc29561@5641sdds.df6h451rh.xin:443/?insecure=1&sni=images.ctfassets.net&fp=chrome
-anytls://2902c46c8493@rtifgjdr.df6h451rh.xin:443?insecure=1&security=tls&sni=rtifgjdr.df6h451rh.xin&type=tcp&headerType=none
-anytls://2902c46c8493@er8u54dh.df6h451rh.xin:443?security=tls&type=tcp&packetEncoding=none&allowInsecure=1&sni=px.ads.linkedin.com&insecure=1&sub_tag=P002-260618&udp=1
+anytls://2902c46c8493@ibsdsf.df6h451rh.xin:443/?insecure=1&sni=docs.microsoft.com&fp=chrome
+anytls://0324fbc29561@a54ge.df6h451rh.xin:443/?insecure=1&sni=docs.microsoft.com&fp=chrome
+anytls://0324fbc29561@mfjh645drfj1dr6j5.df6h451rh.xin:443?security=tls&type=tcp&allowInsecure=1&sni=px.ads.linkedin.com&insecure=1
+anytls://0324fbc29561@sdf65h46wr.df6h451rh.xin:443?security=tls&type=tcp&packetEncoding=none&allowInsecure=1&sni=images.ctfassets.net&servername=images.ctfassets.net&insecure=1&udp=1
