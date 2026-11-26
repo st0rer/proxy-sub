@@ -7,20 +7,61 @@ ipv6: false
 proxies:
   - name: node-01-vless
     type: vless
-    server: 172.67.155.153
+    server: api.14887277.xyz
     port: "443"
-    uuid: FCEAD694-2E27-4EEB-8836-9D4ACF3E028B
+    uuid: 00000000-0000-0001-0000-000000000000
     network: ws
     tls: true
     udp: true
-    servername: ws.liuzedong.ltd
+    servername: trx.tools
     skip-cert-verify: true
     client-fingerprint: chrome
+    alpn:
+      - http/1.1
     ws-opts:
-      path: ws
+      path: session
       headers:
-        Host: ws.liuzedong.ltd
-  - name: " HK 02 [anytls]"
+        Host: api.14887277.xyz
+  - name: " DE 02 [trojan]"
+    type: trojan
+    server: russia.com
+    port: "443"
+    password: bpb-trojan
+    sni: kargar001.pages.dev
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: tr?ed=2560
+      headers:
+        Host: kargar001.pages.dev
+  - name: node-03-hy2
+    type: hysteria2
+    server: de6.h1cloud.net
+    port: "25167"
+    password: b0ec5baf-98ca-4e00-900e-54b4739679db
+    sni: 27fdc1h.de6.h1clayd.click
+    skip-cert-verify: false
+    udp: true
+  - name: " US 04 [anytls]"
+    type: anytls
+    server: anytls2.864106.xyz
+    port: "19000"
+    password: github.com/Alvin9999-newpac/fanqiang
+    sni: anytls2.864106.xyz
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
+  - name: " TW 05 [anytls]"
+    type: anytls
+    server: er8u54dh.df6h451rh.xin
+    port: "443"
+    password: 2902c46c8493
+    sni: px.ads.linkedin.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
+  - name: " HK 06 [anytls]"
     type: anytls
     server: 5641sdds.df6h451rh.xin
     port: "443"
@@ -29,7 +70,7 @@ proxies:
     skip-cert-verify: true
     client-fingerprint: chrome
     udp: true
-  - name: " HK 03 [anytls]"
+  - name: " HK 07 [anytls]"
     type: anytls
     server: ibsdsf.df6h451rh.xin
     port: "443"
@@ -38,32 +79,22 @@ proxies:
     skip-cert-verify: true
     client-fingerprint: chrome
     udp: true
-  - name: " TW 04 [anytls]"
+  - name: " TW 08 [anytls]"
     type: anytls
-    server: a54ge.df6h451rh.xin
+    server: theme.lovehk.xyz
     port: "443"
-    password: 0324fbc29561
-    sni: docs.microsoft.com
-    skip-cert-verify: true
+    password: 4029698d-89a9-4e90-9eac-9b8c7bf4b5b5
+    sni: theme.lovehk.xyz
+    skip-cert-verify: false
     client-fingerprint: chrome
     udp: true
-  - name: node-05-anytls
-    type: anytls
-    server: mfjh645drfj1dr6j5.df6h451rh.xin
-    port: "443"
-    password: 0324fbc29561
-    sni: px.ads.linkedin.com
+  - name: " US 09 [hysteria2]"
+    type: hysteria2
+    server: 137.175.93.155
+    port: "28795"
+    password: EelIYEc5ZR8RT6thWcK9ohYkp3bYZGcn
+    sni: www.microsoft.com
     skip-cert-verify: true
-    client-fingerprint: chrome
-    udp: true
-  - name: node-06-anytls
-    type: anytls
-    server: sdf65h46wr.df6h451rh.xin
-    port: "443"
-    password: 0324fbc29561
-    sni: images.ctfassets.net
-    skip-cert-verify: true
-    client-fingerprint: chrome
     udp: true
 
 proxy-groups:
@@ -75,11 +106,14 @@ proxy-groups:
     lazy: false
     proxies:
       - node-01-vless
-      - " HK 02 [anytls]"
-      - " HK 03 [anytls]"
-      - " TW 04 [anytls]"
-      - node-05-anytls
-      - node-06-anytls
+      - " DE 02 [trojan]"
+      - node-03-hy2
+      - " US 04 [anytls]"
+      - " TW 05 [anytls]"
+      - " HK 06 [anytls]"
+      - " HK 07 [anytls]"
+      - " TW 08 [anytls]"
+      - " US 09 [hysteria2]"
   - name: FALLBACK
     type: fallback
     url: 'https://www.gstatic.com/generate_204'
@@ -87,11 +121,14 @@ proxy-groups:
     proxies:
       - AUTO
       - node-01-vless
-      - " HK 02 [anytls]"
-      - " HK 03 [anytls]"
-      - " TW 04 [anytls]"
-      - node-05-anytls
-      - node-06-anytls
+      - " DE 02 [trojan]"
+      - node-03-hy2
+      - " US 04 [anytls]"
+      - " TW 05 [anytls]"
+      - " HK 06 [anytls]"
+      - " HK 07 [anytls]"
+      - " TW 08 [anytls]"
+      - " US 09 [hysteria2]"
 
 rules:
   - DOMAIN-SUFFIX,local,DIRECT
