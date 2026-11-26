@@ -7,6 +7,48 @@ ipv6: false
 proxies:
   - name: node-01-vless
     type: vless
+    server: fr-free.fastestrelay.com
+    port: "443"
+    uuid: 364D2D52-E61E-4E52-80EC-2BC6BDF15349
+    network: ws
+    tls: true
+    udp: true
+    servername: fr-free.fastestrelay.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: 700gvl
+  - name: " EE 02 [vless]"
+    type: vless
+    server: one.alpheratzz.org
+    port: "8443"
+    uuid: 0173d52e-8e1b-4681-831e-11529677b72f
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: api-6b04608f.adhil.uk
+    skip-cert-verify: true
+    client-fingerprint: safari
+    alpn:
+      - h2
+  - name: node-03-vless
+    type: vless
+    server: ws.liuzedong.ltd
+    port: "443"
+    uuid: FCEAD694-2E27-4EEB-8836-9D4ACF3E028B
+    network: ws
+    tls: true
+    udp: true
+    servername: ws.liuzedong.ltd
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: ws
+      headers:
+        Host: ws.liuzedong.ltd
+  - name: node-04-vless
+    type: vless
     server: api.14887277.xyz
     port: "443"
     uuid: 00000000-0000-0001-0000-000000000000
@@ -22,20 +64,7 @@ proxies:
       path: session
       headers:
         Host: api.14887277.xyz
-  - name: " DE 02 [trojan]"
-    type: trojan
-    server: russia.com
-    port: "443"
-    password: bpb-trojan
-    sni: kargar001.pages.dev
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: tr?ed=2560
-      headers:
-        Host: kargar001.pages.dev
-  - name: node-03-hy2
+  - name: node-05-hy2
     type: hysteria2
     server: de6.h1cloud.net
     port: "25167"
@@ -43,7 +72,7 @@ proxies:
     sni: 27fdc1h.de6.h1clayd.click
     skip-cert-verify: false
     udp: true
-  - name: " US 04 [anytls]"
+  - name: " US 06 [anytls]"
     type: anytls
     server: anytls2.864106.xyz
     port: "19000"
@@ -52,16 +81,16 @@ proxies:
     skip-cert-verify: true
     client-fingerprint: chrome
     udp: true
-  - name: " TW 05 [anytls]"
+  - name: node-07-anytls
     type: anytls
-    server: er8u54dh.df6h451rh.xin
+    server: rtifgjdr.df6h451rh.xin
     port: "443"
     password: 2902c46c8493
-    sni: px.ads.linkedin.com
+    sni: docs.microsoft.com
     skip-cert-verify: true
     client-fingerprint: chrome
     udp: true
-  - name: " HK 06 [anytls]"
+  - name: " HK 08 [anytls]"
     type: anytls
     server: 5641sdds.df6h451rh.xin
     port: "443"
@@ -70,7 +99,16 @@ proxies:
     skip-cert-verify: true
     client-fingerprint: chrome
     udp: true
-  - name: " HK 07 [anytls]"
+  - name: node-09-anytls
+    type: anytls
+    server: a54ge.df6h451rh.xin
+    port: "443"
+    password: 0324fbc29561
+    sni: docs.microsoft.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
+  - name: " HK 10 [anytls]"
     type: anytls
     server: ibsdsf.df6h451rh.xin
     port: "443"
@@ -78,23 +116,6 @@ proxies:
     sni: docs.microsoft.com
     skip-cert-verify: true
     client-fingerprint: chrome
-    udp: true
-  - name: " TW 08 [anytls]"
-    type: anytls
-    server: theme.lovehk.xyz
-    port: "443"
-    password: 4029698d-89a9-4e90-9eac-9b8c7bf4b5b5
-    sni: theme.lovehk.xyz
-    skip-cert-verify: false
-    client-fingerprint: chrome
-    udp: true
-  - name: " US 09 [hysteria2]"
-    type: hysteria2
-    server: 137.175.93.155
-    port: "28795"
-    password: EelIYEc5ZR8RT6thWcK9ohYkp3bYZGcn
-    sni: www.microsoft.com
-    skip-cert-verify: true
     udp: true
 
 proxy-groups:
@@ -106,14 +127,15 @@ proxy-groups:
     lazy: false
     proxies:
       - node-01-vless
-      - " DE 02 [trojan]"
-      - node-03-hy2
-      - " US 04 [anytls]"
-      - " TW 05 [anytls]"
-      - " HK 06 [anytls]"
-      - " HK 07 [anytls]"
-      - " TW 08 [anytls]"
-      - " US 09 [hysteria2]"
+      - " EE 02 [vless]"
+      - node-03-vless
+      - node-04-vless
+      - node-05-hy2
+      - " US 06 [anytls]"
+      - node-07-anytls
+      - " HK 08 [anytls]"
+      - node-09-anytls
+      - " HK 10 [anytls]"
   - name: FALLBACK
     type: fallback
     url: 'https://www.gstatic.com/generate_204'
@@ -121,14 +143,15 @@ proxy-groups:
     proxies:
       - AUTO
       - node-01-vless
-      - " DE 02 [trojan]"
-      - node-03-hy2
-      - " US 04 [anytls]"
-      - " TW 05 [anytls]"
-      - " HK 06 [anytls]"
-      - " HK 07 [anytls]"
-      - " TW 08 [anytls]"
-      - " US 09 [hysteria2]"
+      - " EE 02 [vless]"
+      - node-03-vless
+      - node-04-vless
+      - node-05-hy2
+      - " US 06 [anytls]"
+      - node-07-anytls
+      - " HK 08 [anytls]"
+      - node-09-anytls
+      - " HK 10 [anytls]"
 
 rules:
   - DOMAIN-SUFFIX,local,DIRECT
