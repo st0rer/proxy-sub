@@ -103,15 +103,7 @@ proxies:
     udp: true
     obfs: salamander
     obfs-password: 309502c4a8df10b46fb976d4a8c43f42
-  - name: " NL 12 [hysteria2]"
-    type: hysteria2
-    server: 185.200.199.179
-    port: "54706"
-    password: Cqx5aT9Zux
-    sni: 185.200.199.179
-    skip-cert-verify: false
-    udp: true
-  - name: " HK 13 [hysteria2]"
+  - name: " HK 12 [hysteria2]"
     type: hysteria2
     server: 24.233.8.109
     port: "443"
@@ -121,15 +113,7 @@ proxies:
     udp: true
     obfs: salamander
     obfs-password: c8827ab99e316c5bd414e21afa915ddf
-  - name: " KR 14 [hysteria2]"
-    type: hysteria2
-    server: www.ddsos.cc
-    port: "7788"
-    password: c8aa4ba6a243ddfdeb67515aa849624b
-    sni: www.ddsos.cc
-    skip-cert-verify: true
-    udp: true
-  - name: node-15-hysteria2
+  - name: node-13-hysteria2
     type: hysteria2
     server: 152.32.254.68
     port: "5010"
@@ -139,21 +123,7 @@ proxies:
     udp: true
     obfs: salamander
     obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
-  - name: " EE 16 [vless]"
-    type: vless
-    server: one.alpheratzz.org
-    port: "8443"
-    uuid: 0173d52e-8e1b-4681-831e-11529677b72f
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: api-6b04608f.adhil.uk
-    skip-cert-verify: true
-    client-fingerprint: safari
-    alpn:
-      - h2
-  - name: " RU 17 [vless]"
+  - name: " RU 14 [vless]"
     type: vless
     server: 81.163.22.114
     port: "443"
@@ -167,7 +137,7 @@ proxies:
     alpn:
       - h2
       - http/1.1
-  - name: " RU 18 [vless]"
+  - name: " RU 15 [vless]"
     type: vless
     server: 136.148.83.71
     port: "443"
@@ -178,7 +148,7 @@ proxies:
     servername: wccfu-ru-79dc.my-fade.cloud
     skip-cert-verify: true
     client-fingerprint: qq
-  - name: " NL 19 [vless]"
+  - name: " NL 16 [vless]"
     type: vless
     server: 147.45.61.144
     port: "443"
@@ -192,21 +162,7 @@ proxies:
       short-id: b725584749527b07
     servername: s2.frenchymyrsep.click
     client-fingerprint: chrome
-  - name: node-20-vless
-    type: vless
-    server: 193.233.89.130
-    port: "8443"
-    uuid: 7bd7c4aa-52c4-482c-bdcc-e7380fa6b5fe
-    network: grpc
-    tls: true
-    udp: true
-    reality-opts:
-      public-key: xx8KWdR4HbVmvqPb0wRPAstBHGN2Uk99m7AF794_E3c
-    servername: g.play2go.gay
-    client-fingerprint: chrome
-    grpc-opts:
-      grpc-service-name: grpc
-  - name: node-21-vless
+  - name: node-17-vless
     type: vless
     server: 46.29.255.123
     port: "59539"
@@ -219,7 +175,7 @@ proxies:
       public-key: R6mPqCsjZMWauci4LHw7Qp1LGKmBd-sxMXplyOn9bSQ
     servername: cloudflare-dns.com
     client-fingerprint: firefox
-  - name: node-22-vless
+  - name: node-18-vless
     type: vless
     server: 188.114.99.137
     port: "80"
@@ -231,21 +187,7 @@ proxies:
       path: /
       headers:
         Host: suh.cryptofront.uk
-  - name: node-23-vless
-    type: vless
-    server: 212.192.3.63
-    port: "9543"
-    uuid: 920b3cd9-4f82-4669-bbd2-d4a28b9052c6
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc
-      short-id: 123abcdf
-    servername: storage.yandexcloud.net
-    client-fingerprint: chrome
-  - name: " CA 24 [anytls]"
+  - name: " CA 19 [anytls]"
     type: anytls
     server: im.lovehk.xyz
     port: "443"
@@ -254,7 +196,7 @@ proxies:
     skip-cert-verify: false
     client-fingerprint: chrome
     udp: true
-  - name: " HK 25 [anytls]"
+  - name: " HK 20 [anytls]"
     type: anytls
     server: 5641sdds.df6h451rh.xin
     port: "443"
@@ -263,7 +205,7 @@ proxies:
     skip-cert-verify: true
     client-fingerprint: chrome
     udp: true
-  - name: " TW 26 [anytls]"
+  - name: " TW 21 [anytls]"
     type: anytls
     server: a54ge.df6h451rh.xin
     port: "443"
@@ -272,7 +214,7 @@ proxies:
     skip-cert-verify: true
     client-fingerprint: chrome
     udp: true
-  - name: " HK 27 [anytls]"
+  - name: " HK 22 [anytls]"
     type: anytls
     server: ibsdsf.df6h451rh.xin
     port: "443"
@@ -281,7 +223,7 @@ proxies:
     skip-cert-verify: true
     client-fingerprint: chrome
     udp: true
-  - name: " TW 28 [anytls]"
+  - name: " TW 23 [anytls]"
     type: anytls
     server: rtifgjdr.df6h451rh.xin
     port: "443"
@@ -290,22 +232,7 @@ proxies:
     skip-cert-verify: true
     client-fingerprint: chrome
     udp: true
-  - name: node-29-vmess
-    type: vmess
-    server: 38.91.107.49
-    port: "18000"
-    uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-    alterId: "0"
-    cipher: auto
-    udp: true
-  - name: " JP 30 [ss]"
-    type: ss
-    server: 8.216.8.176
-    port: "5555"
-    cipher: aes-256-gcm
-    password: "123456"
-    udp: true
-  - name: " JP 31 [anytls]"
+  - name: " JP 24 [anytls]"
     type: anytls
     server: media.gosthk.site
     port: "57180"
@@ -314,30 +241,21 @@ proxies:
     skip-cert-verify: false
     client-fingerprint: chrome
     udp: true
-  - name: " JP 32 [ss]"
+  - name: " JP 25 [ss]"
     type: ss
     server: 8.216.17.19
     port: "5555"
     cipher: aes-256-gcm
     password: "123456"
     udp: true
-  - name: " CA 33 [anytls]"
-    type: anytls
-    server: im.lovehk.xyz
-    port: "443"
-    password: 9c69dfab-c59b-40a6-ae00-cca9e43ceb4f
-    sni: im.lovehk.xyz
-    skip-cert-verify: false
-    client-fingerprint: chrome
-    udp: true
-  - name: " JP 34 [ss]"
+  - name: " JP 26 [ss]"
     type: ss
     server: 47.91.18.202
     port: "5555"
     cipher: aes-256-gcm
     password: "123456"
     udp: true
-  - name: " JP 35 [anytls]"
+  - name: " JP 27 [anytls]"
     type: anytls
     server: media.gosthk.site
     port: "57180"
@@ -345,21 +263,6 @@ proxies:
     sni: media.gosthk.site
     skip-cert-verify: false
     client-fingerprint: chrome
-    udp: true
-  - name: " JP 36 [ss]"
-    type: ss
-    server: 47.91.2.13
-    port: "5555"
-    cipher: aes-256-gcm
-    password: "123456"
-    udp: true
-  - name: node-37-vmess
-    type: vmess
-    server: 140.238.2.250
-    port: "443"
-    uuid: 41a7089a-040b-4538-8b8d-010902405bde
-    alterId: "0"
-    cipher: auto
     udp: true
 
 proxy-groups:
@@ -381,32 +284,22 @@ proxy-groups:
       - " KR 09 [hy2]"
       - " HK 10 [hysteria2]"
       - " SG 11 [hysteria2]"
-      - " NL 12 [hysteria2]"
-      - " HK 13 [hysteria2]"
-      - " KR 14 [hysteria2]"
-      - node-15-hysteria2
-      - " EE 16 [vless]"
-      - " RU 17 [vless]"
-      - " RU 18 [vless]"
-      - " NL 19 [vless]"
-      - node-20-vless
-      - node-21-vless
-      - node-22-vless
-      - node-23-vless
-      - " CA 24 [anytls]"
-      - " HK 25 [anytls]"
-      - " TW 26 [anytls]"
-      - " HK 27 [anytls]"
-      - " TW 28 [anytls]"
-      - node-29-vmess
-      - " JP 30 [ss]"
-      - " JP 31 [anytls]"
-      - " JP 32 [ss]"
-      - " CA 33 [anytls]"
-      - " JP 34 [ss]"
-      - " JP 35 [anytls]"
-      - " JP 36 [ss]"
-      - node-37-vmess
+      - " HK 12 [hysteria2]"
+      - node-13-hysteria2
+      - " RU 14 [vless]"
+      - " RU 15 [vless]"
+      - " NL 16 [vless]"
+      - node-17-vless
+      - node-18-vless
+      - " CA 19 [anytls]"
+      - " HK 20 [anytls]"
+      - " TW 21 [anytls]"
+      - " HK 22 [anytls]"
+      - " TW 23 [anytls]"
+      - " JP 24 [anytls]"
+      - " JP 25 [ss]"
+      - " JP 26 [ss]"
+      - " JP 27 [anytls]"
   - name: FALLBACK
     type: fallback
     url: 'https://www.gstatic.com/generate_204'
@@ -424,32 +317,22 @@ proxy-groups:
       - " KR 09 [hy2]"
       - " HK 10 [hysteria2]"
       - " SG 11 [hysteria2]"
-      - " NL 12 [hysteria2]"
-      - " HK 13 [hysteria2]"
-      - " KR 14 [hysteria2]"
-      - node-15-hysteria2
-      - " EE 16 [vless]"
-      - " RU 17 [vless]"
-      - " RU 18 [vless]"
-      - " NL 19 [vless]"
-      - node-20-vless
-      - node-21-vless
-      - node-22-vless
-      - node-23-vless
-      - " CA 24 [anytls]"
-      - " HK 25 [anytls]"
-      - " TW 26 [anytls]"
-      - " HK 27 [anytls]"
-      - " TW 28 [anytls]"
-      - node-29-vmess
-      - " JP 30 [ss]"
-      - " JP 31 [anytls]"
-      - " JP 32 [ss]"
-      - " CA 33 [anytls]"
-      - " JP 34 [ss]"
-      - " JP 35 [anytls]"
-      - " JP 36 [ss]"
-      - node-37-vmess
+      - " HK 12 [hysteria2]"
+      - node-13-hysteria2
+      - " RU 14 [vless]"
+      - " RU 15 [vless]"
+      - " NL 16 [vless]"
+      - node-17-vless
+      - node-18-vless
+      - " CA 19 [anytls]"
+      - " HK 20 [anytls]"
+      - " TW 21 [anytls]"
+      - " HK 22 [anytls]"
+      - " TW 23 [anytls]"
+      - " JP 24 [anytls]"
+      - " JP 25 [ss]"
+      - " JP 26 [ss]"
+      - " JP 27 [anytls]"
 
 rules:
   - DOMAIN-SUFFIX,local,DIRECT
