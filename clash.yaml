@@ -5,15 +5,7 @@ log-level: info
 ipv6: false
 
 proxies:
-  - name: " DE 01 [hysteria2]"
-    type: hysteria2
-    server: 4f070970.con.metricdraft.tech
-    port: "443"
-    password: 030e421e-9317-4cb8-8fbe-a07a565ad3db
-    sni: 4f070970.con.metricdraft.tech
-    skip-cert-verify: false
-    udp: true
-  - name: " RU 02 [hy2]"
+  - name: " RU 01 [hy2]"
     type: hysteria2
     server: 103.88.243.142
     port: "11592"
@@ -21,25 +13,23 @@ proxies:
     sni: srv-17e124.21freedom.net
     skip-cert-verify: true
     udp: true
-  - name: " DE 03 [hysteria2]"
+  - name: " DE 02 [hysteria2]"
     type: hysteria2
-    server: 179.61.138.145
-    port: "36264"
-    password: vpNJEy
-    sni: de2.jey.cc.cd
-    skip-cert-verify: true
-    udp: true
-    obfs: salamander
-    obfs-password: "Telegram@vpnjey"
-  - name: " FR 04 [hy2]"
-    type: hysteria2
-    server: 13.36.234.11
+    server: 4f070970.con.metricdraft.tech
     port: "443"
-    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-    sni: 13.36.234.11
-    skip-cert-verify: true
+    password: 030e421e-9317-4cb8-8fbe-a07a565ad3db
+    sni: 4f070970.con.metricdraft.tech
+    skip-cert-verify: false
     udp: true
-  - name: " DE 05 [hysteria2]"
+  - name: " NL 03 [hysteria2]"
+    type: hysteria2
+    server: 194.93.61.148
+    port: "443"
+    password: 162be7b9-eb38-4f74-b836-96afc49ae452
+    sni: nether.cxhub.su
+    skip-cert-verify: false
+    udp: true
+  - name: " DE 04 [hysteria2]"
     type: hysteria2
     server: uk-tube-01.stre4m.net
     port: "13337"
@@ -47,41 +37,7 @@ proxies:
     sni: mother-earth.fyi
     skip-cert-verify: true
     udp: true
-  - name: " US 06 [hysteria2]"
-    type: hysteria2
-    server: 38.76.150.108
-    port: "36712"
-    password: AIcYjw5Oc9Rrrr9SGDUBbBIC
-    sni: 38.76.150.108
-    skip-cert-verify: true
-    udp: true
-  - name: " KR 07 [hysteria2]"
-    type: hysteria2
-    server: 150-230-252-217.liao.kdns.fr
-    port: "50160"
-    password: 9cfc9458e48c028ec03ff86ebc71c744
-    sni: 150-230-252-217.liao.kdns.fr
-    skip-cert-verify: true
-    udp: true
-  - name: " AU 08 [hysteria2]"
-    type: hysteria2
-    server: 152.67.115.203
-    port: "443"
-    password: 633bc3be486b646190661ac2387c150a
-    sni: www.bing.com
-    skip-cert-verify: true
-    udp: true
-    obfs: salamander
-    obfs-password: 850a3fb1cd33a28f12d837578ae1a2e7
-  - name: " SG 09 [hysteria2]"
-    type: hysteria2
-    server: 47.129.241.99
-    port: "443"
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    sni: 47.129.241.99
-    skip-cert-verify: true
-    udp: true
-  - name: " RU 10 [hysteria2]"
+  - name: " RU 05 [hysteria2]"
     type: hysteria2
     server: 136.148.83.69
     port: "443"
@@ -89,45 +45,43 @@ proxies:
     sni: szqbx-ru-77dc.my-fade.cloud
     skip-cert-verify: true
     udp: true
-  - name: " BR 11 [hysteria2]"
+  - name: " CH 06 [hysteria2]"
     type: hysteria2
-    server: 150.230.229.100
-    port: "20000"
-    password: CyG0RFxMjzs41uQD4OLuHQ==
-    sni: hy2-br2.whuiy.xyz
+    server: 152.67.75.161
+    port: "443"
+    password: 3a702d4d1de4949005d8431220e040fb
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    obfs: salamander
+    obfs-password: c13f29db6a638ad2b211b9ce2669ef27
+  - name: " NL 07 [hysteria2]"
+    type: hysteria2
+    server: link-v1.via-x.ru
+    port: "8445"
+    password: 688d05790b544bf2bd6be3e7b1dc31b6
+    sni: hub.via-x.ru
     skip-cert-verify: false
     udp: true
     obfs: salamander
-    obfs-password: CyG0RFxMjzs41uQD4OLuHQ==
-  - name: " HK 12 [hysteria2]"
+    obfs-password: mmnn3ws0yrmsouwn
+  - name: " FR 08 [hy2]"
     type: hysteria2
-    server: 24.233.8.109
+    server: 13.36.234.11
     port: "443"
-    password: 8294f130408299df8cab08c80bf6f819
-    sni: www.bing.com
+    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+    sni: 13.36.234.11
     skip-cert-verify: true
     udp: true
-    obfs: salamander
-    obfs-password: c8827ab99e316c5bd414e21afa915ddf
-  - name: " SG 13 [hysteria2]"
+  - name: " US 09 [hysteria2]"
     type: hysteria2
-    server: 138.2.89.249
-    port: "443"
-    password: d042d150716709bb778cc73889cddb02
-    sni: www.bing.com
+    server: 38.76.150.108
+    port: "36712"
+    password: AIcYjw5Oc9Rrrr9SGDUBbBIC
+    sni: 38.76.150.108
     skip-cert-verify: true
     udp: true
-    obfs: salamander
-    obfs-password: 309502c4a8df10b46fb976d4a8c43f42
-  - name: " KR 14 [hy2]"
-    type: hysteria2
-    server: 152.67.200.82
-    port: "50160"
-    password: 3d7634af8cb2c6cb4bac1c0efad8b43d
-    sni: 152.67.200.82
-    skip-cert-verify: true
-    udp: true
-  - name: " HK 15 [hysteria2]"
+  - name: " HK 10 [hysteria2]"
     type: hysteria2
     server: 152.32.254.68
     port: "5010"
@@ -137,21 +91,98 @@ proxies:
     udp: true
     obfs: salamander
     obfs-password: 7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9
-  - name: " RU 16 [vless]"
+  - name: " HK 11 [hysteria2]"
+    type: hysteria2
+    server: 24.233.8.109
+    port: "443"
+    password: 8294f130408299df8cab08c80bf6f819
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    obfs: salamander
+    obfs-password: c8827ab99e316c5bd414e21afa915ddf
+  - name: " BR 12 [hysteria2]"
+    type: hysteria2
+    server: 150.230.229.100
+    port: "20000"
+    password: CyG0RFxMjzs41uQD4OLuHQ==
+    sni: hy2-br2.whuiy.xyz
+    skip-cert-verify: false
+    udp: true
+    obfs: salamander
+    obfs-password: CyG0RFxMjzs41uQD4OLuHQ==
+  - name: " KR 13 [hysteria2]"
+    type: hysteria2
+    server: 150-230-252-217.liao.kdns.fr
+    port: "50160"
+    password: 9cfc9458e48c028ec03ff86ebc71c744
+    sni: 150-230-252-217.liao.kdns.fr
+    skip-cert-verify: true
+    udp: true
+  - name: " JP 14 [hysteria2]"
+    type: hysteria2
+    server: 129.225.181.46
+    port: "8443"
+    password: oracle_hy2_pass_2026
+    sni: bing.com
+    skip-cert-verify: true
+    udp: true
+  - name: " KR 15 [hy2]"
+    type: hysteria2
+    server: 152.67.200.82
+    port: "50160"
+    password: 3d7634af8cb2c6cb4bac1c0efad8b43d
+    sni: 152.67.200.82
+    skip-cert-verify: true
+    udp: true
+  - name: " SG 16 [hysteria2]"
+    type: hysteria2
+    server: 47.129.241.99
+    port: "443"
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    sni: 47.129.241.99
+    skip-cert-verify: true
+    udp: true
+  - name: " AU 17 [hysteria2]"
+    type: hysteria2
+    server: 152.67.115.203
+    port: "443"
+    password: 633bc3be486b646190661ac2387c150a
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    obfs: salamander
+    obfs-password: 850a3fb1cd33a28f12d837578ae1a2e7
+  - name: " SG 18 [hysteria2]"
+    type: hysteria2
+    server: 138.2.89.249
+    port: "443"
+    password: d042d150716709bb778cc73889cddb02
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+    obfs: salamander
+    obfs-password: 309502c4a8df10b46fb976d4a8c43f42
+  - name: " SG 19 [hysteria2]"
+    type: hysteria2
+    server: 47.128.219.111
+    port: "443"
+    password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+    sni: www.bing.com
+    skip-cert-verify: true
+    udp: true
+  - name: " RU 20 [vless]"
     type: vless
-    server: 81.163.22.114
+    server: 213.171.25.82
     port: "443"
     uuid: 00000000-0000-0001-0000-000000000000
     network: tcp
     tls: true
     udp: true
-    servername: oecxdhvdfbmwptoldi.fcloudservices.lat
+    servername: ocxjrdsfwziqcqmhkg.fcloudservices.site
     skip-cert-verify: true
-    client-fingerprint: chrome
-    alpn:
-      - h2
-      - http/1.1
-  - name: " RU 17 [vless]"
+    client-fingerprint: firefox
+  - name: " RU 21 [vless]"
     type: vless
     server: 136.148.83.70
     port: "443"
@@ -162,7 +193,7 @@ proxies:
     servername: aszbk-ru-78dc.my-fade.cloud
     skip-cert-verify: true
     client-fingerprint: chrome
-  - name: " RU 18 [vless]"
+  - name: " RU 22 [vless]"
     type: vless
     server: 136.148.83.71
     port: "443"
@@ -173,37 +204,24 @@ proxies:
     servername: wccfu-ru-79dc.my-fade.cloud
     skip-cert-verify: true
     client-fingerprint: qq
-  - name: node-19-vless
+  - name: " US 23 [vless]"
     type: vless
-    server: 172.64.154.113
-    port: "8443"
-    uuid: 53bbdad4-2f4e-45db-8df4-fa491a6a7227
+    server: 162.159.249.92
+    port: "443"
+    uuid: 00c82fcb-2c67-465d-8432-6743a1593efa
     network: ws
     tls: true
     udp: true
-    servername: freeceshi6.frii.site
+    servername: DD-xx.PAGES.DEV
     skip-cert-verify: true
     client-fingerprint: chrome
+    alpn:
+      - http/1.1
     ws-opts:
-      path: proxyip=ProxyIP.JP.CMLiussss.netfp=chrome
+      path: ?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
       headers:
-        Host: freeceshi6.frii.site
-  - name: node-20-vless
-    type: vless
-    server: 172.64.154.113
-    port: "8443"
-    uuid: 53bbdad4-2f4e-45db-8df4-fa491a6a7227
-    network: ws
-    tls: true
-    udp: true
-    servername: freeceshi6.frii.site
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: proxyip
-      headers:
-        Host: freeceshi6.frii.site
-  - name: " HK 21 [anytls]"
+        Host: dd-xx.pages.dev
+  - name: " HK 24 [anytls]"
     type: anytls
     server: 5641sdds.df6h451rh.xin
     port: "443"
@@ -212,16 +230,14 @@ proxies:
     skip-cert-verify: true
     client-fingerprint: chrome
     udp: true
-  - name: " HK 22 [anytls]"
-    type: anytls
-    server: ibsdsf.df6h451rh.xin
-    port: "443"
-    password: 2902c46c8493
-    sni: docs.microsoft.com
-    skip-cert-verify: true
-    client-fingerprint: chrome
+  - name: " HK 25 [ss]"
+    type: ss
+    server: waic.pro.main.sys-metric-report.com
+    port: "28014"
+    cipher: chacha20-ietf-poly1305
+    password: abc62f00-95a8-4c2e-a85d-36a2cdc977da
     udp: true
-  - name: " TW 23 [anytls]"
+  - name: " TW 26 [anytls]"
     type: anytls
     server: rtifgjdr.df6h451rh.xin
     port: "443"
@@ -230,38 +246,12 @@ proxies:
     skip-cert-verify: true
     client-fingerprint: chrome
     udp: true
-  - name: " TW 24 [anytls]"
-    type: anytls
-    server: theme.lovehk.xyz
-    port: "443"
-    password: b0a3f86d-9db9-42df-9f4a-bf2de45a091c
-    sni: theme.lovehk.xyz
-    skip-cert-verify: false
-    client-fingerprint: chrome
-    udp: true
-  - name: " US 25 [anytls]"
-    type: anytls
-    server: signal.lovehk.xyz
-    port: "443"
-    password: 1010cbba-c467-45cd-87f3-a583871f6c1a
-    sni: signal.lovehk.xyz
-    skip-cert-verify: false
-    client-fingerprint: chrome
-    udp: true
-  - name: node-26-vmess
-    type: vmess
-    server: 38.91.107.49
-    port: "18000"
-    uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-    alterId: "0"
-    cipher: auto
-    udp: true
-  - name: node-27-ss
+  - name: " JP 27 [ss]"
     type: ss
-    server: 198.98.53.130
-    port: "443"
-    cipher: chacha20-ietf-poly1305
-    password: eDfN7SODQceIOmIAbtJJtK
+    server: 8.216.8.0
+    port: "5555"
+    cipher: aes-256-gcm
+    password: "123456"
     udp: true
   - name: " TW 28 [anytls]"
     type: anytls
@@ -272,9 +262,65 @@ proxies:
     skip-cert-verify: true
     client-fingerprint: chrome
     udp: true
-  - name: " JP 29 [ss]"
+  - name: " HK 29 [anytls]"
+    type: anytls
+    server: dddz-1-x.473221.xyz
+    port: "43120"
+    password: 5807f1c4-b50e-4ec0-8d01-274045da0da5
+    sni: v1-dy.ixigua.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
+  - name: " HK 30 [anytls]"
+    type: anytls
+    server: ibsdsf.df6h451rh.xin
+    port: "443"
+    password: 2902c46c8493
+    sni: docs.microsoft.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
+  - name: " US 31 [anytls]"
+    type: anytls
+    server: signal.lovehk.xyz
+    port: "443"
+    password: 1010cbba-c467-45cd-87f3-a583871f6c1a
+    sni: signal.lovehk.xyz
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
+  - name: " JP 32 [ss]"
     type: ss
-    server: 47.245.40.193
+    server: 8.216.6.223
+    port: "5555"
+    cipher: aes-256-gcm
+    password: "123456"
+    udp: true
+  - name: " TW 33 [anytls]"
+    type: anytls
+    server: theme.lovehk.xyz
+    port: "443"
+    password: b0a3f86d-9db9-42df-9f4a-bf2de45a091c
+    sni: theme.lovehk.xyz
+    skip-cert-verify: false
+    client-fingerprint: chrome
+    udp: true
+  - name: " RU 34 [trojan]"
+    type: trojan
+    server: 190.93.246.83
+    port: "443"
+    password: GanNiNiangJiBai-Gun
+    sni: ganniniang-hahaha.pages.dev
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: ganniniang-hahaha.pages.dev
+  - name: " JP 35 [ss]"
+    type: ss
+    server: 8.209.222.150
     port: "5555"
     cipher: aes-256-gcm
     password: "123456"
@@ -288,70 +334,82 @@ proxy-groups:
     tolerance: 80
     lazy: false
     proxies:
-      - " DE 01 [hysteria2]"
-      - " RU 02 [hy2]"
-      - " DE 03 [hysteria2]"
-      - " FR 04 [hy2]"
-      - " DE 05 [hysteria2]"
-      - " US 06 [hysteria2]"
-      - " KR 07 [hysteria2]"
-      - " AU 08 [hysteria2]"
-      - " SG 09 [hysteria2]"
-      - " RU 10 [hysteria2]"
-      - " BR 11 [hysteria2]"
-      - " HK 12 [hysteria2]"
-      - " SG 13 [hysteria2]"
-      - " KR 14 [hy2]"
-      - " HK 15 [hysteria2]"
-      - " RU 16 [vless]"
-      - " RU 17 [vless]"
-      - " RU 18 [vless]"
-      - node-19-vless
-      - node-20-vless
-      - " HK 21 [anytls]"
-      - " HK 22 [anytls]"
-      - " TW 23 [anytls]"
-      - " TW 24 [anytls]"
-      - " US 25 [anytls]"
-      - node-26-vmess
-      - node-27-ss
+      - " RU 01 [hy2]"
+      - " DE 02 [hysteria2]"
+      - " NL 03 [hysteria2]"
+      - " DE 04 [hysteria2]"
+      - " RU 05 [hysteria2]"
+      - " CH 06 [hysteria2]"
+      - " NL 07 [hysteria2]"
+      - " FR 08 [hy2]"
+      - " US 09 [hysteria2]"
+      - " HK 10 [hysteria2]"
+      - " HK 11 [hysteria2]"
+      - " BR 12 [hysteria2]"
+      - " KR 13 [hysteria2]"
+      - " JP 14 [hysteria2]"
+      - " KR 15 [hy2]"
+      - " SG 16 [hysteria2]"
+      - " AU 17 [hysteria2]"
+      - " SG 18 [hysteria2]"
+      - " SG 19 [hysteria2]"
+      - " RU 20 [vless]"
+      - " RU 21 [vless]"
+      - " RU 22 [vless]"
+      - " US 23 [vless]"
+      - " HK 24 [anytls]"
+      - " HK 25 [ss]"
+      - " TW 26 [anytls]"
+      - " JP 27 [ss]"
       - " TW 28 [anytls]"
-      - " JP 29 [ss]"
+      - " HK 29 [anytls]"
+      - " HK 30 [anytls]"
+      - " US 31 [anytls]"
+      - " JP 32 [ss]"
+      - " TW 33 [anytls]"
+      - " RU 34 [trojan]"
+      - " JP 35 [ss]"
   - name: FALLBACK
     type: fallback
     url: 'https://www.gstatic.com/generate_204'
     interval: 120
     proxies:
       - AUTO
-      - " DE 01 [hysteria2]"
-      - " RU 02 [hy2]"
-      - " DE 03 [hysteria2]"
-      - " FR 04 [hy2]"
-      - " DE 05 [hysteria2]"
-      - " US 06 [hysteria2]"
-      - " KR 07 [hysteria2]"
-      - " AU 08 [hysteria2]"
-      - " SG 09 [hysteria2]"
-      - " RU 10 [hysteria2]"
-      - " BR 11 [hysteria2]"
-      - " HK 12 [hysteria2]"
-      - " SG 13 [hysteria2]"
-      - " KR 14 [hy2]"
-      - " HK 15 [hysteria2]"
-      - " RU 16 [vless]"
-      - " RU 17 [vless]"
-      - " RU 18 [vless]"
-      - node-19-vless
-      - node-20-vless
-      - " HK 21 [anytls]"
-      - " HK 22 [anytls]"
-      - " TW 23 [anytls]"
-      - " TW 24 [anytls]"
-      - " US 25 [anytls]"
-      - node-26-vmess
-      - node-27-ss
+      - " RU 01 [hy2]"
+      - " DE 02 [hysteria2]"
+      - " NL 03 [hysteria2]"
+      - " DE 04 [hysteria2]"
+      - " RU 05 [hysteria2]"
+      - " CH 06 [hysteria2]"
+      - " NL 07 [hysteria2]"
+      - " FR 08 [hy2]"
+      - " US 09 [hysteria2]"
+      - " HK 10 [hysteria2]"
+      - " HK 11 [hysteria2]"
+      - " BR 12 [hysteria2]"
+      - " KR 13 [hysteria2]"
+      - " JP 14 [hysteria2]"
+      - " KR 15 [hy2]"
+      - " SG 16 [hysteria2]"
+      - " AU 17 [hysteria2]"
+      - " SG 18 [hysteria2]"
+      - " SG 19 [hysteria2]"
+      - " RU 20 [vless]"
+      - " RU 21 [vless]"
+      - " RU 22 [vless]"
+      - " US 23 [vless]"
+      - " HK 24 [anytls]"
+      - " HK 25 [ss]"
+      - " TW 26 [anytls]"
+      - " JP 27 [ss]"
       - " TW 28 [anytls]"
-      - " JP 29 [ss]"
+      - " HK 29 [anytls]"
+      - " HK 30 [anytls]"
+      - " US 31 [anytls]"
+      - " JP 32 [ss]"
+      - " TW 33 [anytls]"
+      - " RU 34 [trojan]"
+      - " JP 35 [ss]"
 
 rules:
   - DOMAIN-SUFFIX,local,DIRECT
