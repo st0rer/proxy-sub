@@ -125,18 +125,29 @@ proxies:
     sni: mother-earth.fyi
     skip-cert-verify: false
     udp: true
-  - name: " RU 15 [vless]"
+  - name: node-15-vless
     type: vless
-    server: 213.171.25.82
+    server: free-server.techsonic.dev
     port: "443"
-    uuid: 00000000-0000-0001-0000-000000000000
+    uuid: 398d124d-ed77-498e-acb6-be4a2c5d182a
     network: tcp
     tls: true
     udp: true
-    servername: ocxjrdsfwziqcqmhkg.fcloudservices.site
+    servername: android.googleapis.com
     skip-cert-verify: true
-    client-fingerprint: firefox
+    client-fingerprint: chrome
   - name: node-16-vless
+    type: vless
+    server: free-server.techsonic.dev
+    port: "443"
+    uuid: 9afdc92d-4e88-4787-8d75-c95f7685d294
+    network: tcp
+    tls: true
+    udp: true
+    servername: aka.ms
+    skip-cert-verify: true
+    client-fingerprint: chrome
+  - name: node-17-vless
     type: vless
     server: 141.193.213.20
     port: "8443"
@@ -151,7 +162,7 @@ proxies:
       path: /
       headers:
         Host: matrix.learnpodedu.com
-  - name: " RU 17 [vless]"
+  - name: " RU 18 [vless]"
     type: vless
     server: 81.163.22.114
     port: "443"
@@ -165,19 +176,6 @@ proxies:
     alpn:
       - h2
       - " http/1.1"
-  - name: " NL 18 [vless]"
-    type: vless
-    server: 104.171.135.229
-    port: "443"
-    uuid: 06ec3898-f952-52a5-8547-51ae1e6f0a62
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    reality-opts:
-      public-key: mpo4BIcoWiMXAQGt5a8IJ4MFkPJQyLC50dO_bXzC7z0
-    servername: absolute-disaster.org
-    client-fingerprint: firefox
   - name: " RU 19 [vless]"
     type: vless
     server: 136.148.83.70
@@ -189,33 +187,52 @@ proxies:
     servername: aszbk-ru-78dc.my-fade.cloud
     skip-cert-verify: true
     client-fingerprint: qq
-  - name: " NL 20 [vless]"
+  - name: node-20-vless
     type: vless
-    server: nl.alpheratzz.org
+    server: 172.64.154.113
     port: "8443"
-    uuid: 0173d52e-8e1b-4681-831e-11529677b72f
-    network: tcp
+    uuid: 53bbdad4-2f4e-45db-8df4-fa491a6a7227
+    network: ws
     tls: true
     udp: true
-    flow: xtls-rprx-vision
-    servername: api-v2-6b07048f.vmagnum.win
-    skip-cert-verify: true
-    client-fingerprint: safari
-    alpn:
-      - h2
-  - name: " FI 21 [vless]"
-    type: vless
-    server: one.alpheratzz.org
-    port: "8443"
-    uuid: 0173d52e-8e1b-4681-831e-11529677b72f
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: api-6b04608f.adhil.uk
+    servername: freeceshi6.frii.site
     skip-cert-verify: true
     client-fingerprint: chrome
-  - name: " TW 22 [anytls]"
+    ws-opts:
+      path: ?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+      headers:
+        Host: freeceshi6.frii.site
+  - name: node-21-vless
+    type: vless
+    server: 172.64.154.113
+    port: "8443"
+    uuid: 53bbdad4-2f4e-45db-8df4-fa491a6a7227
+    network: ws
+    tls: true
+    udp: true
+    servername: freeceshi6.frii.site
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: proxyip=ProxyIP.JP.CMLiussss.net?ed
+      headers:
+        Host: freeceshi6.frii.site
+  - name: node-22-vless
+    type: vless
+    server: ev.zoom.us
+    port: "8443"
+    uuid: c9b4fb55-1634-436f-beb7-3b1db5b0131d
+    network: ws
+    tls: true
+    udp: true
+    servername: free-server.techsonic.dev
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: free-server.techsonic.dev
+      headers:
+        Host: free-server.techsonic.dev
+  - name: " TW 23 [anytls]"
     type: anytls
     server: a54ge.df6h451rh.xin
     port: "443"
@@ -224,7 +241,7 @@ proxies:
     skip-cert-verify: true
     client-fingerprint: chrome
     udp: true
-  - name: " HK 23 [anytls]"
+  - name: " HK 24 [anytls]"
     type: anytls
     server: ibsdsf.df6h451rh.xin
     port: "443"
@@ -233,7 +250,7 @@ proxies:
     skip-cert-verify: true
     client-fingerprint: chrome
     udp: true
-  - name: " TW 24 [anytls]"
+  - name: " TW 25 [anytls]"
     type: anytls
     server: rtifgjdr.df6h451rh.xin
     port: "443"
@@ -242,7 +259,7 @@ proxies:
     skip-cert-verify: true
     client-fingerprint: chrome
     udp: true
-  - name: " HK 25 [anytls]"
+  - name: " HK 26 [anytls]"
     type: anytls
     server: 5641sdds.df6h451rh.xin
     port: "443"
@@ -274,17 +291,18 @@ proxy-groups:
       - " HK 12 [hysteria2]"
       - " DE 13 [hysteria2]"
       - " DE 14 [hysteria2]"
-      - " RU 15 [vless]"
+      - node-15-vless
       - node-16-vless
-      - " RU 17 [vless]"
-      - " NL 18 [vless]"
+      - node-17-vless
+      - " RU 18 [vless]"
       - " RU 19 [vless]"
-      - " NL 20 [vless]"
-      - " FI 21 [vless]"
-      - " TW 22 [anytls]"
-      - " HK 23 [anytls]"
-      - " TW 24 [anytls]"
-      - " HK 25 [anytls]"
+      - node-20-vless
+      - node-21-vless
+      - node-22-vless
+      - " TW 23 [anytls]"
+      - " HK 24 [anytls]"
+      - " TW 25 [anytls]"
+      - " HK 26 [anytls]"
   - name: FALLBACK
     type: fallback
     url: 'https://www.gstatic.com/generate_204'
@@ -305,17 +323,18 @@ proxy-groups:
       - " HK 12 [hysteria2]"
       - " DE 13 [hysteria2]"
       - " DE 14 [hysteria2]"
-      - " RU 15 [vless]"
+      - node-15-vless
       - node-16-vless
-      - " RU 17 [vless]"
-      - " NL 18 [vless]"
+      - node-17-vless
+      - " RU 18 [vless]"
       - " RU 19 [vless]"
-      - " NL 20 [vless]"
-      - " FI 21 [vless]"
-      - " TW 22 [anytls]"
-      - " HK 23 [anytls]"
-      - " TW 24 [anytls]"
-      - " HK 25 [anytls]"
+      - node-20-vless
+      - node-21-vless
+      - node-22-vless
+      - " TW 23 [anytls]"
+      - " HK 24 [anytls]"
+      - " TW 25 [anytls]"
+      - " HK 26 [anytls]"
 
 rules:
   - DOMAIN-SUFFIX,local,DIRECT
