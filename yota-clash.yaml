@@ -7,19 +7,6 @@ ipv6: false
 proxies:
   - name: node-01-vless
     type: vless
-    server: eu121.cdn77.icu
-    port: "443"
-    uuid: e8b7abeb-98d4-44b6-ba91-3adae6086108
-    network: tcp
-    tls: true
-    udp: true
-    reality-opts:
-      public-key: zYNnGVEkMFCUR_9NcYeaXfm9A_L-PP6iG2sIIST6S0M
-      short-id: 1ed136481e0ede74
-    servername: eu121.cdn77.icu
-    client-fingerprint: firefox
-  - name: node-02-vless
-    type: vless
     server: api.14887277.xyz
     port: "443"
     uuid: 00000000-0000-0001-0000-000000000000
@@ -35,68 +22,14 @@ proxies:
       path: session
       headers:
         Host: api.14887277.xyz
-  - name: node-03-vless
-    type: vless
-    server: free-server.techsonic.dev
-    port: "443"
-    uuid: 398d124d-ed77-498e-acb6-be4a2c5d182a
-    network: tcp
-    tls: true
+  - name: node-02-ss
+    type: ss
+    server: 194.87.69.12
+    port: "18443"
+    cipher: aes-256-gcm
+    password: 5mKjXAGrliIAlYwWDeFzkCEMIgQdFQLe
     udp: true
-    servername: android.googleapis.com
-    skip-cert-verify: true
-    client-fingerprint: chrome
-  - name: node-04-vless
-    type: vless
-    server: 141.193.213.21
-    port: "8443"
-    uuid: c9b4fb55-1634-436f-beb7-3b1db5b0131d
-    network: ws
-    tls: true
-    udp: true
-    servername: free-server.techsonic.dev
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: free-server.techsonic.dev
-      headers:
-        Host: free-server.techsonic.dev
-  - name: node-05-vless
-    type: vless
-    server: ev.zoom.us
-    port: "8443"
-    uuid: c9b4fb55-1634-436f-beb7-3b1db5b0131d
-    network: ws
-    tls: true
-    udp: true
-    servername: free-server.techsonic.dev
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    ws-opts:
-      path: free-server.techsonic.dev
-      headers:
-        Host: free-server.techsonic.dev
-  - name: node-06-vless
-    type: vless
-    server: free-server.techsonic.dev
-    port: "443"
-    uuid: 9afdc92d-4e88-4787-8d75-c95f7685d294
-    network: tcp
-    tls: true
-    udp: true
-    servername: aka.ms
-    skip-cert-verify: true
-    client-fingerprint: chrome
-  - name: " HK 07 [anytls]"
-    type: anytls
-    server: ibsdsf.df6h451rh.xin
-    port: "443"
-    password: 2902c46c8493
-    sni: docs.microsoft.com
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    udp: true
-  - name: " US 08 [anytls]"
+  - name: " US 03 [anytls]"
     type: anytls
     server: anytls2.864106.xyz
     port: "19000"
@@ -105,7 +38,16 @@ proxies:
     skip-cert-verify: true
     client-fingerprint: chrome
     udp: true
-  - name: " TW 09 [anytls]"
+  - name: " HK 04 [anytls]"
+    type: anytls
+    server: ibsdsf.df6h451rh.xin
+    port: "443"
+    password: 2902c46c8493
+    sni: docs.microsoft.com
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    udp: true
+  - name: node-05-anytls
     type: anytls
     server: er8u54dh.df6h451rh.xin
     port: "443"
@@ -114,7 +56,7 @@ proxies:
     skip-cert-verify: true
     client-fingerprint: chrome
     udp: true
-  - name: " TW 10 [anytls]"
+  - name: " TW 06 [anytls]"
     type: anytls
     server: a54ge.df6h451rh.xin
     port: "443"
@@ -123,12 +65,12 @@ proxies:
     skip-cert-verify: true
     client-fingerprint: chrome
     udp: true
-  - name: node-11-anytls
+  - name: node-07-anytls
     type: anytls
-    server: 5641sdds.df6h451rh.xin
+    server: mfjh645drfj1dr6j5.df6h451rh.xin
     port: "443"
     password: 0324fbc29561
-    sni: images.ctfassets.net
+    sni: px.ads.linkedin.com
     skip-cert-verify: true
     client-fingerprint: chrome
     udp: true
@@ -142,16 +84,12 @@ proxy-groups:
     lazy: false
     proxies:
       - node-01-vless
-      - node-02-vless
-      - node-03-vless
-      - node-04-vless
-      - node-05-vless
-      - node-06-vless
-      - " HK 07 [anytls]"
-      - " US 08 [anytls]"
-      - " TW 09 [anytls]"
-      - " TW 10 [anytls]"
-      - node-11-anytls
+      - node-02-ss
+      - " US 03 [anytls]"
+      - " HK 04 [anytls]"
+      - node-05-anytls
+      - " TW 06 [anytls]"
+      - node-07-anytls
   - name: FALLBACK
     type: fallback
     url: 'https://www.gstatic.com/generate_204'
@@ -159,16 +97,12 @@ proxy-groups:
     proxies:
       - AUTO
       - node-01-vless
-      - node-02-vless
-      - node-03-vless
-      - node-04-vless
-      - node-05-vless
-      - node-06-vless
-      - " HK 07 [anytls]"
-      - " US 08 [anytls]"
-      - " TW 09 [anytls]"
-      - " TW 10 [anytls]"
-      - node-11-anytls
+      - node-02-ss
+      - " US 03 [anytls]"
+      - " HK 04 [anytls]"
+      - node-05-anytls
+      - " TW 06 [anytls]"
+      - node-07-anytls
 
 rules:
   - DOMAIN-SUFFIX,local,DIRECT

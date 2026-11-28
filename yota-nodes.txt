@@ -1,11 +1,7 @@
-vless://e8b7abeb-98d4-44b6-ba91-3adae6086108@eu121.cdn77.icu:443?security=reality&encryption=none&pbk=zYNnGVEkMFCUR_9NcYeaXfm9A_L-PP6iG2sIIST6S0M&headerType=none&fp=firefox&type=tcp&sni=eu121.cdn77.icu&sid=1ed136481e0ede74#0003%20%7C%20%F0%9F%87%AC%F0%9F%87%A7%20%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%BE%D0%B1%D1%80%D0%B8%D1%82%D0%B0%D0%BD%D0%B8%D1%8F%20%7C%20BL%20%7C%20tools.lowik.watch%20%7C%20%40LowiK_Live
 vless://00000000-0000-0001-0000-000000000000@api.14887277.xyz:443?path=%2Fsession&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=api.14887277.xyz&fp=chrome&type=ws&allowInsecure=0&sni=trx.tools
-vless://398d124d-ed77-498e-acb6-be4a2c5d182a@free-server.techsonic.dev:443?allowInsecure=1&encryption=none&fp=chrome&security=tls&sni=android.googleapis.com&type=tcp#%F0%9F%87%A9%F0%9F%87%AA03%20%7C%20%E2%9A%A1Telegram%20%3D%20t.me%2Fex_proxies
-vless://c9b4fb55-1634-436f-beb7-3b1db5b0131d@141.193.213.21:8443?security=tls&type=ws&path=%2Ffree-server.techsonic.dev&host=free-server.techsonic.dev&sni=free-server.techsonic.dev&fp=chrome#%F0%9F%87%B3%F0%9F%87%B1+NL+%7C+vpnkeys.me+%7C+427ms
-vless://c9b4fb55-1634-436f-beb7-3b1db5b0131d@ev.zoom.us:8443?&security=tls&fp=chrome&sni=free-server.techsonic.dev&type=ws&headerType=none&host=free-server.techsonic.dev&path=%2Ffree-server.techsonic.dev#
-vless://9afdc92d-4e88-4787-8d75-c95f7685d294@free-server.techsonic.dev:443?allowInsecure=1&encryption=none&fp=chrome&security=tls&sni=aka.ms&type=tcp#%F0%9F%87%A9%F0%9F%87%AA02%20%7C%20%E2%9A%A1Telegram%20%3D%20t.me%2Fex_proxies
-anytls://2902c46c8493@ibsdsf.df6h451rh.xin:443/?insecure=1&sni=docs.microsoft.com&fp=chrome
+ss://YWVzLTI1Ni1nY206NW1LalhBR3JsaUlBbFl3V0RlRnprQ0VNSWdRZEZRTGU=@194.87.69.12:18443#
 anytls://github.com/Alvin9999-newpac/fanqiang@anytls2.864106.xyz:19000?security=tls&type=tcp&packetEncoding=none&allowInsecure=1&sni=anytls2.864106.xyz&insecure=1&sub_tag=R002-260618&udp=1
+anytls://2902c46c8493@ibsdsf.df6h451rh.xin:443/?insecure=1&sni=docs.microsoft.com&fp=chrome
 anytls://2902c46c8493@er8u54dh.df6h451rh.xin:443/?insecure=1&sni=px.ads.linkedin.com
 anytls://0324fbc29561@a54ge.df6h451rh.xin:443/?insecure=1&sni=docs.microsoft.com&fp=chrome
-anytls://0324fbc29561@5641sdds.df6h451rh.xin:443/?insecure=1&sni=images.ctfassets.net&fp=chrome
+anytls://0324fbc29561@mfjh645drfj1dr6j5.df6h451rh.xin:443?security=tls&sni=px.ads.linkedin.com&fp=chrome&insecure=1&type=tcp
