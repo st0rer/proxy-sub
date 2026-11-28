@@ -200,7 +200,39 @@ proxies:
       path: proxyip=ProxyIP.JP.CMLiussss.netfp=chrome
       headers:
         Host: freeceshi6.frii.site
-  - name: " HK 22 [anytls]"
+  - name: node-22-vless
+    type: vless
+    server: 188.114.98.0
+    port: "443"
+    uuid: 53bbdad4-2f4e-45db-8df4-fa491a6a7227
+    network: ws
+    tls: true
+    udp: true
+    servername: freeceshi6.frii.site
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    alpn:
+      - http/1.1
+    ws-opts:
+      path: ?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+      headers:
+        Host: freeceshi6.frii.site
+  - name: node-23-vless
+    type: vless
+    server: 172.64.154.113
+    port: "8443"
+    uuid: 53bbdad4-2f4e-45db-8df4-fa491a6a7227
+    network: ws
+    tls: true
+    udp: true
+    servername: freeceshi6.frii.site
+    skip-cert-verify: true
+    client-fingerprint: chrome
+    ws-opts:
+      path: proxyip=ProxyIP.JP.CMLiussss.net?ed
+      headers:
+        Host: freeceshi6.frii.site
+  - name: " HK 24 [anytls]"
     type: anytls
     server: ibsdsf.df6h451rh.xin
     port: "443"
@@ -208,22 +240,6 @@ proxies:
     sni: docs.microsoft.com
     skip-cert-verify: true
     client-fingerprint: chrome
-    udp: true
-  - name: " TW 23 [anytls]"
-    type: anytls
-    server: a54ge.df6h451rh.xin
-    port: "443"
-    password: 0324fbc29561
-    sni: docs.microsoft.com
-    skip-cert-verify: true
-    client-fingerprint: chrome
-    udp: true
-  - name: node-24-ss
-    type: ss
-    server: S23.fusetea.ir
-    port: "2089"
-    cipher: chacha20-ietf-poly1305
-    password: R02KmzzSD7PeZ_DosF87xZ7zIn8jLtyP
     udp: true
   - name: " HK 25 [anytls]"
     type: anytls
@@ -234,7 +250,14 @@ proxies:
     skip-cert-verify: true
     client-fingerprint: chrome
     udp: true
-  - name: node-26-vmess
+  - name: node-26-ss
+    type: ss
+    server: S23.fusetea.ir
+    port: "2089"
+    cipher: chacha20-ietf-poly1305
+    password: R02KmzzSD7PeZ_DosF87xZ7zIn8jLtyP
+    udp: true
+  - name: node-27-vmess
     type: vmess
     server: 38.91.107.49
     port: "18000"
@@ -242,14 +265,14 @@ proxies:
     alterId: "0"
     cipher: auto
     udp: true
-  - name: " ZA 27 [ss]"
+  - name: " ZA 28 [ss]"
     type: ss
     server: 102.133.165.160
     port: "16233"
     cipher: chacha20-ietf-poly1305
     password: Xsy8Ox4yOV3xLlpxtjzs3X
     udp: true
-  - name: " TW 28 [anytls]"
+  - name: " TW 29 [anytls]"
     type: anytls
     server: rtifgjdr.df6h451rh.xin
     port: "443"
@@ -258,6 +281,38 @@ proxies:
     skip-cert-verify: true
     client-fingerprint: chrome
     udp: true
+  - name: node-30-vmess
+    type: vmess
+    server: 38.11.69.48
+    port: "30004"
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: "64"
+    cipher: auto
+    udp: true
+    tls: true
+    servername: www.83761815.xyz
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: path/1698843555400
+      headers:
+        Host: www.83761815.xyz
+  - name: node-31-vmess
+    type: vmess
+    server: 172.64.145.93
+    port: "443"
+    uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+    alterId: "0"
+    cipher: auto
+    udp: true
+    tls: true
+    servername: guanwang.awsno.com
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: hls/cctv5phd.m3u8?ed
+      headers:
+        Host: guanwang.awsno.com
 
 proxy-groups:
   - name: AUTO
@@ -288,13 +343,16 @@ proxy-groups:
       - " RU 19 [vless]"
       - " RU 20 [vless]"
       - node-21-vless
-      - " HK 22 [anytls]"
-      - " TW 23 [anytls]"
-      - node-24-ss
+      - node-22-vless
+      - node-23-vless
+      - " HK 24 [anytls]"
       - " HK 25 [anytls]"
-      - node-26-vmess
-      - " ZA 27 [ss]"
-      - " TW 28 [anytls]"
+      - node-26-ss
+      - node-27-vmess
+      - " ZA 28 [ss]"
+      - " TW 29 [anytls]"
+      - node-30-vmess
+      - node-31-vmess
   - name: FALLBACK
     type: fallback
     url: 'https://www.gstatic.com/generate_204'
@@ -322,13 +380,16 @@ proxy-groups:
       - " RU 19 [vless]"
       - " RU 20 [vless]"
       - node-21-vless
-      - " HK 22 [anytls]"
-      - " TW 23 [anytls]"
-      - node-24-ss
+      - node-22-vless
+      - node-23-vless
+      - " HK 24 [anytls]"
       - " HK 25 [anytls]"
-      - node-26-vmess
-      - " ZA 27 [ss]"
-      - " TW 28 [anytls]"
+      - node-26-ss
+      - node-27-vmess
+      - " ZA 28 [ss]"
+      - " TW 29 [anytls]"
+      - node-30-vmess
+      - node-31-vmess
 
 rules:
   - DOMAIN-SUFFIX,local,DIRECT
